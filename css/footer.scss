@@ -1,0 +1,45 @@
+#footer {
+  $footerPadding : 35px;
+  padding-top: $footerPadding;
+  padding-bottom: 30px;
+  border-top: 10px solid $gsaRed;
+  background: #ede9e0 url(../images/zebra-gradient.png) repeat-x 0 0;
+  ul {
+    li {
+      padding: 3px 0;
+        a {
+          color: $navItemColor;
+        }
+    }
+  }
+  .social-links-block {
+    background: $gsaBlue;
+    padding: 20px 25px;
+    margin-top: -$footerPadding+-25;
+      @include large-desktops {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      @include desktops {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    figure {
+      margin: -5px;
+    }
+    h5 {
+      @include font-size(17px);
+      text-transform: uppercase;
+      color: #fff;
+        @include large-desktops {
+          @include font-size(15px);
+        }
+        @include desktops {
+          @include font-size(12px);
+        }
+    }
+    .social-links {
+      @extend %social-links;
+    }
+  }
+}

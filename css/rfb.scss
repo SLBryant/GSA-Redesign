@@ -1,0 +1,49 @@
+.rotating-feature-block {
+  background: $offWhite;
+  position: relative;
+    .row {
+      margin: 0;
+      figure {
+        padding: 0;
+      }
+      h4 {
+        text-transform: uppercase;
+        margin-top: 30px;
+      }
+      a {
+        text-transform: uppercase;
+      }
+    }
+  /* SLIDESHOW ISOTOPES */
+  .slidesjs-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 44%;
+    z-index: 9999;
+    padding-left: 5px;
+      li {
+        float: left;
+        display: block;
+        margin-right: 3px;
+        background: #fff;
+        text-indent: -9999px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #999;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        overflow: hidden;
+          a {
+            display: block;
+            padding-bottom: 0;
+              &:hover, &.active {
+                background: #eaeaea;
+              }
+          }
+
+      }
+  }
+}

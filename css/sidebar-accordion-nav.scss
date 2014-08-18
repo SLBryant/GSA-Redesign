@@ -1,0 +1,47 @@
+.sidebar-accordion-nav {
+  background: $gsaBeige;
+  padding-left: 0;
+    > li {
+      border-bottom: 1px solid #eaeaea;
+      position:relative;
+      float:none;
+      list-style: none;
+        a {
+          color: $navItemColor;
+          padding: 5px 10px 5px 20px;
+          display:block;
+          white-space:normal;
+            span {
+              text-indent: -50000px;
+              color: $gsaBeige;
+              font-size: 1px;
+              padding: 15px;
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+            &.highlighted {
+              background: $offWhite;
+              > span {
+                background: url(../images/open-accordion-arrow.png) no-repeat 0 0;
+              }
+            }
+        }
+        ul{
+          display:none;
+          position:static !important;
+          top:auto !important;
+          left:auto !important;
+          margin-left:0 !important;
+          margin-top:0 !important;
+          width:auto;
+          min-width:0;
+          max-width:none;
+          padding: 0;
+            li {
+              list-style: none;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,85 @@
+//***  REM for font sizes  ***/
+//***********************************************
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+//***  Media Queries  ***/
+//***********************************************
+@mixin tablets {
+  @media only screen and (max-width: 768px) { @content; }
+}
+@mixin desktops {
+  @media only screen and (max-width: 992px) { @content; }
+}
+@mixin large-desktops {
+  @media only screen and (max-width: 1200px) { @content; }
+}
+/*
+.sidebar {
+  float: left;
+  margin: 0 10px 0 0;
+  @include bp-small {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+*/
+//***  Opacity (for IE < 8 compatibility)  ***/
+//***********************************************
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+//***  Box Shadows  ***/
+//***********************************************
+@mixin box-shadow($dimensions, $color) {
+  -webkit-box-shadow: $dimensions $color;
+  -moz-box-shadow:    $dimensions $color;
+  box-shadow:         $dimensions $color;
+}
+
+/***  Transitions  ***/
+//***********************************************
+@mixin transition($args) {
+  -o-transition: $args;
+  -ms-transition: $args;
+  -moz-transition: $args;
+  -webkit-transition: $args;
+  transition: $args;
+}
+/***  Radius  ***/
+//***********************************************
+@mixin border-radius($radius){
+  -webkit-border-radius:  $radius;
+  -moz-border-radius:  $radius;
+  border-radius:  $radius;
+}
+/***  Box Border  ***/
+//***********************************************
+
+@mixin border-box(){
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+/***  Cover BG  ***/
+//***********************************************
+
+@mixin coverBG(){
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,40 @@
+.search-input {
+  @extend %search-input;
+}
+.black-underlay {
+  background: rgba(0,0,0,0.5);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $gsaFontFamily;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0;
+}
+a {
+  color: $gsaBlue;
+  @include transition(all 500ms ease);
+    &:hover {
+      color: $darkGray;
+      text-decoration: none;
+    }
+}
+address {
+  margin-bottom: 10px;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus,
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background: none;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.breadcrumb {
+  background: none;
+}
+.breadcrumb>li+li:before {
+  content:"\203A";
+  color: $navItemColor;
+  font-weight: bold;
+}

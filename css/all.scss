@@ -1,0 +1,105 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,700');
+@import 'global-variables';
+@import 'mixins';
+@import 'selectors';
+@import 'GSA-bootstrap';
+@import 'primary-navigation';
+@import 'rfb';
+@import 'sidebar-accordion-nav';
+@import 'tabs';
+@import 'open-close-items';
+@import 'buckets-and-wells';
+@import 'footer';
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: $gsaFontFamily;
+}
+.page-content {
+  padding: 50px 0;
+}
+//OVERVIEW PAGE STUFF
+#home {  background-image: url(../images/home-bg.jpg); }
+#travel { background-image: url(../images/travel-bg.jpg);}
+#shop { background-image: url(../images/shop-bg.jpg);}
+.overview-page {
+  @include coverBG();
+  padding-bottom: 45px;
+    .jumbotron {
+      background: none;
+      h1 {
+        @include font-size(38px);
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      p {
+        line-height:1.9;
+        @include font-size(16px);
+        margin: 0;
+      }
+      .jump-link {
+        text-transform: uppercase;
+        @include font-size(16px);
+        font-weight: bold;
+        display: block;
+      }
+    }
+}
+
+
+// THREE COLUMNS W/NAV
+#main-column {
+  //
+    h1 {
+      text-transform: uppercase;
+    }
+    .sub-topic {
+      margin-top: 30px;
+        h4 {
+          text-transform: uppercase;
+          background: $offWhite;
+          padding: 5px 10px;
+        }
+    }
+}
+
+// Right Sidebar
+.sidebar-bucket {
+  margin-bottom: 40px;
+    h4 {
+      text-transform: uppercase;
+    }
+    a {
+      text-transform: uppercase;
+      display: block;
+    }
+}
+
+
+// LANDING PAGES
+#sustainability {
+  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0;
+}
+#telework {
+  background: url(../images/telework-bg.jpg) no-repeat 50% 0;
+}
+#transportation {
+  background: url(../images/transportation-bg.jpg) no-repeat 50% 0;
+}
+.landing-page-header {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+    h1 {
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase;
+    }
+}
+
+// Sub Sections
+#sub-section {
+  margin: 0 0 45px;
+}

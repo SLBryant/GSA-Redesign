@@ -1,0 +1,22 @@
+.menuheader {
+  border-top: 1px solid $gsaBeige;
+  position: relative;
+  padding: 10px 10px 10px 35px;
+    a {
+      color: $navItemColor;
+    }
+    &.openheader {
+      background: $powderBlue;
+      font-weight: bold;
+    }
+    span {
+      font-size: 1.5em;
+      position: absolute;
+      top: 8px;
+      left: 10px;
+    }
+}
+.categoryitems {
+  background: $powderBlue;
+  padding: 0 10px 10px 35px;
+}
