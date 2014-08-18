@@ -1,16 +1,5 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
-/*
-.sidebar {
-  float: left;
-  margin: 0 10px 0 0;
-  @include bp-small {
-    width: 100%;
-    float: none;
-    margin: 0;
-  }
-}
-*/
 /***  Transitions  ***/
 /***  Radius  ***/
 /***  Box Border  ***/
@@ -615,17 +604,29 @@ body {
       font-size: 2.375rem;
       text-transform: uppercase;
       font-weight: 500; }
+      @media only screen and (max-height: 750px) {
+        .overview-page .jumbotron h1 {
+          font-size: 30px;
+          font-size: 1.875rem; } }
     .overview-page .jumbotron p {
       line-height: 1.9;
       font-size: 16px;
       font-size: 1rem;
       margin: 0; }
+      @media only screen and (max-height: 750px) {
+        .overview-page .jumbotron p {
+          font-size: 14px;
+          font-size: 0.875rem; } }
     .overview-page .jumbotron .jump-link {
       text-transform: uppercase;
       font-size: 16px;
       font-size: 1rem;
       font-weight: bold;
       display: block; }
+      @media only screen and (max-height: 750px) {
+        .overview-page .jumbotron .jump-link {
+          font-size: 14px;
+          font-size: 0.875rem; } }
 
 #main-column h1 {
   text-transform: uppercase; }

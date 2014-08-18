@@ -20,17 +20,11 @@
 @mixin large-desktops {
   @media only screen and (max-width: 1200px) { @content; }
 }
-/*
-.sidebar {
-  float: left;
-  margin: 0 10px 0 0;
-  @include bp-small {
-    width: 100%;
-    float: none;
-    margin: 0;
-  }
+@mixin short-height {
+    @media only screen and (max-height: 750px) { @content; }
 }
-*/
+
+
 //***  Opacity (for IE < 8 compatibility)  ***/
 //***********************************************
 @mixin opacity($opacity) {

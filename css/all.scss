@@ -34,17 +34,26 @@ body {
         @include font-size(38px);
         text-transform: uppercase;
         font-weight: 500;
+        @include short-height {
+          @include font-size(30px);
+        }
       }
       p {
         line-height:1.9;
         @include font-size(16px);
         margin: 0;
+        @include short-height {
+          @include font-size(14px);
+        }
       }
       .jump-link {
         text-transform: uppercase;
         @include font-size(16px);
         font-weight: bold;
         display: block;
+        @include short-height {
+          @include font-size(14px);
+        }
       }
     }
 }
