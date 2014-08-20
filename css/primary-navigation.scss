@@ -198,6 +198,7 @@
   width: 33%;
   position: absolute;
   right: 1px;
+  bottom: -75px;
   padding: 20px 40px 5px;
   background: $gsaLightBlue;
 }
@@ -210,7 +211,7 @@
     margin-top: 50px;
   }
   @include large-desktops {
-    margin-top: 65px;
+    margin-top: 0;
   }
   ol {
     padding: 5px 10px;
