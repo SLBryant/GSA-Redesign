@@ -21,7 +21,7 @@
               top: 0;
             }
             &.highlighted {
-              background: $offWhite;
+              //background: $offWhite;
               > span {
                 background: url(../images/open-accordion-arrow.png) no-repeat 0 0;
               }
@@ -38,8 +38,12 @@
           min-width:0;
           max-width:none;
           padding: 0;
+          background: $offWhite;
             li {
               list-style: none;
+                ul {
+                  background: #fff;
+                }
             }
         }
     }

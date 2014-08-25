@@ -9,10 +9,12 @@
       position:absolute;
       height:auto;
       top: 0;
-      background: $gsaBlue;
+      left: 0;
+      background: $gsaLightBlue;
       text-align: center;
       z-index:9999;
       color: #fff;
+      padding: 20px;
     }
   }
 }
