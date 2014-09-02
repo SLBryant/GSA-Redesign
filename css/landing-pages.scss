@@ -1,0 +1,23 @@
+.landing-page-header {
+  color: #fff;
+  min-height: 300px;
+  hgroup {
+    padding: 75px 0 100px;
+      h1 {
+        text-shadow: 1px 1px 1px #000;
+        text-transform: uppercase;
+      }
+      p {
+        padding-left: 0;
+      }
+  }
+}
+#sustainability {
+  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0;
+}
+#telework {
+  background: url(../images/telework-bg.jpg) no-repeat 50% 0;
+}
+#transportation {
+  background: url(../images/transportation-bg.jpg) no-repeat 50% 0;
+}

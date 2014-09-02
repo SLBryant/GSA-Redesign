@@ -1,0 +1,17 @@
+.landing-page-header {
+  color: #fff;
+  height: 200px; }
+  .landing-page-header hgroup {
+    height: 200px; }
+    .landing-page-header hgroup h1 {
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase; }
+
+#sustainability {
+  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0; }
+
+#telework {
+  background: url(../images/telework-bg.jpg) no-repeat 50% 0; }
+
+#transportation {
+  background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }

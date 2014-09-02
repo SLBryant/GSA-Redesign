@@ -1,0 +1,26 @@
+.region-page-header {
+  color: #fff;
+  hgroup {
+    height:150px;
+    h1 {
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase;
+      @extend %vertical-align;
+    }
+  }
+}
+
+#region-9 {
+  background: url(../images/region-9.jpg) no-repeat 50% 0;
+}
+.standard-content-block {
+  hgroup {
+    margin-bottom: 30px;
+      h2 {
+        margin-bottom: 0;
+      }
+      h3 {
+        margin-top: 0;
+      }
+  }
+}
