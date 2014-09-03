@@ -13,6 +13,13 @@
 
 <nav id="mp-menu" class="mp-menu visible-xs">
     <div class="mp-level">
+        <!-- search -->
+        <form id="mobile-search" role="search">
+            <div class="search-input form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+        </form>
         <h2>GSA Home</h2>
         <ul id="top-level">
             <li><a href="#"><span class="glyphicon glyphicon-chevron-left"></span> Travel</a>

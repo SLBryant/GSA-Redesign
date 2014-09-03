@@ -44,9 +44,10 @@
           padding: 0;
         }
         .navbar-nav {
-          @include tablets {
-            margin: 0;
-          }
+          border-right: 1px solid $gsaLightBlue;
+            @include tablets {
+              margin: 0;
+            }
         }
     }
     ul#main-nav {
@@ -216,7 +217,7 @@
     margin-top: 0;
   }
   ol {
-    padding: 5px 10px;
+    padding: 5px 0;
     margin: 0;
     li {
       text-transform: uppercase;

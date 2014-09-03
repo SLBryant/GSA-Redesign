@@ -8,7 +8,7 @@
     <header class="landing-page-header" id="telework">
         <div class="container">
             <hgroup>
-                <h1 class="col-md-12">Telework</h1>
+                <h1>Telework</h1>
                 <p class="col-md-6" style="color:#111;">Telework is an innovative business solution that enables employees to work productively away from the traditional office. At GSA, flexibility is the new corner office.</p>
             </hgroup>
         </div>
@@ -17,7 +17,7 @@
     <div class="container page-content">
         <div class="row content-well">
             <figure class="col-sm-5">
-                <img class="img-responsive" src="http://placehold.it/500x500" alt="Placeholder">
+                <img class="img-responsive" src="http://placehold.it/500x270" alt="Placeholder">
             </figure>
             <article class="col-sm-7">
                 <h4>Telework Dashboards</h4>
@@ -28,7 +28,7 @@
         </div>
         <div class="row content-well">
             <figure class="col-sm-5">
-                <img class="img-responsive" src="http://placehold.it/500x500" alt="Placeholder">
+                <img class="img-responsive" src="http://placehold.it/500x270" alt="Placeholder">
             </figure>
             <article class="col-sm-7">
                 <h4>Telework Dashboards</h4>
@@ -39,7 +39,7 @@
         </div>
         <div class="row content-well">
             <figure class="col-sm-5">
-                <img class="img-responsive" src="http://placehold.it/500x500" alt="Placeholder">
+                <img class="img-responsive" src="http://placehold.it/500x270" alt="Placeholder">
             </figure>
             <article class="col-sm-7">
                 <h4>Telework Dashboards</h4>
@@ -53,7 +53,7 @@
         </div>
         <div class="row content-well">
             <figure class="col-sm-5">
-                <img class="img-responsive" src="http://placehold.it/500x500" alt="Placeholder">
+                <img class="img-responsive" src="http://placehold.it/500x270" alt="Placeholder">
             </figure>
             <article class="col-sm-7">
                 <h4>Telework Dashboards</h4>

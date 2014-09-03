@@ -4,6 +4,13 @@
 /***  Radius  ***/
 /***  Box Border  ***/
 /***  Cover BG  ***/
+.region-page-header hgroup h1 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 .search-input {
   position: relative; }
   .search-input input {
@@ -123,9 +130,11 @@ address {
     padding: 0; }
   .primary-nav nav #navbar-collapse {
     padding: 0; }
-  @media only screen and (max-width: 768px) {
-    .primary-nav nav .navbar-nav {
-      margin: 0; } }
+  .primary-nav nav .navbar-nav {
+    border-right: 1px solid #8fc7ea; }
+    @media only screen and (max-width: 768px) {
+      .primary-nav nav .navbar-nav {
+        margin: 0; } }
 .primary-nav ul#main-nav {
   width: 90%; }
   @media only screen and (max-width: 768px) {
@@ -276,7 +285,7 @@ address {
     #breadcrumbs {
       margin-top: 0; } }
   #breadcrumbs ol {
-    padding: 5px 10px;
+    padding: 5px 0;
     margin: 0; }
     #breadcrumbs ol li {
       text-transform: uppercase;
@@ -287,7 +296,9 @@ address {
 #mobile-menu {
   border-bottom: 1px solid #777; }
   #mobile-menu .navbar-brand {
-    padding: 0; }
+    padding: 0;
+    width: 60px;
+    height: 60px; }
   #mobile-menu .navbar-toggle {
     float: left;
     margin-left: 25px;
@@ -328,6 +339,9 @@ address {
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0); }
+  .mp-level #mobile-search {
+    padding: 20px 20px 8px;
+    background: #8fc7ea; }
   .mp-level > ul > li {
     text-transform: uppercase;
     font-size: 10px;
@@ -700,6 +714,44 @@ address {
   background: #e2eef5;
   padding: 0 10px 10px 35px; }
 
+.region-page-header {
+  color: #fff; }
+  .region-page-header hgroup {
+    height: 150px; }
+    .region-page-header hgroup h1 {
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase; }
+
+#region-9 {
+  background: url(../images/region-9.jpg) no-repeat 50% 0; }
+
+.standard-content-block hgroup {
+  margin-bottom: 30px; }
+  .standard-content-block hgroup h2 {
+    margin-bottom: 0; }
+  .standard-content-block hgroup h3 {
+    margin-top: 0; }
+
+.landing-page-header {
+  color: #fff;
+  min-height: 300px; }
+  .landing-page-header hgroup {
+    padding: 75px 0 100px; }
+    .landing-page-header hgroup h1 {
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase; }
+    .landing-page-header hgroup p {
+      padding-left: 0; }
+
+#sustainability {
+  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0; }
+
+#telework {
+  background: url(../images/telework-bg.jpg) no-repeat 50% 0; }
+
+#transportation {
+  background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }
+
 .bucket {
   margin: 0 0 20px 0; }
   .bucket article {
@@ -836,6 +888,9 @@ body {
 .page-content {
   padding: 50px 0; }
 
+.left-align-image {
+  margin-right: 10px; }
+
 #home {
   background-image: url(../images/home-bg.jpg); }
 
@@ -903,23 +958,6 @@ body {
   .sidebar-bucket a {
     text-transform: uppercase;
     display: block; }
-
-#sustainability {
-  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0; }
-
-#telework {
-  background: url(../images/telework-bg.jpg) no-repeat 50% 0; }
-
-#transportation {
-  background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }
-
-.landing-page-header {
-  color: #fff;
-  padding-top: 100px;
-  padding-bottom: 50px; }
-  .landing-page-header h1 {
-    text-shadow: 1px 1px 1px #000;
-    text-transform: uppercase; }
 
 #sub-section {
   margin: 0 0 45px; }

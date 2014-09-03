@@ -10,6 +10,8 @@
 @import 'sidebar-accordion-nav';
 @import 'tabs';
 @import 'open-close-items';
+@import 'regions';
+@import 'landing-pages';
 @import 'buckets-and-wells';
 @import 'footer';
 
@@ -21,6 +23,9 @@ body {
 }
 .page-content {
   padding: 50px 0;
+}
+.left-align-image {
+  margin-right: 10px;
 }
 //OVERVIEW PAGE STUFF
 #home {  background-image: url(../images/home-bg.jpg); }
@@ -91,26 +96,6 @@ body {
     }
 }
 
-
-// LANDING PAGES
-#sustainability {
-  background: url(../images/sustainability-bg.jpg) no-repeat 50% 0;
-}
-#telework {
-  background: url(../images/telework-bg.jpg) no-repeat 50% 0;
-}
-#transportation {
-  background: url(../images/transportation-bg.jpg) no-repeat 50% 0;
-}
-.landing-page-header {
-  color: #fff;
-  padding-top: 100px;
-  padding-bottom: 50px;
-    h1 {
-      text-shadow: 1px 1px 1px #000;
-      text-transform: uppercase;
-    }
-}
 
 // Sub Sections
 #sub-section {

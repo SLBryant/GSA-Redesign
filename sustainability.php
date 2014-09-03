@@ -8,7 +8,7 @@
         <header class="landing-page-header" id="sustainability">
             <div class="container">
                 <hgroup>
-                    <h1 class="col-md-12">Strategically Sustainable</h1>
+                    <h1>Strategically Sustainable</h1>
                     <p class="col-md-6">"GSA will eliminate its impact on the natural environment and use its government-wide influence to reduce the environmental impact of the federal government" - GSA Sustainability Plan</p>
                 </hgroup>
             </div>
