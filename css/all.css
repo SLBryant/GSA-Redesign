@@ -912,6 +912,9 @@ body {
   background-attachment: fixed;
   padding-bottom: 45px;
   padding-top: 150px; }
+  @media only screen and (max-width: 992px) {
+    .overview-page {
+      padding-top: 0; } }
   .overview-page .jumbotron {
     background: none; }
     .overview-page .jumbotron h1 {

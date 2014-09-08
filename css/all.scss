@@ -35,6 +35,9 @@ body {
   @include coverBG();
   padding-bottom: 45px;
   padding-top: 150px;
+    @include desktops {
+      padding-top: 0;
+    }
     .jumbotron {
       background: none;
       h1 {
