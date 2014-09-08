@@ -1,9 +1,10 @@
 <?php include('partials/header.php');?>
 
+    <!-- Navigations -->
+    <?php include('partials/primary-navigation.php'); ?>
+    <?php include('partials/mobile-primary-navigation.php');?>
     <section id="home" class="overview-page">
-        <!-- Navigations -->
-        <?php include('partials/primary-navigation.php'); ?>
-        <?php include('partials/mobile-primary-navigation.php');?>
+
 
             <div class="container">
                 <!-- HERO AND SUB SECTION -->

@@ -34,6 +34,7 @@ body {
 .overview-page {
   @include coverBG();
   padding-bottom: 45px;
+  padding-top: 150px;
     .jumbotron {
       background: none;
       h1 {

@@ -1,4 +1,4 @@
-<div class="container hidden-xs">
+<div class="container hidden-xs" style="position:relative;">
     <div id="skip" class="text-center"><a href="#content">Skip to Main Content</a></div>
     <header id="main-navigation" class="primary-nav">
         <nav class="navbar navbar-default" role="navigation">
