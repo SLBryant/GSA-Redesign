@@ -29,33 +29,27 @@
   ul {
     width: 100%;
       li {
-        background: url(../images/social-media-sprite.png) no-repeat;
         height: 20px;
         width: 20%;
         overflow: hidden;
         a {
           display: block;
-          height: 20px;
-          &:hover, &:focus {
-            background: $offWhite;
-            font-weight: bold;
-            color: $navItemColor;
-          }
+          background: url(../images/social-media-sprite.png) no-repeat;
         }
       }
-      .facebook-logo {
+      .facebook-logo a {
         background-position: 50% 0;
       }
-      .twitter-logo {
+      .twitter-logo a {
         background-position: 50% -38px;
       }
-      .yt-logo {
+      .yt-logo a {
         background-position: 50% -69px;
       }
-      .rss-logo {
+      .rss-logo a {
         background-position: 50% -101px;
       }
-      .blog-logo {
+      .blog-logo a {
         background-position: 50% -131px;
       }
   }

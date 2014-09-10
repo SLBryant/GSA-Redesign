@@ -131,6 +131,7 @@
           background: $gsaBeige;
           padding: 0;
           padding-bottom: 40px;
+          min-height: 200px;
           > li {
             text-align: left;
             width: 33%;
@@ -184,6 +185,23 @@
       }
     }
 }
+
+.menu-image {
+  width: 33%;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 0;
+    img {
+      max-width: 80%;
+      max-height: 170px;
+    }
+    figcaption {
+      text-align: left;
+      padding-top: 10px;
+    }
+}
+
 #inner-main-navigation {
   .navbar-header {
     width: 6.6%;

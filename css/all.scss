@@ -11,6 +11,7 @@
 @import 'tabs';
 @import 'open-close-items';
 @import 'regions';
+@import 'overview-pages';
 @import 'landing-pages';
 @import 'buckets-and-wells';
 @import 'footer';
@@ -27,46 +28,7 @@ body {
 .left-align-image {
   margin-right: 10px;
 }
-//OVERVIEW PAGE STUFF
-#home {  background-image: url(../images/home-bg.jpg); }
-#travel { background-image: url(../images/travel-bg.jpg);}
-#shop { background-image: url(../images/shop-bg.jpg);}
-.overview-page {
-  @include coverBG();
-  padding-bottom: 45px;
-  padding-top: 150px;
-    @include desktops {
-      padding-top: 0;
-    }
-    .jumbotron {
-      background: none;
-      h1 {
-        @include font-size(38px);
-        text-transform: uppercase;
-        font-weight: 500;
-        @include short-height {
-          @include font-size(30px);
-        }
-      }
-      p {
-        line-height:1.9;
-        @include font-size(16px);
-        margin: 0;
-        @include short-height {
-          @include font-size(14px);
-        }
-      }
-      .jump-link {
-        text-transform: uppercase;
-        @include font-size(16px);
-        font-weight: bold;
-        display: block;
-        @include short-height {
-          @include font-size(14px);
-        }
-      }
-    }
-}
+
 
 
 // THREE COLUMNS W/NAV

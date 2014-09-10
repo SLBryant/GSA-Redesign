@@ -47,6 +47,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-travel.jpg" class="img-responsive" alt="Travel">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <!-- top 2 -->
@@ -87,6 +91,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-realEstate.jpg" class="img-responsive" alt="Real Estate">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <!-- top 3 -->
@@ -127,6 +135,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-shopper.jpeg" class="img-responsive" alt="Shoppers">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <!-- top 4 -->
@@ -167,6 +179,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-shopper.jpeg" class="img-responsive" alt="Shoppers">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <!-- top 5 -->
@@ -207,6 +223,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-shopper.jpeg" class="img-responsive" alt="Shoppers">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <!-- top 6 -->
@@ -247,6 +267,10 @@
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </li>
+                        <figure class="menu-image">
+                            <img src="images/menu-shopper.jpeg" class="img-responsive" alt="Shoppers">
+                            <figcaption>Lorem ipsum dolar sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+                        </figure>
                     </ul>
                 </li>
                 <li><a id="main-nav-search-button" href="#"><i class="glyphicon glyphicon-search"></i></a></li>
