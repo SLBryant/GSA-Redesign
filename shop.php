@@ -1,12 +1,12 @@
 <?php include('partials/header.php');?>
+	<?php include('partials/header.php');?>
 
+    <!-- Navigations -->
+    <?php include('partials/primary-navigation.php'); ?>
+    <?php include('partials/mobile-primary-navigation.php');?>
 
 
     <section id="shop" class="overview-page">
-        <!-- Navigations -->
-        <?php include('partials/primary-navigation.php'); ?>
-        <?php include('partials/mobile-primary-navigation.php');?>
-
         <div class="container">
             <!-- HERO  -->
             <div class="jumbotron col-md-7">

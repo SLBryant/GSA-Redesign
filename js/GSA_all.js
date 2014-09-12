@@ -63,6 +63,58 @@ GSA.rotatingFeatureBlock = new function(){
     }
 };
 
+GSA.prettyTables = new function(){
+    this.operator = function() {
+        $('table.scrollTable,table.stripedTable,table.scrollTable_search,table.sortTable').each(function() {
+            $(this).find('tr').eq(0).removeClass('odd even');
+
+            if ($(this).not(':has(thead)').has('th')) {
+                //silly chrome, inserting tbodys:
+                if ($(this).has('tbody')) {
+                    $(this).prepend('<thead></thead>');
+                    $(this).find('thead').append($(this).find('tbody tr').eq(0).clone());
+                    $(this).find('tbody tr').eq(0).remove();
+                }
+                //silly every other browser not caring:
+                else {
+                    $(this).find('tr').eq(0).unwrap().wrap('<thead></thead>');
+                    $(this).find('tr').not('thead tr').wrapAll('<tbody></tbody>');
+                }
+            }
+        });
+
+        $('table.scrollTable').dataTable({
+            "sScrollY": "400px",
+            "bPaginate": false,
+            "bScrollCollapse": true,
+            "aaSorting": [],
+            "bInfo": false,
+            "bFilter": false
+        });
+        $('table.scrollTable_search').dataTable({
+            "sScrollY": "400px",
+            "bPaginate": false,
+            "bScrollCollapse": true,
+            "aaSorting": [],
+            "sSearch": "Search this table:"
+        });
+        $('table.stripedTable').dataTable({
+            "bPaginate": false,
+            "bInfo": false,
+            "bFilter": false,
+            "bSort": false
+        });
+        $('table.sortTable').dataTable({
+            "bPaginate": false,
+            "aaSorting": [],
+            "bInfo": false,
+            "bFilter": false
+        });
+    }
+};
+
+
+// Doc Ready -------
 $(function() {
 
     // Accordion Menu
@@ -85,6 +137,7 @@ $(function() {
     if($(window).width() > 768) {
         GSA.mainNavigation.navAlign();
     }
+    GSA.prettyTables.operator();
 });
 
 

@@ -1,9 +1,10 @@
 <?php include('partials/header.php');?>
-
-    <section id="travel" class="overview-page">
         <!-- Navigations -->
         <?php include('partials/primary-navigation.php'); ?>
         <?php include('partials/mobile-primary-navigation.php');?>
+
+    <section id="travel" class="overview-page">
+
 
         <div class="container">
             <!-- HERO  -->

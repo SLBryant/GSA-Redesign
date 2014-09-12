@@ -20,10 +20,10 @@
     <div class="container">
         <div class="row">
             <div class="row col-sm-6 content-well smaller-well">
-                <figure class="col-sm-5">
+                <figure class="col-md-5 col-sm-12">
                     <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
                 </figure>
-                <article class="col-sm-7">
+                <article class="col-md-7 col-sm-12">
                     <h4>Freight Management Program (FMP)</h4>
                     <p>This program offers rate management services for domestic commodity freight transportation.</p>
                     <p>Book shipments online with over 2000 service providers and save over commercial rates.</p>
@@ -31,10 +31,10 @@
                 <aside><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a></aside>
             </div>
             <div class="row col-sm-6 content-well smaller-well">
-                <figure class="col-sm-5">
+                <figure class="col-md-5 col-sm-12">
                     <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
                 </figure>
-                <article class="col-sm-7">
+                <article class="col-md-7 col-sm-12">
                     <h4>Centralized Household goods traffic management program (champ)</h4>
                     <p>Relocating federal employees (domestic and international), which include the moving of household goods, privately-owned vehicles, and unaccompanied air baggage.</p>
                 </article>

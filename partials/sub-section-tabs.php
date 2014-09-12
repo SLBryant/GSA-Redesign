@@ -3,7 +3,7 @@
     <!-- Nav tabs -->
     <nav class="col-md-3 tab-navigation">
         <ul class="nav" role="tablist">
-            <li class="active"><a href="#tab-A" role="tab" data-toggle="tab">Link</a></li>
+            <li class="active"><a href="#tab-A" role="tab" data-toggle="tab">Per Diem Calculator</a></li>
             <li><a href="#tab-B" role="tab" data-toggle="tab">Link</a></li>
             <li><a href="#tab-C" role="tab" data-toggle="tab">Link</a></li>
             <li><a href="#tab-D" role="tab" data-toggle="tab">Link</a></li>
