@@ -77,3 +77,34 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
+/***  Flexbox  ***/
+//***********************************************
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flexwrap($values) {
+  -webkit-box-flex-wrap: $values;
+  -moz-box-flex-wrap:  $values;
+  -webkit-flex-wrap:  $values;
+  -ms-flex-wrap:  $values;
+  flex-wrap:  $values;
+}
+
+@mixin flexdirection($val) {
+  -webkit-box-flex-direction: $val;
+  -moz-box-flex-direction: $val;
+  -ms-flex-flex-direction: $val;
+  -webkit-flex-direction: $val;
+  flex-direction: $val;
+}
+
+
+
+

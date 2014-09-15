@@ -4,6 +4,7 @@
 /***  Radius  ***/
 /***  Box Border  ***/
 /***  Cover BG  ***/
+/***  Flexbox  ***/
 .region-page-header hgroup h1 {
   position: relative;
   top: 50%;
@@ -766,7 +767,25 @@ address {
     .overview-page {
       padding-top: 100px; } }
   .overview-page .jumbotron {
-    background: none; }
+    background: none;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-box-flex-wrap: wrap;
+    -moz-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -ms-flex-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    min-height: 300px; }
     .overview-page .jumbotron h1 {
       font-size: 38px;
       font-size: 2.375rem;
@@ -779,8 +798,7 @@ address {
     .overview-page .jumbotron p {
       line-height: 1.9;
       font-size: 16px;
-      font-size: 1rem;
-      margin: 0; }
+      font-size: 1rem; }
       @media only screen and (max-height: 750px) {
         .overview-page .jumbotron p {
           font-size: 14px;
@@ -795,6 +813,9 @@ address {
         .overview-page .jumbotron .jump-link {
           font-size: 14px;
           font-size: 0.875rem; } }
+
+#sub-section {
+  margin: 0 0 45px; }
 
 .landing-page-header {
   color: #fff;
@@ -1197,6 +1218,3 @@ body {
   .sidebar-bucket a {
     text-transform: uppercase;
     display: block; }
-
-#sub-section {
-  margin: 0 0 45px; }

@@ -11,30 +11,41 @@
   }
   .jumbotron {
     background: none;
-    h1 {
-      @include font-size(38px);
-      text-transform: uppercase;
-      font-weight: 500;
-      @include short-height {
-        @include font-size(30px);
+    margin: auto;
+    @include flexbox;
+    align-items: center;
+    @include flexwrap(wrap);
+    @include flexdirection(row);
+    min-height: 300px;
+      h1 {
+        @include font-size(38px);
+        text-transform: uppercase;
+        font-weight: 500;
+        @include short-height {
+          @include font-size(30px);
+        }
       }
-    }
-    p {
-      line-height:1.9;
-      @include font-size(16px);
-      margin: 0;
-      @include short-height {
-        @include font-size(14px);
+      p {
+        line-height:1.9;
+        @include font-size(16px);
+        @include short-height {
+          @include font-size(14px);
+        }
       }
-    }
-    .jump-link {
-      text-transform: uppercase;
-      @include font-size(16px);
-      font-weight: bold;
-      display: block;
-      @include short-height {
-        @include font-size(14px);
+      .jump-link {
+        text-transform: uppercase;
+        @include font-size(16px);
+        font-weight: bold;
+        display: block;
+        @include short-height {
+          @include font-size(14px);
+        }
       }
-    }
   }
 }
+
+// Sub Sections
+#sub-section {
+  margin: 0 0 45px;
+}
+
