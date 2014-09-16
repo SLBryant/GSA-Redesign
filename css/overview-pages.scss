@@ -2,10 +2,13 @@
 #home {  background-image: url(../images/home-bg.jpg); }
 #travel { background-image: url(../images/travel-bg.jpg);}
 #shop { background-image: url(../images/shop-bg.jpg);}
+#technology { background-image: url(../images/technology.jpg);}
+#real-estate { background-image: url(../images/real-estate.jpg);}
 .overview-page {
   @include coverBG();
   padding-bottom: 45px;
   padding-top: 150px;
+  min-height: 700px;
   @include desktops {
     padding-top: 100px;
   }
@@ -32,13 +35,15 @@
           @include font-size(14px);
         }
       }
-      .jump-link {
-        text-transform: uppercase;
-        @include font-size(16px);
-        font-weight: bold;
-        display: block;
-        @include short-height {
-          @include font-size(14px);
+      li {
+        line-height: 1.2;
+        .jump-link {
+          text-transform: uppercase;
+          @include font-size(16px);
+          font-weight: bold;
+          @include short-height {
+            @include font-size(14px);
+          }
         }
       }
   }

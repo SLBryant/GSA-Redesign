@@ -753,6 +753,12 @@ address {
 #shop {
   background-image: url(../images/shop-bg.jpg); }
 
+#technology {
+  background-image: url(../images/technology.jpg); }
+
+#real-estate {
+  background-image: url(../images/real-estate.jpg); }
+
 .overview-page {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -762,7 +768,8 @@ address {
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 45px;
-  padding-top: 150px; }
+  padding-top: 150px;
+  min-height: 700px; }
   @media only screen and (max-width: 992px) {
     .overview-page {
       padding-top: 100px; } }
@@ -803,16 +810,17 @@ address {
         .overview-page .jumbotron p {
           font-size: 14px;
           font-size: 0.875rem; } }
-    .overview-page .jumbotron .jump-link {
-      text-transform: uppercase;
-      font-size: 16px;
-      font-size: 1rem;
-      font-weight: bold;
-      display: block; }
-      @media only screen and (max-height: 750px) {
-        .overview-page .jumbotron .jump-link {
-          font-size: 14px;
-          font-size: 0.875rem; } }
+    .overview-page .jumbotron li {
+      line-height: 1.2; }
+      .overview-page .jumbotron li .jump-link {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-size: 1rem;
+        font-weight: bold; }
+        @media only screen and (max-height: 750px) {
+          .overview-page .jumbotron li .jump-link {
+            font-size: 14px;
+            font-size: 0.875rem; } }
 
 #sub-section {
   margin: 0 0 45px; }

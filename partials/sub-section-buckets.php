@@ -6,7 +6,7 @@
             <a href="#">
                 <header class="row">
                     <figure class="col-sm-5 col-xs-3">
-                        <img class="img-responsive" src="http://placehold.it/300x300">
+                        <img class="img-responsive" src="images/cmsDriven/lighthouse.jpg">
                     </figure>
                     <hgroup class="col-sm-6">
                         <h2>GSA Lighthouses on the Auction Block</h2>
@@ -24,10 +24,10 @@
             <a href="#">
                 <header class="row">
                     <figure class="col-sm-5 col-xs-3">
-                        <img class="img-responsive" src="http://placehold.it/300x300">
+                        <img class="img-responsive" src="images/cmsDriven/schedules-program.jpg">
                     </figure>
                     <hgroup class="col-sm-6">
-                        <h2>GSA Lighthouses on the Auction Block</h2>
+                        <h2>Modernizing GSA's Schedules Program</h2>
                     </hgroup>
                 </header>
                 <aside class="forward-arrow">
@@ -42,10 +42,10 @@
             <a href="#">
                 <header class="row">
                     <figure class="col-sm-5 col-xs-3">
-                        <img class="img-responsive" src="http://placehold.it/300x300">
+                        <img class="img-responsive" src="images/cmsDriven/green.jpg">
                     </figure>
                     <hgroup class="col-sm-6">
-                        <h2>GSA Lighthouses on the Auction Block</h2>
+                        <h2>GSA Gets Green in New Carrollton</h2>
                     </hgroup>
                 </header>
                 <aside class="forward-arrow">
