@@ -143,10 +143,6 @@ GSA.imageCaching = new function(){
 // Doc Ready -------
 $(function() {
 
-
-
-
-
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();
     GSA.navigations.navGraphic();
@@ -156,6 +152,7 @@ $(function() {
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
+
 });
 
 

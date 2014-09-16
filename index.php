@@ -61,18 +61,23 @@
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite4.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite4.html</a></td>
             </tr>
             <tr>
+                <td>Two Columns (no nav per-diem)</td>
+                <td><a href="http://oagov.com/gsa/redesign/two-columns-no-nav-perdiem.php">http://oagov.com/gsa/redesign/two-columns-no-nav-perdiem.php</a></td>
+                <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/perdiem1.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/perdiem1.html</a></td>
+            </tr>
+            <tr>
                 <td>Three Columns (schedules)</td>
                 <td><a href="http://oagov.com/gsa/redesign/three-columns.php">http://oagov.com/gsa/redesign/three-columns.php</a></td>
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite1.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite1.html</a></td>
             </tr>
             <tr>
                 <td>Region 8</td>
-                <td><a href="http://oagov.com/gsa/redesign/regions.php">http://oagov.com/gsa/redesign/regions.php</a></td>
+                <td><a href="http://oagov.com/gsa/redesign/region.php">http://oagov.com/gsa/redesign/region.php</a></td>
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/region1.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/region1.html</a></td>
             </tr>
             <tr>
                 <td>Tables</td>
-                <td><a href="http://oagov.com/gsa/redesign/regions.php">http://oagov.com/gsa/redesign/tables.php</a></td>
+                <td><a href="http://oagov.com/gsa/redesign/tables.php">http://oagov.com/gsa/redesign/tables.php</a></td>
             </tr>
         </tbody>
     </table>
