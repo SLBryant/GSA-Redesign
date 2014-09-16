@@ -2,12 +2,13 @@ if(!GSA){
     var GSA = {}
 }
 
-GSA.mainNavigation = new function(){
+GSA.navigations = new function(){
     var navigation = $('.primary-nav');
     var searchButton = $('#main-nav-search-button');
     var form = $('#main-nav-search-field');
     var logoHeight = $('.navbar-brand').height();
     var firstLevelNav = $('#main-nav > li');
+    var $docsMenu = $('.sidebar-accordion-nav');
 
     this.searchToggle = function(){
        searchButton.click(function(e) {
@@ -34,6 +35,18 @@ GSA.mainNavigation = new function(){
                 .css("padding-top",($(this).parent().height() - $(this).height())/2 + 'px').css("padding-bottom",($(this).parent().height() - $(this).height())/2 + 'px' )
         };
         $('.primary-nav ul#main-nav > li > a').verticalAlign();
+    }
+
+    this.accordionNav = function() {
+        $docsMenu.smartmenus({
+            collapsibleShowFunction: function($ul, complete) { $ul.slideDown(200, complete); },
+            collapsibleHideFunction: function($ul, complete) { $ul.slideUp(200, complete); },
+            hideOnClick: false
+        });
+        $docsMenu.bind('select.smapi', function(e, item) {
+            if ($(item).parent().parent()[0] === this && (!$(item).parent().dataSM('sub') || !$(item).parent().dataSM('sub').is(':visible')))
+                $(this).smartmenus('menuHideAll');
+        });
     }
 
 };
@@ -113,31 +126,36 @@ GSA.prettyTables = new function(){
     }
 };
 
+GSA.imageCaching = new function(){
+    this.cache = function() {
+        $.fn.preload = function() {
+            this.each(function(){
+                $('<img/>')[0].src = this;
+            });
+        }
+
+        $(["images/home-bg.jpg", "images/real-estate.jpg", "images/technology.jpg", "images/travel-bg.jpg", "images/shop-bg.jpg", "images/transportation-bg.jpg"]).preload();
+    }
+
+};
+
 
 // Doc Ready -------
 $(function() {
 
-    // Accordion Menu
-    var $docsMenu = $('.sidebar-accordion-nav');
-    $docsMenu.smartmenus({
-        collapsibleShowFunction: function($ul, complete) { $ul.slideDown(200, complete); },
-        collapsibleHideFunction: function($ul, complete) { $ul.slideUp(200, complete); },
-        hideOnClick: false
-    });
-    $docsMenu.bind('select.smapi', function(e, item) {
-        if ($(item).parent().parent()[0] === this && (!$(item).parent().dataSM('sub') || !$(item).parent().dataSM('sub').is(':visible')))
-            $(this).smartmenus('menuHideAll');
-    });
+
 
 
 
     GSA.rotatingFeatureBlock.slideJS();
-    GSA.mainNavigation.searchToggle();
-    GSA.mainNavigation.navGraphic();
+    GSA.navigations.searchToggle();
+    GSA.navigations.navGraphic();
     if($(window).width() > 768) {
-        GSA.mainNavigation.navAlign();
+        GSA.navigations.navAlign();
     }
+    GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
+    GSA.imageCaching.cache();
 });
 
 
