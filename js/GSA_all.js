@@ -75,6 +75,12 @@ GSA.rotatingFeatureBlock = new function(){
         });
     }
 };
+GSA.tabs = new function(){
+    this.subSectionTabs = function() {
+        var heightOfNav = $('.tab-navigation').height();
+        $('.tab-content').css({'max-height': heightOfNav});
+    }
+};
 
 GSA.prettyTables = new function(){
     this.operator = function() {
@@ -152,6 +158,7 @@ $(function() {
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
+    GSA.tabs.subSectionTabs();
 
 });
 

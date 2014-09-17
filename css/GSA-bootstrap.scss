@@ -38,3 +38,7 @@ address {
   color: $navItemColor;
   font-weight: bold;
 }
+
+.gsa-btn {
+  @extend %buttons;
+}

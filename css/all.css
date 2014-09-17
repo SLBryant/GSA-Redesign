@@ -51,6 +51,53 @@
     #footer .social-links-block .social-links ul .blog-logo a {
       background-position: 50% -131px; }
 
+.gsa-btn {
+  background: #8fc7ea;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #27328b;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: normal; }
+
+.tab-content .form-group {
+  position: relative;
+  width: 100%; }
+  .tab-content .form-group input, .tab-content .form-group select {
+    border: 1px solid #c9c9c9;
+    padding: 24px 10px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-right: 10%;
+    font-size: 22px;
+    font-size: 1.375rem; }
+  .tab-content .form-group button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    width: 10%;
+    font-size: 20px;
+    font-size: 1.25rem; }
+  .tab-content .form-group p {
+    padding: 10px 5px 0; }
+  .tab-content .form-group ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c9c9c9; }
+  .tab-content .form-group :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c9c9c9;
+    opacity: 1; }
+  .tab-content .form-group ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c9c9c9;
+    opacity: 1; }
+  .tab-content .form-group :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #c9c9c9; }
+
 .black-underlay {
   background: rgba(0, 0, 0, 0.5); }
 
@@ -705,7 +752,32 @@ address {
 
 .tab-content {
   background: #fff;
-  margin-bottom: 25px; }
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  .tab-content #perDiemCalculator .form-horizontal .form-group {
+    margin: 5px 0; }
+  .tab-content #perDiemCalculator .form-horizontal input, .tab-content #perDiemCalculator .form-horizontal select {
+    padding: 10px;
+    font-size: 16px;
+    font-size: 1rem; }
+  .tab-content #perDiemCalculator .content-column {
+    padding: 0 0 0 10px;
+    margin: 0; }
+    .tab-content #perDiemCalculator .content-column:last-child {
+      position: absolute;
+      bottom: 25px;
+      right: 0;
+      padding-right: 10px; }
+      @media only screen and (max-width: 992px) {
+        .tab-content #perDiemCalculator .content-column:last-child {
+          position: relative;
+          bottom: auto;
+          right: auto;
+          padding-right: 0;
+          margin-top: 5px; } }
 
 .menuheader {
   border-top: 1px solid #d1c8b6;
@@ -823,7 +895,14 @@ address {
             font-size: 0.875rem; } }
 
 #sub-section {
-  margin: 0 0 45px; }
+  margin: 0 0 45px;
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75); }
+  #sub-section.bucket-styles {
+    -webkit-box-shadow: 0 0;
+    -moz-box-shadow: 0 0;
+    box-shadow: 0 0; }
 
 .landing-page-header {
   color: #fff;

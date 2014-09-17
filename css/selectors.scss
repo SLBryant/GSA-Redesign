@@ -55,4 +55,51 @@
   }
 }
 
+%buttons {
+  background: $gsaLightBlue;
+  @include border-radius(0);
+  color: $gsaBlue;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: normal;
+}
+%searchForm {
+  .form-group {
+    position: relative;
+    width: 100%;
+      input, select {
+        border: 1px solid $lightGray;
+        padding: 24px 10px;
+        @include border-radius(0);
+        padding-right: 10%;
+        @include font-size(22px);
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px 15px;
+        width: 10%;
+        @include font-size(20px);
+      }
+      p {
+        padding: 10px 5px 0;
+      }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color:    $lightGray;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:    $lightGray;
+      opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:    $lightGray;
+      opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+      color:    $lightGray;
+    }
+  }
+}
+
 
