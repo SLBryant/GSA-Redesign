@@ -1,4 +1,5 @@
 <?php include('partials/header.php');?>
+<!--test-->
     <h1>Index</h1>
 <div class="table-responsive">
     <table class="table table-striped">
