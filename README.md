@@ -1,2 +1,1 @@
-GSA Redesign 
-============
+GSA Redesign
