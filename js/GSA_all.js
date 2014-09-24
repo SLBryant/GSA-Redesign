@@ -29,12 +29,13 @@ GSA.navigations = new function(){
 
     this.navAlign = function() {
         firstLevelNav.height(logoHeight);
-        jQuery.fn.verticalAlign = function ()
-        {
-            return this
-                .css("padding-top",($(this).parent().height() - $(this).height())/2 + 'px').css("padding-bottom",($(this).parent().height() - $(this).height())/2 + 'px' )
-        };
-        $('.primary-nav ul#main-nav > li > a').verticalAlign();
+        setTimeout(function() {
+            jQuery.fn.verticalAlign = function () {
+                return this
+                    .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
+            };
+            $('.primary-nav ul#main-nav > li > a').verticalAlign();
+        },1);
     }
 
     this.accordionNav = function() {

@@ -98,7 +98,7 @@
                     </ul>
                 </li>
                 <!-- top 3 -->
-                <li><a href="shop.php">Shoppers</a>
+                <li><a href="shop.php">Shopper</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Mink</a>
                             <ul class="dropdown-menu">
@@ -142,7 +142,7 @@
                     </ul>
                 </li>
                 <!-- top 4 -->
-                <li><a href="#">Suppliers</a>
+                <li><a href="#">Supplier</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Giraffe</a>
                             <ul class="dropdown-menu">

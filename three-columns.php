@@ -10,7 +10,7 @@
                 <!-- SIDEBAR LEFT -->
                 <?php include('partials/sidebar-accordion-nav.php');?>
                 <!-- MAIN COLUMN -->
-                <section class="col-sm-6" id="main-column">
+                <section class="col-sm-6 col-sm-offset-3" id="main-column">
                     <h1>GSA Schedules</h1>
                     <p>GSA establishes long-term governmentwide contracts with commercial firms to provide access to millions of commercial products and services at volume discount pricing.</p>
 

@@ -8,7 +8,7 @@
 
             <div class="container">
                 <!-- HERO AND SUB SECTION -->
-                <div class="jumbotron col-md-8">
+                <div class="jumbotron col-md-7">
                     <h1>GSA delivers the best value in real estate, acquisition, and technology services.</h1>
                     <p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>
                     <ul class="list-unstyled">

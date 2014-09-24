@@ -1,4 +1,4 @@
-<aside class="col-sm-3">
+<aside id="sidebar-nav-wrapper" class="col-sm-3" data-spy="affix" data-offset-bottom="300">
     <div role="tablist">
         <ul class="sidebar-accordion-nav sm sm-vertical">
             <li role="tab"><a href="#">Top level Link</a>
