@@ -14,10 +14,10 @@
             <form class="form-inline" role="form">
                 <div class="form-group">
                     <label class="sr-only" for="form-control">Search GSA Advantage</label>
-                    <input type="text" class="form-control col-sm-12" placeholder="Search GSA Advantage">
-                    <button type="submit" id="searchAdvantageSubmit" class="btn gsa-btn"><span class="glyphicon glyphicon-search"></span></button>
-                    <p>The online marketplace for Federal Procurement. Now also available to State and Local Employees.</p>
+                    <input type="text" id="searchAdvantage" class="form-control col-sm-12" placeholder="Search GSA Advantage">
                 </div>
+                <button type="submit" class="btn gsa-btn"><span class="glyphicon glyphicon-search"></span></button>
+                <p>The online marketplace for Federal Procurement. Now also available to State and Local Employees.</p>
             </form>
         </div>
         <div class="tab-pane" id="perDiemCalculator">

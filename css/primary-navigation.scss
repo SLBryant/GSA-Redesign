@@ -20,6 +20,8 @@
 }
 .navbar-brand {
   margin-left: 0!important;
+  float: none;
+  display: block;
 }
 .primary-nav {
   position: absolute;
@@ -28,7 +30,9 @@
   top: 25px;
     nav {
       background: rgba(255,255,255,0.9);
+      @include box-shadow(0px 5px 7px -5px, #333);
       border: 0;
+      width: 1170px;
         .navbar-header {
           width: 10%;
           @include tablets {
@@ -51,7 +55,7 @@
           padding: 0;
         }
         .navbar-nav {
-          border-right: 1px solid $gsaLightBlue;
+         margin: 0;
             @include tablets {
               margin: 0;
             }
@@ -216,7 +220,7 @@
   }
   > nav {
     padding: 0;
-    @include box-shadow(0px 1px 5px 0px , rgba(50, 50, 50, 0.75));
+    @include box-shadow(0px 5px 5px -5px , rgba(50, 50, 50, 0.75));
   }
 }
 

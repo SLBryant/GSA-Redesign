@@ -15,10 +15,6 @@
   .jumbotron {
     background: none;
     margin: auto;
-    @include flexbox;
-    align-items: center;
-    @include flexwrap(wrap);
-    @include flexdirection(row);
     min-height: 300px;
       h1 {
         @include font-size(38px);

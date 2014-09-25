@@ -36,7 +36,7 @@ GSA.navigations = new function(){
             };
             $('.primary-nav ul#main-nav > li > a').verticalAlign();
         },1);
-    }
+    };
 
     this.accordionNav = function() {
         $docsMenu.smartmenus({

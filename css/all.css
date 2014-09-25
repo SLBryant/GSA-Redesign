@@ -156,7 +156,9 @@ address {
     padding: 20px; }
 
 .navbar-brand {
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+  float: none;
+  display: block; }
 
 .primary-nav {
   position: absolute;
@@ -165,7 +167,11 @@ address {
   top: 25px; }
   .primary-nav nav {
     background: rgba(255, 255, 255, 0.9);
-    border: 0; }
+    -webkit-box-shadow: 0px 5px 7px -5px #333333;
+    -moz-box-shadow: 0px 5px 7px -5px #333333;
+    box-shadow: 0px 5px 7px -5px #333333;
+    border: 0;
+    width: 1170px; }
     .primary-nav nav .navbar-header {
       width: 10%; }
       @media only screen and (max-width: 768px) {
@@ -182,7 +188,7 @@ address {
     .primary-nav nav #navbar-collapse {
       padding: 0; }
     .primary-nav nav .navbar-nav {
-      border-right: 1px solid #8fc7ea; }
+      margin: 0; }
       @media only screen and (max-width: 768px) {
         .primary-nav nav .navbar-nav {
           margin: 0; } }
@@ -331,9 +337,9 @@ address {
     width: 93.4%; }
   #inner-main-navigation > nav {
     padding: 0;
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75); }
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75); }
 
 #main-nav-search-field {
   width: 33%;
@@ -864,22 +870,6 @@ address {
   .overview-page .jumbotron {
     background: none;
     margin: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    -webkit-box-flex-wrap: wrap;
-    -moz-box-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-flex-direction: row;
-    -moz-box-flex-direction: row;
-    -ms-flex-flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
     min-height: 300px; }
     .overview-page .jumbotron h1 {
       font-size: 38px;
