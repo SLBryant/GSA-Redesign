@@ -153,14 +153,16 @@ $(function() {
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();
     GSA.navigations.navGraphic();
-    if($(window).width() > 768) {
-        GSA.navigations.navAlign();
-    }
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
     GSA.tabs.subSectionTabs();
 
+});
+$(window).load(function() {
+    if($(window).width() > 768) {
+        GSA.navigations.navAlign();
+    }
 });
 
 

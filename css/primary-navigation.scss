@@ -33,6 +33,7 @@
       @include box-shadow(0px 5px 7px -5px, #333);
       border: 0;
       width: 1170px;
+      font-family: $gsaFontFamily;
         .navbar-header {
           width: 10%;
           @include tablets {
@@ -252,7 +253,7 @@
       padding: 5px 0;
       margin: 0;
       li {
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: $navItemColor;
         a {
           color: $navItemColor;

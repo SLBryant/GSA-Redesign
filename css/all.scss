@@ -31,7 +31,6 @@ body {
 }
 
 
-
 // THREE COLUMNS W/NAV
 #main-column {
     h1 {
@@ -53,11 +52,13 @@ body {
 // Right Sidebar
 .sidebar-bucket {
   margin-bottom: 40px;
+  font-family: arial, sans-serif;
     h4 {
-      text-transform: uppercase;
+      text-transform: capitalize;
+      font-family: $gsaFontFamily;
     }
     a {
-      text-transform: uppercase;
+      text-transform: capitalize;
       display: block;
     }
 }
