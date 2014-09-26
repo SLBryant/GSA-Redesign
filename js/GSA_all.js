@@ -30,10 +30,6 @@ GSA.navigations = new function(){
     this.navAlign = function() {
         firstLevelNav.height(logoHeight);
         setTimeout(function() {
-            jQuery.fn.verticalAlign = function () {
-                return this
-                    .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
-            };
             $('.primary-nav ul#main-nav > li > a').verticalAlign();
         },1);
     };
@@ -145,7 +141,19 @@ GSA.imageCaching = new function(){
     }
 
 };
-
+GSA.tabs = new function(){
+    var subSectionHeight = $('#sub-section').height();
+    var numOfItems = $('.tab-navigation ul li').length;
+    this.navAlign = function() {
+        setTimeout(function() {
+            $('.tab-navigation ul li').height(subSectionHeight / numOfItems);
+            $('.tab-navigation ul li a').verticalAlign();
+        },1);
+    };
+    this.activateFirstTab = function() {
+        $('.tab-navigation ul li').eq(0).addClass('active');
+    };
+};
 
 // Doc Ready -------
 $(function() {
@@ -156,7 +164,12 @@ $(function() {
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
-    GSA.tabs.subSectionTabs();
+
+    //Sub Section Tabs
+    if($(window).width() > 768) {
+        GSA.tabs.navAlign();
+        GSA.tabs.activateFirstTab();
+    }
 
 });
 $(window).load(function() {
@@ -165,7 +178,11 @@ $(window).load(function() {
     }
 });
 
-
+// vertical alignment plugin
+jQuery.fn.verticalAlign = function () {
+    return this
+        .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
+};
 
 
 

@@ -61,10 +61,10 @@
   font-weight: bold;
   white-space: normal; }
 
-.tab-content .form-group {
+#sub-section .tab-content .form-group {
   position: relative;
   width: 100%; }
-  .tab-content .form-group input, .tab-content .form-group select {
+  #sub-section .tab-content .form-group input, #sub-section .tab-content .form-group select {
     border: 1px solid #c9c9c9;
     padding: 24px 10px;
     -webkit-border-radius: 0;
@@ -73,28 +73,31 @@
     padding-right: 10%;
     font-size: 22px;
     font-size: 1.375rem; }
-  .tab-content .form-group button {
+  #sub-section .tab-content .form-group button {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 10px 15px;
+    padding: 10px 20px;
     width: 10%;
     font-size: 20px;
     font-size: 1.25rem; }
-  .tab-content .form-group p {
+    #sub-section .tab-content .form-group button .glyphicon {
+      left: 30%;
+      top: 4px; }
+  #sub-section .tab-content .form-group p {
     padding: 10px 5px 0; }
-  .tab-content .form-group ::-webkit-input-placeholder {
+  #sub-section .tab-content .form-group ::-webkit-input-placeholder {
     /* WebKit browsers */
     color: #c9c9c9; }
-  .tab-content .form-group :-moz-placeholder {
+  #sub-section .tab-content .form-group :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: #c9c9c9;
     opacity: 1; }
-  .tab-content .form-group ::-moz-placeholder {
+  #sub-section .tab-content .form-group ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: #c9c9c9;
     opacity: 1; }
-  .tab-content .form-group :-ms-input-placeholder {
+  #sub-section .tab-content .form-group :-ms-input-placeholder {
     /* Internet Explorer 10+ */
     color: #c9c9c9; }
 
@@ -751,57 +754,6 @@ address {
 .full-width-tabs-block .tab-content {
   border: 1px solid #d1c8b6; }
 
-.tabs-section {
-  background: #fff; }
-
-.tab-navigation {
-  padding: 0; }
-  .tab-navigation li {
-    background: #d1c8b6;
-    border-right: 1px solid rgba(0, 0, 0, 0.2); }
-    .tab-navigation li.active {
-      background: #fff;
-      font-weight: bold;
-      -webkit-box-shadow: inset 0px -3px 1px -1px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: inset 0px -3px 1px -1px rgba(0, 0, 0, 0.4);
-      box-shadow: inset 0px -3px 1px -1px rgba(0, 0, 0, 0.4);
-      border-right: 0; }
-    .tab-navigation li a {
-      color: #333333;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-      .tab-navigation li a:hover, .tab-navigation li a:focus {
-        font-weight: bold;
-        background: #fff; }
-
-.tab-content {
-  background: #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin: 0;
-  overflow-y: auto;
-  overflow-x: hidden; }
-  .tab-content #perDiemCalculator .form-horizontal .form-group {
-    margin: 5px 0; }
-  .tab-content #perDiemCalculator .form-horizontal input, .tab-content #perDiemCalculator .form-horizontal select {
-    padding: 10px;
-    font-size: 16px;
-    font-size: 1rem; }
-  .tab-content #perDiemCalculator .content-column {
-    padding: 0 0 0 10px;
-    margin: 0; }
-    .tab-content #perDiemCalculator .content-column:last-child {
-      position: absolute;
-      bottom: 25px;
-      right: 0;
-      padding-right: 10px; }
-      @media only screen and (max-width: 992px) {
-        .tab-content #perDiemCalculator .content-column:last-child {
-          position: relative;
-          bottom: auto;
-          right: auto;
-          padding-right: 0;
-          margin-top: 5px; } }
-
 .menuheader {
   border-top: 1px solid #d1c8b6;
   position: relative;
@@ -902,14 +854,84 @@ address {
             font-size: 0.875rem; } }
 
 #sub-section {
-  margin: 0 0 45px;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align-items: center;
+  -moz-box-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-box-flex-wrap: no-wrap;
+  -moz-box-flex-wrap: no-wrap;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -ms-flex-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75); }
+  box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  min-height: 150px;
+  overflow: hidden; }
   #sub-section.bucket-styles {
     -webkit-box-shadow: 0 0;
     -moz-box-shadow: 0 0;
     box-shadow: 0 0; }
+  #sub-section.tabs-section {
+    background: #fff; }
+  #sub-section .tab-navigation {
+    padding: 0;
+    -webkit-box-align-self: flex-start;
+    -moz-box-align-self: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-align-self: flex-start;
+    align-self: flex-start;
+    background: #d1c8b6; }
+    #sub-section .tab-navigation li {
+      background: #d1c8b6;
+      border-right: 1px solid rgba(0, 0, 0, 0.2); }
+      #sub-section .tab-navigation li.active {
+        background: #fff;
+        border-right: 0; }
+      #sub-section .tab-navigation li a {
+        color: #333333; }
+        #sub-section .tab-navigation li a:hover, #sub-section .tab-navigation li a:focus {
+          background: #fff; }
+  #sub-section .tab-content {
+    background: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden; }
+    #sub-section .tab-content #perDiemCalculator .form-horizontal .form-group {
+      margin: 5px 0; }
+    #sub-section .tab-content #perDiemCalculator .form-horizontal input, #sub-section .tab-content #perDiemCalculator .form-horizontal select {
+      padding: 10px;
+      font-size: 16px;
+      font-size: 1rem; }
+    #sub-section .tab-content #perDiemCalculator .content-column {
+      padding: 0 0 0 10px;
+      margin: 0; }
+      #sub-section .tab-content #perDiemCalculator .content-column:last-child {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        padding-right: 10px; }
+        @media only screen and (max-width: 992px) {
+          #sub-section .tab-content #perDiemCalculator .content-column:last-child {
+            position: relative;
+            bottom: auto;
+            right: auto;
+            padding-right: 0;
+            margin-top: 5px; } }
 
 .landing-page-header {
   color: #fff;

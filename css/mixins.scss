@@ -105,5 +105,29 @@
   flex-direction: $val;
 }
 
+@mixin flexAlignItems($values) {
+  -webkit-box-align-items: $values;
+  -moz-box-align-items:  $values;
+  -webkit-align-items:  $values;
+  -ms-align-items:  $values;
+  align-items:  $values;
+}
+
+@mixin justifyContent($val) {
+  -webkit-box-justify-content: $val;
+  -moz-box-justify-content: $val;
+  -ms-flex-justify-content: $val;
+  -webkit-justify-content: $val;
+  justify-content: $val;
+}
+
+@mixin alignSelf($values) {
+  -webkit-box-align-self: $values;
+  -moz-box-align-self:  $values;
+  -webkit-align-self:  $values;
+  -ms-align-self:  $values;
+  align-self:  $values;
+}
+
 
 

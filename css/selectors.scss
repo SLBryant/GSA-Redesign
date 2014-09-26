@@ -67,24 +67,28 @@
   .form-group {
     position: relative;
     width: 100%;
-      input, select {
-        border: 1px solid $lightGray;
-        padding: 24px 10px;
-        @include border-radius(0);
-        padding-right: 10%;
-        @include font-size(22px);
+    input, select {
+      border: 1px solid $lightGray;
+      padding: 24px 10px;
+      @include border-radius(0);
+      padding-right: 10%;
+      @include font-size(22px);
+    }
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 10px 20px;
+      width: 10%;
+      @include font-size(20px);
+      .glyphicon {
+        left: 30%;
+        top: 4px;
       }
-      button {
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 10px 15px;
-        width: 10%;
-        @include font-size(20px);
-      }
-      p {
-        padding: 10px 5px 0;
-      }
+    }
+    p {
+      padding: 10px 5px 0;
+    }
     ::-webkit-input-placeholder { /* WebKit browsers */
       color:    $lightGray;
     }

@@ -47,10 +47,79 @@
 
 // Sub Sections
 #sub-section {
-  margin: 0 0 45px;
+  margin: 0;
+  @include flexbox;
+  @include flexAlignItems(center);
+  @include flexwrap(no-wrap);
+  @include justifyContent(center);
   @include box-shadow(0px 1px 8px 0px ,rgba(50, 50, 50, 0.75));
-    &.bucket-styles {
-      @include box-shadow(0,0);
+  min-height: 150px;
+  overflow: hidden;
+
+  &.bucket-styles {
+    @include box-shadow(0,0);
+  }
+
+  // TABS
+  &.tabs-section {
+    background: #fff;
+  }
+  .tab-navigation {
+    padding: 0;
+    @include alignSelf(flex-start);
+    background: $gsaBeige;
+    li {
+      background: $gsaBeige;
+      border-right: 1px solid rgba(0,0,0,0.2);
+      &.active {
+        background: #fff;
+        border-right: 0;
+      }
+      a {
+        color: $navItemColor;
+        &:hover,&:focus {
+          background: #fff;
+        }
+      }
     }
+  }
+  .tab-content {
+    background: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    @extend %searchForm;
+    #perDiemCalculator {
+      .form-horizontal {
+        .form-group {
+          margin: 5px 0;
+        }
+        input, select {
+          padding: 10px;
+          @include font-size(16px);
+        }
+      }
+      .content-column {
+        padding: 0 0 0 10px;
+        margin: 0;
+        &:last-child {
+          position: absolute;
+          bottom: 25px;
+          right: 0;
+          padding-right: 10px;
+          @include desktops {
+            position: relative;
+            bottom: auto;
+            right: auto;
+            padding-right: 0;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+
+  }
 }
 
