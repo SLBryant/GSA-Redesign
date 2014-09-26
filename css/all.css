@@ -1,5 +1,53 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-jyko5o");
+  src: url("../fonts/icomoon.eot?#iefix-jyko5o") format("embedded-opentype"), url("../fonts/icomoon.woff?-jyko5o") format("woff"), url("../fonts/icomoon.ttf?-jyko5o") format("truetype"), url("../fonts/icomoon.svg?-jyko5o#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-arrow-left:before {
+  content: "\e600"; }
+
+.icon-arrow-down:before {
+  content: "\e601"; }
+
+.icon-arrow-up:before {
+  content: "\e602"; }
+
+.icon-arrow-right:before {
+  content: "\e603"; }
+
+.icon-twitter:before {
+  content: "\e604"; }
+
+.icon-facebook:before {
+  content: "\e605"; }
+
+.icon-googleplus:before {
+  content: "\e606"; }
+
+.icon-pinterest:before {
+  content: "\e607"; }
+
+.icon-linkedin:before {
+  content: "\e608"; }
+
 /***  Transitions  ***/
 /***  Radius  ***/
 /***  Box Border  ***/
@@ -101,6 +149,18 @@
     /* Internet Explorer 10+ */
     color: #c9c9c9; }
 
+html {
+  font-size: 16px; }
+
+body {
+  font-family: arial, sans-serif; }
+
+.page-content {
+  padding: 160px 0; }
+
+.left-align-image {
+  margin-right: 10px; }
+
 .black-underlay {
   background: rgba(0, 0, 0, 0.5); }
 
@@ -141,6 +201,10 @@ address {
   color: #333333;
   font-weight: bold; }
 
+*:active {
+  outline: 0;
+  border: 0; }
+
 #skip a {
   position: absolute;
   left: auto;
@@ -174,8 +238,16 @@ address {
     -moz-box-shadow: 0px 5px 7px -5px #333333;
     box-shadow: 0px 5px 7px -5px #333333;
     border: 0;
-    width: 1170px;
     font-family: "Montserrat", sans-serif; }
+    @media only screen and (max-width: 1200px) {
+      .primary-nav nav {
+        width: 940px; } }
+    @media only screen and (max-width: 992px) {
+      .primary-nav nav {
+        width: 720px; } }
+    @media only screen and (max-width: 768px) {
+      .primary-nav nav {
+        width: 1170px; } }
     .primary-nav nav .navbar-header {
       width: 10%; }
       @media only screen and (max-width: 768px) {
@@ -239,16 +311,6 @@ address {
           border-right: 0; }
         .primary-nav ul#main-nav > li > a .sub-arrow {
           display: none; }
-          @media only screen and (max-width: 768px) {
-            .primary-nav ul#main-nav > li > a .sub-arrow {
-              display: inline-block;
-              border-top: 4px solid;
-              border-right: 4px dashed transparent;
-              border-bottom: 4px dashed transparent;
-              border-left: 4px dashed transparent;
-              position: absolute;
-              right: 10px;
-              top: 50%; } }
         .primary-nav ul#main-nav > li > a i {
           color: #fff;
           font-size: 25px;
@@ -330,6 +392,7 @@ address {
     max-width: 80%;
     max-height: 170px; }
   .menu-image figcaption {
+    font-family: arial, sans-serif;
     text-align: left;
     padding-top: 10px; }
 
@@ -349,9 +412,12 @@ address {
   width: 33%;
   position: absolute;
   right: 1px;
-  bottom: -75px;
+  bottom: -80px;
   padding: 20px 40px 5px;
   background: #8fc7ea; }
+  @media only screen and (max-width: 992px) {
+    #main-nav-search-field {
+      padding: 20px 10px 5px; } }
 
 #breadcrumbs {
   background: #8fc7ea;
@@ -834,7 +900,7 @@ address {
           font-size: 30px;
           font-size: 1.875rem; } }
     .overview-page .jumbotron p {
-      line-height: 1.9;
+      line-height: 1.5;
       font-size: 16px;
       font-size: 1rem; }
       @media only screen and (max-height: 750px) {
@@ -880,10 +946,6 @@ address {
   box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   min-height: 150px;
   overflow: hidden; }
-  #sub-section.bucket-styles {
-    -webkit-box-shadow: 0 0;
-    -moz-box-shadow: 0 0;
-    box-shadow: 0 0; }
   #sub-section.tabs-section {
     background: #fff; }
   #sub-section .tab-navigation {
@@ -893,7 +955,8 @@ address {
     -webkit-align-self: flex-start;
     -ms-align-self: flex-start;
     align-self: flex-start;
-    background: #d1c8b6; }
+    background: #d1c8b6;
+    font-family: "Montserrat", sans-serif; }
     #sub-section .tab-navigation li {
       background: #d1c8b6;
       border-right: 1px solid rgba(0, 0, 0, 0.2); }
@@ -922,10 +985,10 @@ address {
       margin: 0; }
       #sub-section .tab-content #perDiemCalculator .content-column:last-child {
         position: absolute;
-        bottom: 25px;
+        bottom: 20px;
         right: 0;
         padding-right: 10px; }
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: 768px) {
           #sub-section .tab-content #perDiemCalculator .content-column:last-child {
             position: relative;
             bottom: auto;
@@ -1179,6 +1242,11 @@ table.dataTable thead td:active {
   *margin-top: -1px;
   -webkit-overflow-scrolling: touch; }
 
+.bucket-styles {
+  -webkit-box-shadow: 0 0;
+  -moz-box-shadow: 0 0;
+  box-shadow: 0 0; }
+
 .bucket {
   margin: 0 0 20px 0; }
   .bucket article {
@@ -1311,18 +1379,6 @@ table.dataTable thead td:active {
         #footer .social-links-block h5 {
           font-size: 12px;
           font-size: 0.75rem; } }
-
-html {
-  font-size: 16px; }
-
-body {
-  font-family: "Montserrat", sans-serif; }
-
-.page-content {
-  padding: 160px 0; }
-
-.left-align-image {
-  margin-right: 10px; }
 
 #main-column h1 {
   text-transform: uppercase; }

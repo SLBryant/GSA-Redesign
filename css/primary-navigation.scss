@@ -32,8 +32,16 @@
       background: rgba(255,255,255,0.9);
       @include box-shadow(0px 5px 7px -5px, #333);
       border: 0;
-      width: 1170px;
       font-family: $gsaFontFamily;
+        @include large-desktops {
+          width: 940px;
+        }
+        @include desktops {
+          width: 720px;
+        }
+        @include tablets {
+          width: 1170px
+        }
         .navbar-header {
           width: 10%;
           @include tablets {
@@ -109,16 +117,6 @@
             }
             .sub-arrow {
               display: none;
-              @include tablets {
-                display: inline-block;
-                border-top: 4px solid;
-                border-right: 4px dashed transparent;
-                border-bottom: 4px dashed transparent;
-                border-left: 4px dashed transparent;
-                position: absolute;
-                right: 10px;
-                top: 50%;
-              }
             }
             i {
               color: #fff;
@@ -206,6 +204,7 @@
       max-height: 170px;
     }
     figcaption {
+      font-family: $gsaBodyFont;
       text-align: left;
       padding-top: 10px;
     }
@@ -230,9 +229,12 @@
   width: 33%;
   position: absolute;
   right: 1px;
-  bottom: -75px;
+  bottom: -80px;
   padding: 20px 40px 5px;
   background: $gsaLightBlue;
+    @include desktops {
+      padding: 20px 10px 5px;
+    }
 }
 
 // Breadcrumbs

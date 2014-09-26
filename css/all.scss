@@ -1,5 +1,6 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import url('//fonts.googleapis.com/css?family=Montserrat:400,700');
+@import 'custom_glyphs';
 @import 'global-variables';
 @import 'mixins';
 @import 'selectors';
@@ -17,18 +18,7 @@
 @import 'buckets-and-wells';
 @import 'footer';
 
-html {
-  font-size: 16px;
-}
-body {
-  font-family: $gsaFontFamily;
-}
-.page-content {
-  padding: 160px 0;
-}
-.left-align-image {
-  margin-right: 10px;
-}
+
 
 
 // THREE COLUMNS W/NAV

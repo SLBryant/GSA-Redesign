@@ -44,6 +44,7 @@ GSA.navigations = new function(){
             if ($(item).parent().parent()[0] === this && (!$(item).parent().dataSM('sub') || !$(item).parent().dataSM('sub').is(':visible')))
                 $(this).smartmenus('menuHideAll');
         });
+
     }
 
 };

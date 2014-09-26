@@ -1,3 +1,16 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: $gsaBodyFont;
+}
+.page-content {
+  padding: 160px 0;
+}
+.left-align-image {
+  margin-right: 10px;
+}
+
 .search-input {
   @extend %search-input;
 }
@@ -41,4 +54,8 @@ address {
 
 .gsa-btn {
   @extend %buttons;
+}
+*:active {
+  outline: 0;
+  border: 0;
 }
