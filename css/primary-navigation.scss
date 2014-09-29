@@ -79,11 +79,6 @@
         text-align:center;
         width: 15.5%;
         position: static;
-        @include tablets {
-          width: 100%;
-          text-align: left;
-          position: relative;
-        }
         &:last-child {
           width: 7%;
           background: $gsaLightBlue;
@@ -101,12 +96,21 @@
         }
         > a {
           padding: 0;
+          padding-top: 47px;
+          padding-bottom: 47px;
           @include font-size(16px);
           text-transform: uppercase;
           color: $navItemColor;
           border-right: 1px solid #c8c8c8;
+            @include large-desktops {
+              @include font-size(13px);
+              padding-top: 37px;
+              padding-bottom: 37px;
+            }
             @include desktops {
               @include font-size(13px);
+              padding-top: 26px;
+              padding-bottom: 26px;
             }
             @include tablets {
               padding: 6px 5px;
@@ -114,6 +118,16 @@
             }
             &:last-child {
               border-right: 0;
+              padding-top:44.5px;
+              padding-bottom: 44.5px;
+                @include large-desktops {
+                  padding-top: 34.5px;
+                  padding-bottom: 34.5px;
+                }
+                @include desktops {
+                  padding-top: 23.5px;
+                  padding-bottom: 23.5px;
+                }
             }
             .sub-arrow {
               display: none;
@@ -122,6 +136,10 @@
               color: #fff;
               @include font-size(25px);
               margin-top: -5px;
+              @include desktops {
+                @include font-size(20px);
+                margin-top: 0;
+              }
             }
           &:hover, &:active {
             background: none;

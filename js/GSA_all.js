@@ -72,26 +72,6 @@ GSA.rotatingFeatureBlock = new function(){
             });
         });
     };
-
-    this.homePage = function() {
-        homePageElement.slidesjs({
-            width: 500,
-            height: 300,
-            play: {
-                active: false,
-                effect: "fade",
-                interval: 4000,
-                auto: true,
-                pauseOnHover: false,
-                restartDelay: 2500
-            },
-            navigation: {
-                active: false
-            },
-            auto : 4000
-        });
-    };
-
 };
 GSA.tabs = new function(){
     this.subSectionTabs = function() {
@@ -180,7 +160,6 @@ GSA.tabs = new function(){
 $(function() {
 
     GSA.rotatingFeatureBlock.slideJS();
-    GSA.rotatingFeatureBlock.homePage();
     GSA.navigations.searchToggle();
     GSA.navigations.navGraphic();
     GSA.navigations.accordionNav();
@@ -193,12 +172,10 @@ $(function() {
         GSA.tabs.activateFirstTab();
     }
 
+
 });
-$(window).load(function() {
-    if($(window).width() > 768) {
-        GSA.navigations.navAlign();
-    }
-});
+
+
 
 // vertical alignment plugin
 jQuery.fn.verticalAlign = function () {

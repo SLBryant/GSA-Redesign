@@ -288,11 +288,6 @@ address {
       text-align: center;
       width: 15.5%;
       position: static; }
-      @media only screen and (max-width: 768px) {
-        .primary-nav ul#main-nav > li {
-          width: 100%;
-          text-align: left;
-          position: relative; } }
       .primary-nav ul#main-nav > li:last-child {
         width: 7%;
         background: #8fc7ea; }
@@ -305,21 +300,41 @@ address {
         background: #d1c8b6; }
       .primary-nav ul#main-nav > li > a {
         padding: 0;
+        padding-top: 47px;
+        padding-bottom: 47px;
         font-size: 16px;
         font-size: 1rem;
         text-transform: uppercase;
         color: #333333;
         border-right: 1px solid #c8c8c8; }
+        @media only screen and (max-width: 1200px) {
+          .primary-nav ul#main-nav > li > a {
+            font-size: 13px;
+            font-size: 0.8125rem;
+            padding-top: 37px;
+            padding-bottom: 37px; } }
         @media only screen and (max-width: 992px) {
           .primary-nav ul#main-nav > li > a {
             font-size: 13px;
-            font-size: 0.8125rem; } }
+            font-size: 0.8125rem;
+            padding-top: 26px;
+            padding-bottom: 26px; } }
         @media only screen and (max-width: 768px) {
           .primary-nav ul#main-nav > li > a {
             padding: 6px 5px;
             border-right: 0; } }
         .primary-nav ul#main-nav > li > a:last-child {
-          border-right: 0; }
+          border-right: 0;
+          padding-top: 44.5px;
+          padding-bottom: 44.5px; }
+          @media only screen and (max-width: 1200px) {
+            .primary-nav ul#main-nav > li > a:last-child {
+              padding-top: 34.5px;
+              padding-bottom: 34.5px; } }
+          @media only screen and (max-width: 992px) {
+            .primary-nav ul#main-nav > li > a:last-child {
+              padding-top: 23.5px;
+              padding-bottom: 23.5px; } }
         .primary-nav ul#main-nav > li > a .sub-arrow {
           display: none; }
         .primary-nav ul#main-nav > li > a i {
@@ -327,6 +342,11 @@ address {
           font-size: 25px;
           font-size: 1.5625rem;
           margin-top: -5px; }
+          @media only screen and (max-width: 992px) {
+            .primary-nav ul#main-nav > li > a i {
+              font-size: 20px;
+              font-size: 1.25rem;
+              margin-top: 0; } }
         .primary-nav ul#main-nav > li > a:hover, .primary-nav ul#main-nav > li > a:active {
           background: none; }
       .primary-nav ul#main-nav > li > .dropdown-menu {
@@ -886,6 +906,9 @@ address {
 
 #home {
   background-image: url(../images/home-bg.jpg); }
+
+#home_1 {
+  background-image: url(../images/home_1.jpg); }
 
 #travel {
   background-image: url(../images/travel-bg.jpg); }
