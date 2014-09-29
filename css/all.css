@@ -531,7 +531,9 @@ address {
         color: #333333; }
 
 #mobile-menu {
-  border-bottom: 1px solid #777; }
+  -webkit-box-shadow: 2px 5px 5px -5px #333333;
+  -moz-box-shadow: 2px 5px 5px -5px #333333;
+  box-shadow: 2px 5px 5px -5px #333333; }
   #mobile-menu .navbar-brand {
     padding: 0;
     width: 60px;

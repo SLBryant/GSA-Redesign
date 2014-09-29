@@ -1,5 +1,5 @@
 #mobile-menu {
-  border-bottom: 1px solid #777;
+  @include box-shadow(2px 5px 5px -5px, #333);
     .navbar-brand {
       padding: 0;
       width: 60px;
