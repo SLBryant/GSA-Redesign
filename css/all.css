@@ -167,7 +167,10 @@ body {
   font-family: arial, sans-serif; }
 
 .page-content {
-  padding: 160px 0; }
+  padding: 180px 0; }
+  @media only screen and (max-width: 768px) {
+    .page-content {
+      padding-top: 60px; } }
 
 .left-align-image {
   margin-right: 10px; }
@@ -215,6 +218,11 @@ address {
 *:active {
   outline: 0;
   border: 0; }
+
+@media only screen and (max-width: 768px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0; } }
 
 #skip a {
   position: absolute;
@@ -822,13 +830,20 @@ address {
         background: #eaeaea; }
 
 #sidebar-nav-wrapper {
-  max-width: 300px; }
+  max-width: 300px;
+  top: 150px; }
   @media only screen and (max-width: 1200px) {
     #sidebar-nav-wrapper {
       max-width: 250px; } }
   @media only screen and (max-width: 992px) {
     #sidebar-nav-wrapper {
       max-width: 195px; } }
+  @media only screen and (max-width: 768px) {
+    #sidebar-nav-wrapper {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin: 0; } }
 
 .sidebar-accordion-nav {
   background: #d1c8b6;
@@ -838,11 +853,20 @@ address {
     position: relative;
     float: none;
     list-style: none; }
+    @media only screen and (max-width: 768px) {
+      .sidebar-accordion-nav > li {
+        display: none; } }
+    .sidebar-accordion-nav > li:first-child {
+      background: #8fc7ea;
+      display: block !important; }
     .sidebar-accordion-nav > li a {
       color: #333333;
       padding: 5px 10px 5px 20px;
       display: block;
       white-space: normal; }
+      @media only screen and (max-width: 768px) {
+        .sidebar-accordion-nav > li a {
+          padding: 10px 10px 10px 20px; } }
       .sidebar-accordion-nav > li a span {
         text-indent: -50000px;
         color: #d1c8b6;
@@ -853,6 +877,17 @@ address {
         top: 0; }
       .sidebar-accordion-nav > li a.highlighted > span {
         background: url(../images/open-accordion-arrow.png) no-repeat 0 0; }
+    .sidebar-accordion-nav > li #sidebar-pulldown {
+      position: absolute;
+      right: 0;
+      top: 8px;
+      background: none;
+      outline: 0;
+      border: 0;
+      border-left: 1px solid #333;
+      font-size: 20px;
+      padding: 0 20px;
+      color: #333; }
     .sidebar-accordion-nav > li ul {
       display: none;
       position: static !important;
@@ -865,6 +900,10 @@ address {
       max-width: none;
       padding: 0;
       background: #efeadf; }
+      @media only screen and (max-width: 768px) {
+        .sidebar-accordion-nav > li ul {
+          width: 100% !important;
+          max-width: 100% !important; } }
       .sidebar-accordion-nav > li ul li {
         list-style: none; }
         .sidebar-accordion-nav > li ul li ul {

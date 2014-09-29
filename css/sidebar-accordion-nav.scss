@@ -1,11 +1,18 @@
 #sidebar-nav-wrapper {
   max-width: 300px;
+  top: 150px;
     @include large-desktops {
       max-width: 250px;
     }
-  @include desktops {
-    max-width: 195px;
-  }
+    @include desktops {
+      max-width: 195px;
+    }
+    @include tablets {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+    }
 }
 .sidebar-accordion-nav {
   background: $gsaBeige;
@@ -15,11 +22,21 @@
       position:relative;
       float:none;
       list-style: none;
+        @include tablets {
+          display: none;
+        }
+        &:first-child {
+          background: $gsaLightBlue;
+          display: block!important;
+        }
         a {
           color: $navItemColor;
           padding: 5px 10px 5px 20px;
           display:block;
           white-space:normal;
+            @include tablets {
+              padding: 10px 10px 10px 20px;
+            }
             span {
               text-indent: -50000px;
               color: $gsaBeige;
@@ -36,6 +53,18 @@
               }
             }
         }
+        #sidebar-pulldown {
+          position: absolute;
+          right: 0;
+          top: 8px;
+          background: none;
+          outline: 0;
+          border: 0;
+          border-left: 1px solid #333;
+          font-size: 20px;
+          padding: 0 20px;
+          color: #333;
+        }
         ul{
           display:none;
           position:static !important;
@@ -48,6 +77,10 @@
           max-width:none;
           padding: 0;
           background: $offWhite;
+            @include tablets {
+              width:100%!important;
+              max-width: 100%!important;
+            }
             li {
               list-style: none;
                 ul {
