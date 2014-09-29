@@ -235,6 +235,46 @@
   }
   #main-nav {
     width: 93.4%;
+      > li > a {
+        padding-top: 28.5px;
+        padding-bottom: 28.5px;
+        @include large-desktops {
+          @include font-size(13px);
+          padding-top: 22px;
+          padding-bottom: 22px;
+        }
+        @include desktops {
+          @include font-size(13px);
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        @include tablets {
+          padding: 6px 5px;
+          border-right: 0;
+        }
+        &:last-child {
+          border-right: 0;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          @include large-desktops {
+            padding-top: 18.5px;
+            padding-bottom: 18.5px;
+          }
+          @include desktops {
+            padding-top: 13.5px;
+            padding-bottom: 13.5px;
+          }
+        }
+        i {
+          color: #fff;
+          @include font-size(22px);
+          margin-top: 0;
+          @include desktops {
+            @include font-size(18px);
+            margin-top: 0;
+          }
+        }
+      }
   }
   > nav {
     padding: 0;

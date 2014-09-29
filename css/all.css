@@ -433,6 +433,47 @@ address {
     width: 6.6%; }
   #inner-main-navigation #main-nav {
     width: 93.4%; }
+    #inner-main-navigation #main-nav > li > a {
+      padding-top: 28.5px;
+      padding-bottom: 28.5px; }
+      @media only screen and (max-width: 1200px) {
+        #inner-main-navigation #main-nav > li > a {
+          font-size: 13px;
+          font-size: 0.8125rem;
+          padding-top: 22px;
+          padding-bottom: 22px; } }
+      @media only screen and (max-width: 992px) {
+        #inner-main-navigation #main-nav > li > a {
+          font-size: 13px;
+          font-size: 0.8125rem;
+          padding-top: 15px;
+          padding-bottom: 15px; } }
+      @media only screen and (max-width: 768px) {
+        #inner-main-navigation #main-nav > li > a {
+          padding: 6px 5px;
+          border-right: 0; } }
+      #inner-main-navigation #main-nav > li > a:last-child {
+        border-right: 0;
+        padding-top: 25px;
+        padding-bottom: 25px; }
+        @media only screen and (max-width: 1200px) {
+          #inner-main-navigation #main-nav > li > a:last-child {
+            padding-top: 18.5px;
+            padding-bottom: 18.5px; } }
+        @media only screen and (max-width: 992px) {
+          #inner-main-navigation #main-nav > li > a:last-child {
+            padding-top: 13.5px;
+            padding-bottom: 13.5px; } }
+      #inner-main-navigation #main-nav > li > a i {
+        color: #fff;
+        font-size: 22px;
+        font-size: 1.375rem;
+        margin-top: 0; }
+        @media only screen and (max-width: 992px) {
+          #inner-main-navigation #main-nav > li > a i {
+            font-size: 18px;
+            font-size: 1.125rem;
+            margin-top: 0; } }
   #inner-main-navigation > nav {
     padding: 0;
     -webkit-box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75);
