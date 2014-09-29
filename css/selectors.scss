@@ -26,12 +26,23 @@
 %social-links {
   padding: 10px 0 20px;
   background: $gsaBlue;
+    @include tablets {
+      padding: 5px;
+      margin-bottom: 20px;
+    }
   ul {
     width: 100%;
+      @include tablets {
+        text-align: center;
+      }
       li {
         height: 20px;
         width: 20%;
         overflow: hidden;
+          @include tablets {
+            display: inline-block;
+            width: 15%;
+          }
         a {
           display: block;
           background: url(../images/social-media-sprite.png) no-repeat;

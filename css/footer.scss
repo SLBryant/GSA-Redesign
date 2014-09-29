@@ -44,8 +44,23 @@
           @include font-size(12px);
         }
     }
-    .social-links {
-      @extend %social-links;
+  }
+}
+
+.social-links {
+  @extend %social-links;
+  h5 {
+    @include font-size(17px);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    padding-bottom: 10px;
+    @include large-desktops {
+      @include font-size(15px);
+    }
+    @include desktops {
+      @include font-size(12px);
     }
   }
 }

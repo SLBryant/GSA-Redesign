@@ -1,6 +1,3 @@
-.bucket-styles {
-  @include box-shadow(0,0);
-}
 .bucket {
   margin: 0 0 20px 0;
   article {
@@ -17,8 +14,7 @@
           bottom: 0;
         }
         @include tablets {
-          bottom: 10px;
-          width: 73%
+          right: 20px;
         }
         h2 {
           @include font-size(14px);

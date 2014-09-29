@@ -1,4 +1,4 @@
-<nav id="breadcrumbs">
+<nav id="breadcrumbs" class="hidden-xs">
     <div class="container">
         <ol class="breadcrumb">
             <li><a href="#">Link</a></li>

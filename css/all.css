@@ -76,27 +76,38 @@
     .search-input button span {
       color: #fff; }
 
-#footer .social-links-block .social-links {
+.social-links {
   padding: 10px 0 20px;
   background: #27328b; }
-  #footer .social-links-block .social-links ul {
+  @media only screen and (max-width: 768px) {
+    .social-links {
+      padding: 5px;
+      margin-bottom: 20px; } }
+  .social-links ul {
     width: 100%; }
-    #footer .social-links-block .social-links ul li {
+    @media only screen and (max-width: 768px) {
+      .social-links ul {
+        text-align: center; } }
+    .social-links ul li {
       height: 20px;
       width: 20%;
       overflow: hidden; }
-      #footer .social-links-block .social-links ul li a {
+      @media only screen and (max-width: 768px) {
+        .social-links ul li {
+          display: inline-block;
+          width: 15%; } }
+      .social-links ul li a {
         display: block;
         background: url(../images/social-media-sprite.png) no-repeat; }
-    #footer .social-links-block .social-links ul .facebook-logo a {
+    .social-links ul .facebook-logo a {
       background-position: 50% 0; }
-    #footer .social-links-block .social-links ul .twitter-logo a {
+    .social-links ul .twitter-logo a {
       background-position: 50% -38px; }
-    #footer .social-links-block .social-links ul .yt-logo a {
+    .social-links ul .yt-logo a {
       background-position: 50% -69px; }
-    #footer .social-links-block .social-links ul .rss-logo a {
+    .social-links ul .rss-logo a {
       background-position: 50% -101px; }
-    #footer .social-links-block .social-links ul .blog-logo a {
+    .social-links ul .blog-logo a {
       background-position: 50% -131px; }
 
 .gsa-btn {
@@ -407,6 +418,15 @@ address {
     -webkit-box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75);
     box-shadow: 0px 5px 5px -5px rgba(50, 50, 50, 0.75); }
+    @media only screen and (max-width: 1200px) {
+      #inner-main-navigation > nav {
+        width: 970px; } }
+    @media only screen and (max-width: 992px) {
+      #inner-main-navigation > nav {
+        width: 760px; } }
+    @media only screen and (max-width: 768px) {
+      #inner-main-navigation > nav {
+        width: 1170px; } }
 
 #main-nav-search-field {
   width: 33%;
@@ -426,12 +446,12 @@ address {
   left: 0;
   right: 0;
   z-index: 99; }
-  @media only screen and (max-width: 992px) {
-    #breadcrumbs {
-      margin-top: 30px; } }
   @media only screen and (max-width: 1200px) {
     #breadcrumbs {
-      margin-top: 0px; } }
+      margin-top: 63px; } }
+  @media only screen and (max-width: 992px) {
+    #breadcrumbs {
+      margin-top: 50px; } }
   #breadcrumbs ol {
     padding: 5px 0;
     margin: 0; }
@@ -741,6 +761,12 @@ address {
 
 #sidebar-nav-wrapper {
   max-width: 300px; }
+  @media only screen and (max-width: 1200px) {
+    #sidebar-nav-wrapper {
+      max-width: 250px; } }
+  @media only screen and (max-width: 992px) {
+    #sidebar-nav-wrapper {
+      max-width: 195px; } }
 
 .sidebar-accordion-nav {
   background: #d1c8b6;
@@ -910,7 +936,7 @@ address {
     .overview-page .jumbotron li {
       line-height: 1.2; }
       .overview-page .jumbotron li .jump-link {
-
+        text-transform: uppercase;
         font-size: 16px;
         font-size: 1rem;
         font-weight: bold; }
@@ -946,6 +972,13 @@ address {
   box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   min-height: 150px;
   overflow: hidden; }
+  #sub-section.bucket-styles {
+    -webkit-box-shadow: 0 0;
+    -moz-box-shadow: 0 0;
+    box-shadow: 0 0; }
+    @media only screen and (max-width: 768px) {
+      #sub-section.bucket-styles {
+        display: block; } }
   #sub-section.tabs-section {
     background: #fff; }
   #sub-section .tab-navigation {
@@ -1242,11 +1275,6 @@ table.dataTable thead td:active {
   *margin-top: -1px;
   -webkit-overflow-scrolling: touch; }
 
-.bucket-styles {
-  -webkit-box-shadow: 0 0;
-  -moz-box-shadow: 0 0;
-  box-shadow: 0 0; }
-
 .bucket {
   margin: 0 0 20px 0; }
   .bucket article {
@@ -1266,8 +1294,7 @@ table.dataTable thead td:active {
           bottom: 0; } }
       @media only screen and (max-width: 768px) {
         .bucket article hgroup {
-          bottom: 10px;
-          width: 73%; } }
+          right: 20px; } }
       .bucket article hgroup h2 {
         font-size: 14px;
         font-size: 0.875rem;
@@ -1379,6 +1406,23 @@ table.dataTable thead td:active {
         #footer .social-links-block h5 {
           font-size: 12px;
           font-size: 0.75rem; } }
+
+.social-links h5 {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  padding-bottom: 10px; }
+  @media only screen and (max-width: 1200px) {
+    .social-links h5 {
+      font-size: 15px;
+      font-size: 0.9375rem; } }
+  @media only screen and (max-width: 992px) {
+    .social-links h5 {
+      font-size: 12px;
+      font-size: 0.75rem; } }
 
 #main-column h1 {
   text-transform: uppercase; }

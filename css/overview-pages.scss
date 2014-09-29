@@ -52,9 +52,17 @@
   @include flexAlignItems(center);
   @include flexwrap(no-wrap);
   @include justifyContent(center);
-  @include box-shadow(0px 1px 8px 0px ,rgba(50, 50, 50, 0.75));
+  @include box-shadow(0px 1px 8px 0px, rgba(50, 50, 50, 0.75));
   min-height: 150px;
   overflow: hidden;
+
+  // BUCKETS
+  &.bucket-styles {
+    @include box-shadow(0,0);
+      @include tablets {
+        display: block;
+      }
+  }
 
   // TABS
   &.tabs-section {

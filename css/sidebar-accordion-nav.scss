@@ -1,5 +1,11 @@
 #sidebar-nav-wrapper {
   max-width: 300px;
+    @include large-desktops {
+      max-width: 250px;
+    }
+  @include desktops {
+    max-width: 195px;
+  }
 }
 .sidebar-accordion-nav {
   background: $gsaBeige;

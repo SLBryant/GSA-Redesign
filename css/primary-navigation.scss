@@ -221,6 +221,15 @@
   > nav {
     padding: 0;
     @include box-shadow(0px 5px 5px -5px , rgba(50, 50, 50, 0.75));
+      @include large-desktops {
+        width: 970px;
+      }
+      @include desktops {
+        width: 760px;
+      }
+      @include tablets {
+        width: 1170px
+      }
   }
 }
 
@@ -245,11 +254,11 @@
   left: 0;
   right: 0;
   z-index: 99;
-    @include desktops {
-      margin-top: 30px;
-    }
     @include large-desktops {
-      margin-top: 0px;
+      margin-top: 63px;
+    }
+    @include desktops {
+      margin-top: 50px;
     }
     ol {
       padding: 5px 0;

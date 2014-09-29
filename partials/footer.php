@@ -1,6 +1,16 @@
 <div class="clearfix"></div>
 <footer id="footer">
     <div class="container">
+        <div class="social-links visible-xs">
+            <h5>Stay Connected <span class="icon-arrow-right"></span></h5>
+            <ul class="nav navbar-nav">
+                <li class="facebook-logo"><a href="#"></a></li>
+                <li class="twitter-logo"><a href="#"></a></li>
+                <li class="yt-logo"><a href="#"></a></li>
+                <li class="rss-logo"><a href="#"></a></li>
+                <li class="blog-logo"><a href="#"></a></li>
+            </ul>
+        </div>
         <ul class="col-sm-3 list-unstyled">
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
