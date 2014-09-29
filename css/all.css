@@ -721,8 +721,7 @@ address {
 
 .rotating-feature-block {
   background: #efeadf;
-  position: relative;
-  /* SLIDESHOW ISOTOPES */ }
+  position: relative; }
   .rotating-feature-block .row {
     margin: 0; }
     .rotating-feature-block .row figure {
@@ -732,32 +731,34 @@ address {
       margin-top: 30px; }
     .rotating-feature-block .row a {
       text-transform: uppercase; }
-  .rotating-feature-block .slidesjs-pagination {
-    position: absolute;
-    bottom: 20px;
-    left: 44%;
-    z-index: 9999;
-    padding-left: 5px; }
-    .rotating-feature-block .slidesjs-pagination li {
-      float: left;
+
+/* SLIDESHOW ISOTOPES */
+.slidesjs-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 9999;
+  padding-left: 5px; }
+  .slidesjs-pagination li {
+    float: left;
+    display: block;
+    margin-right: 3px;
+    background: #fff;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden; }
+    .slidesjs-pagination li a {
       display: block;
-      margin-right: 3px;
-      background: #fff;
-      text-indent: -9999px;
-      width: 15px;
-      height: 15px;
-      border: 1px solid #999;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -webkit-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-      overflow: hidden; }
-      .rotating-feature-block .slidesjs-pagination li a {
-        display: block;
-        padding-bottom: 0; }
-        .rotating-feature-block .slidesjs-pagination li a:hover, .rotating-feature-block .slidesjs-pagination li a.active {
-          background: #eaeaea; }
+      padding-bottom: 0; }
+      .slidesjs-pagination li a:hover, .slidesjs-pagination li a.active {
+        background: #eaeaea; }
 
 #sidebar-nav-wrapper {
   max-width: 300px; }
@@ -897,6 +898,9 @@ address {
 
 #real-estate {
   background-image: url(../images/real-estate.jpg); }
+
+#rotator {
+  position: relative; }
 
 .overview-page {
   -webkit-background-size: cover;

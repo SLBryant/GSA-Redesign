@@ -50,6 +50,7 @@ GSA.navigations = new function(){
 
 GSA.rotatingFeatureBlock = new function(){
     var rfbElement = $('.rotating-feature-block');
+    var homePageElement = $('#rotator');
 
     this.slideJS = function() {
         rfbElement.each(function() {
@@ -70,7 +71,27 @@ GSA.rotatingFeatureBlock = new function(){
                 auto : 4000
             });
         });
-    }
+    };
+
+    this.homePage = function() {
+        homePageElement.slidesjs({
+            width: 500,
+            height: 300,
+            play: {
+                active: false,
+                effect: "fade",
+                interval: 4000,
+                auto: true,
+                pauseOnHover: false,
+                restartDelay: 2500
+            },
+            navigation: {
+                active: false
+            },
+            auto : 4000
+        });
+    };
+
 };
 GSA.tabs = new function(){
     this.subSectionTabs = function() {
@@ -159,6 +180,7 @@ GSA.tabs = new function(){
 $(function() {
 
     GSA.rotatingFeatureBlock.slideJS();
+    GSA.rotatingFeatureBlock.homePage();
     GSA.navigations.searchToggle();
     GSA.navigations.navGraphic();
     GSA.navigations.accordionNav();
