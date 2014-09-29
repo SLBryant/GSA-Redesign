@@ -847,7 +847,8 @@ address {
 
 .sidebar-accordion-nav {
   background: #d1c8b6;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-bottom: 0; }
   .sidebar-accordion-nav > li {
     border-bottom: 1px solid #eaeaea;
     position: relative;
