@@ -57,6 +57,15 @@ GSA.navigations = new function(){
 
 };
 
+GSA.homepage = new function() {
+    this.fullScreenRotator = function() {
+        $('#home').backstretch([
+            "images/home-bg.jpg",
+            "images/home_1.jpg"
+        ], {duration: 6000, fade: 750});
+    };
+};
+
 GSA.rotatingFeatureBlock = new function(){
     var rfbElement = $('.rotating-feature-block');
     var homePageElement = $('#rotator');
@@ -147,7 +156,7 @@ GSA.imageCaching = new function(){
             });
         }
 
-        $(["images/home-bg.jpg", "images/real-estate.jpg", "images/technology.jpg", "images/travel-bg.jpg", "images/shop-bg.jpg", "images/transportation-bg.jpg"]).preload();
+        $(["images/home-bg.jpg", "images/home_1.jpg", "images/real-estate.jpg", "images/technology.jpg", "images/travel-bg.jpg", "images/shop-bg.jpg", "images/transportation-bg.jpg"]).preload();
     }
 
 };
@@ -163,6 +172,12 @@ GSA.tabs = new function(){
     this.activateFirstTab = function() {
         $('.tab-navigation ul li').eq(0).addClass('active');
     };
+
+    this.faqTabs = function() {
+        $( '.menuheader .toggle-switch' ).on( "click", function() {
+            $(this).toggleClass('icon-arrow-right icon-arrow-down');
+        });
+    }
 };
 
 // Doc Ready -------
@@ -174,6 +189,8 @@ $(function() {
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
+    GSA.tabs.faqTabs();
+    GSA.homepage.fullScreenRotator();
 
 
     if($(window).width() > 768) {
@@ -183,11 +200,6 @@ $(function() {
     if($(window).width() <= 768) {
         GSA.navigations.accordionNavMobile();
     }
-
-    $( '.menuheader .toggle-switch' ).on( "click", function() {
-        $(this).toggleClass('icon-arrow-right icon-arrow-down');
-    });
-
 
 });
 
