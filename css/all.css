@@ -216,7 +216,7 @@ address {
   font-weight: bold; }
 
 *:active {
-  outline: 0;
+  outline: none;
   border: 0; }
 
 @media only screen and (max-width: 768px) {
@@ -257,6 +257,7 @@ address {
     -moz-box-shadow: 0px 5px 7px -5px #333333;
     box-shadow: 0px 5px 7px -5px #333333;
     border: 0;
+    width: 1170px;
     font-family: "Montserrat", sans-serif; }
     @media only screen and (max-width: 1200px) {
       .primary-nav nav {
@@ -264,9 +265,6 @@ address {
     @media only screen and (max-width: 992px) {
       .primary-nav nav {
         width: 720px; } }
-    @media only screen and (max-width: 768px) {
-      .primary-nav nav {
-        width: 1170px; } }
     .primary-nav nav .navbar-header {
       width: 10%; }
       @media only screen and (max-width: 768px) {
@@ -800,16 +798,16 @@ address {
       padding: 0; }
     .rotating-feature-block .row h4 {
       text-transform: uppercase;
-      margin-top: 30px; }
+      margin-top: 15px; }
     .rotating-feature-block .row a {
       text-transform: uppercase; }
 
 /* SLIDESHOW ISOTOPES */
 .slidesjs-pagination {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 9999;
+  bottom: 10px;
+  left: 52%;
+  z-index: 9;
   padding-left: 5px; }
   .slidesjs-pagination li {
     float: left;
@@ -1450,8 +1448,15 @@ table.dataTable thead td:active {
     padding: 0; }
   .content-well article {
     padding: 35px 35px 0; }
+    @media only screen and (max-width: 1200px) {
+      .content-well article {
+        padding-top: 0; } }
     .content-well article h4 {
       text-transform: uppercase; }
+      @media only screen and (max-width: 1200px) {
+        .content-well article h4 {
+          font-size: 16px;
+          font-size: 1rem; } }
     .content-well article a {
       display: block;
       text-transform: uppercase; }

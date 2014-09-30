@@ -1,7 +1,9 @@
 <div class="col-sm-3" id="right-column">
     <div class="sidebar-bucket">
         <small>Share this page:</small>
-        <div id="social-share-placeholder" style="background:#808080;width:100%;height:30px;"></div>
+        <div id="social-share-placeholder">
+            <img class="img-responsive" src="images/social-placeholder.png" alt="Social">
+        </div>
     </div>
     <div class="sidebar-bucket">
         <h4>Contacts</h4>

@@ -65,7 +65,7 @@ GSA.rotatingFeatureBlock = new function(){
         rfbElement.each(function() {
             $(this).slidesjs({
                 width: $(this).width(),
-                height: 230,
+                height: 190,
                 play: {
                     active: false,
                     effect: "fade",

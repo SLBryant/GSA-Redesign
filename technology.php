@@ -13,7 +13,6 @@
                     <p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>
                     <ul class="list-unstyled">
                         <li><a class="jump-link" href="#">Citizen Services & Innovative Technologies <span class="icon-arrow-right"></span></a></li>
-                        <li><a class="jump-link" href="#">Citizen Services & Innovative Technologies <span class="icon-arrow-right"></span></a></li>
                         <li><a class="jump-link" href="#">Fedramp (Cloud Products & Services) <span class="icon-arrow-right"></span></a></li>
                         <li><a class="jump-link" href="#">IT Acquisition Assistance <span class="icon-arrow-right"></span></a></li>
                         <li><a class="jump-link" href="#">Technology & Telecommunications <span class="icon-arrow-right"></span></a></li>
