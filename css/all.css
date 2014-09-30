@@ -503,6 +503,7 @@ address {
   right: 1px;
   bottom: -80px;
   padding: 20px 40px 5px;
+  font-family: arial, sans-serif;
   background: #8fc7ea; }
   @media only screen and (max-width: 992px) {
     #main-nav-search-field {
@@ -862,6 +863,9 @@ address {
     .sidebar-accordion-nav > li:first-child {
       background: #8fc7ea;
       display: block !important; }
+      @media only screen and (max-width: 768px) {
+        .sidebar-accordion-nav > li:first-child {
+          border-bottom: 0; } }
     .sidebar-accordion-nav > li a {
       color: #333333;
       padding: 5px 10px 5px 20px;
@@ -949,6 +953,8 @@ address {
   padding: 20px 13px; }
 .full-width-tabs-block .tab-content {
   border: 1px solid #d1c8b6; }
+  .full-width-tabs-block .tab-content .toggle-switch {
+    cursor: pointer; }
 
 .menuheader {
   border-top: 1px solid #d1c8b6;
@@ -1139,24 +1145,33 @@ address {
             padding-right: 0;
             margin-top: 5px; } }
 
-.landing-page-header {
+#landing-page .landing-page-header {
   color: #fff;
-  min-height: 300px; }
-  .landing-page-header hgroup {
+  min-height: 300px;
+  margin-top: 100px; }
+  @media only screen and (max-width: 1200px) {
+    #landing-page .landing-page-header {
+      margin-top: 93px; } }
+  @media only screen and (max-width: 992px) {
+    #landing-page .landing-page-header {
+      margin-top: 80px; } }
+  @media only screen and (max-width: 768px) {
+    #landing-page .landing-page-header {
+      margin-top: 0; } }
+  #landing-page .landing-page-header hgroup {
     padding: 75px 0 100px; }
-    .landing-page-header hgroup h1 {
+    #landing-page .landing-page-header hgroup h1 {
       text-shadow: 1px 1px 1px #000;
       text-transform: uppercase; }
-    .landing-page-header hgroup p {
+    #landing-page .landing-page-header hgroup p {
       padding-left: 0; }
-
-#sustainability {
+#landing-page .page-content {
+  padding-top: 30px; }
+#landing-page #sustainability {
   background: url(../images/sustainability-bg.jpg) no-repeat 50% 0; }
-
-#telework {
+#landing-page #telework {
   background: url(../images/telework-bg.jpg) no-repeat 50% 0; }
-
-#transportation {
+#landing-page #transportation {
   background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }
 
 /*

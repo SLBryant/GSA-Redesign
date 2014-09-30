@@ -14,19 +14,19 @@
             </header>
             <!-- start open-close -->
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.
             </div>
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.
             </div>
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.
@@ -39,7 +39,7 @@
             </header>
             <!-- start open-close -->
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.
@@ -52,13 +52,13 @@
             </header>
             <!-- start open-close -->
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.
             </div>
             <div class="menuheader expandable">
-                <span class="glyphicon glyphicon-chevron-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.

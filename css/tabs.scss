@@ -41,6 +41,9 @@
     }
     .tab-content {
       border: 1px solid $gsaBeige;
+        .toggle-switch {
+          cursor: pointer;
+        }
     }
 
 }

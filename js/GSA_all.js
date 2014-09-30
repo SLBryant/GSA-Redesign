@@ -180,15 +180,16 @@ $(function() {
         GSA.tabs.navAlign();
         GSA.tabs.activateFirstTab();
     }
-
-    if($(window).width() <768) {
+    if($(window).width() <= 768) {
         GSA.navigations.accordionNavMobile();
     }
 
+    $( '.menuheader .toggle-switch' ).on( "click", function() {
+        $(this).toggleClass('icon-arrow-right icon-arrow-down');
+    });
+
 
 });
-
-
 
 // vertical alignment plugin
 jQuery.fn.verticalAlign = function () {

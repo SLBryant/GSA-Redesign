@@ -29,6 +29,9 @@
         &:first-child {
           background: $gsaLightBlue;
           display: block!important;
+            @include tablets {
+              border-bottom: 0;
+            }
         }
         a {
           color: $navItemColor;
