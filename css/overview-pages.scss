@@ -131,3 +131,22 @@
   }
 }
 
+
+#home-pagination {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    li {
+      width: 15px;
+      height: 15px;
+      float: left;
+      display: block;
+      background-color: #ffffff;
+      @include border-radius(7.5px);
+      margin: 0 3px;
+      cursor: pointer;
+      border: 1px solid $lightGray;
+      @include box-shadow(1px 2px 1px -2px , #333);
+        &.active {background-color: $gsaLightBlue;}
+    }
+}

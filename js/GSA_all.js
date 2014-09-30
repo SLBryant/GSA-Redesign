@@ -61,8 +61,20 @@ GSA.homepage = new function() {
     this.fullScreenRotator = function() {
         $('#home').backstretch([
             "images/home-bg.jpg",
-            "images/home_1.jpg"
+            "images/home_1.jpg",
+            "images/home_2.jpg"
         ], {duration: 6000, fade: 750});
+
+        $(window).on("backstretch.before", function (e, instance, index) {
+            $('#home-pagination li').removeClass('active').eq(index).addClass('active');
+        });
+
+        $('#home-pagination').find('li').click(function (x) {
+            x.preventDefault();
+            $('#home-pagination li').removeClass('active');
+            $(this).addClass('active');
+            $('#home').data('backstretch').show(this.value);
+        });
     };
 };
 

@@ -332,7 +332,7 @@ address {
         .primary-nav ul#main-nav > li > a:last-child {
           border-right: 0;
           padding-top: 46px;
-          padding-bottom: 44.5px; }
+          padding-bottom: 46px; }
           @media only screen and (max-width: 1200px) {
             .primary-nav ul#main-nav > li > a:last-child {
               padding-top: 34.5px;
@@ -1139,6 +1139,28 @@ address {
             right: auto;
             padding-right: 0;
             margin-top: 5px; } }
+
+#home-pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 50%; }
+  #home-pagination li {
+    width: 15px;
+    height: 15px;
+    float: left;
+    display: block;
+    background-color: #ffffff;
+    -webkit-border-radius: 7.5px;
+    -moz-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 1px solid #c9c9c9;
+    -webkit-box-shadow: 1px 2px 1px -2px #333333;
+    -moz-box-shadow: 1px 2px 1px -2px #333333;
+    box-shadow: 1px 2px 1px -2px #333333; }
+    #home-pagination li.active {
+      background-color: #8fc7ea; }
 
 #landing-page .landing-page-header {
   color: #fff;
