@@ -76,6 +76,9 @@ GSA.homepage = new function() {
             $('#home').data('backstretch').show(this.value);
         });
     };
+    this.heightOrientation = function() {
+        $('.overview-page').animate({'min-height' : $(window).height()-50},1);
+    }
 };
 
 GSA.rotatingFeatureBlock = new function(){
@@ -213,7 +216,12 @@ $(function() {
         GSA.navigations.accordionNavMobile();
     }
 
+    $(window).resize(function() {
+        GSA.homepage.heightOrientation();
+    })
+
 });
+
 
 // vertical alignment plugin
 jQuery.fn.verticalAlign = function () {

@@ -4,21 +4,21 @@
 #shop { background-image: url(../images/shop-bg.jpg);}
 #technology { background-image: url(../images/technology.jpg);}
 #real-estate { background-image: url(../images/real-estate.jpg);}
-#rotator {
-  position: relative;
-}
 .overview-page {
   @include coverBG();
+  @include flexbox;
+  @include flexAlignItems(center);
   padding-bottom: 45px;
   padding-top: 150px;
-  min-height: 700px;
-  @include desktops {
-    padding-top: 100px;
-  }
+  min-height: 768px;
+  height: auto;
+  max-height: 1024px;
+    @include desktops {
+      padding-top: 100px;
+    }
   .jumbotron {
     background: none;
-    margin: auto;
-    min-height: 300px;
+    align-self: flex-start;
       h1 {
         @include font-size(38px);
         text-transform: uppercase;
@@ -135,7 +135,7 @@
 #home-pagination {
     position: absolute;
     bottom: 30px;
-    left: 50%;
+    left: 40%;
     li {
       width: 15px;
       height: 15px;

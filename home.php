@@ -12,18 +12,17 @@
                 <ul class="list-unstyled">
                     <li><a class="jump-link" href="#">Explore GSA’s innovation in real estate <span class="icon-arrow-right"></span></a></li>
                 </ul>
+                <div id="home-pagination">
+                    <ul class="list-unstyled">
+                        <li class="active" value="0"></li>
+                        <li value="1"></li>
+                        <li value="2"></li>
+                    </ul>
+                </div>
             </div>
 
             <!-- sub section -->
             <?php include('partials/sub-section-buckets.php'); ?>
-
-            <div id="home-pagination">
-                <ul class="list-unstyled">
-                    <li class="active" value="0"></li>
-                    <li value="1"></li>
-                    <li value="2"></li>
-                </ul>
-            </div>
         </div>
     </section>
 <?php include ('partials/footer.php');?>

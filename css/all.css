@@ -1006,9 +1006,6 @@ address {
 #real-estate {
   background-image: url(../images/real-estate.jpg); }
 
-#rotator {
-  position: relative; }
-
 .overview-page {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1017,16 +1014,27 @@ address {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align-items: center;
+  -moz-box-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
   padding-bottom: 45px;
   padding-top: 150px;
-  min-height: 700px; }
+  min-height: 768px;
+  height: auto;
+  max-height: 1024px; }
   @media only screen and (max-width: 992px) {
     .overview-page {
       padding-top: 100px; } }
   .overview-page .jumbotron {
     background: none;
-    margin: auto;
-    min-height: 300px; }
+    align-self: flex-start; }
     .overview-page .jumbotron h1 {
       font-size: 38px;
       font-size: 2.375rem;
@@ -1143,7 +1151,7 @@ address {
 #home-pagination {
   position: absolute;
   bottom: 30px;
-  left: 50%; }
+  left: 40%; }
   #home-pagination li {
     width: 15px;
     height: 15px;
