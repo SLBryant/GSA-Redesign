@@ -77,7 +77,7 @@ GSA.homepage = new function() {
         });
     };
     this.heightOrientation = function() {
-        $('.overview-page').animate({'min-height' : $(window).height()-50},1);
+        $('.overview-page').animate({'min-height' : $(window).height()-15},1);
     }
 };
 
@@ -198,6 +198,7 @@ GSA.tabs = new function(){
 // Doc Ready -------
 $(function() {
 
+    GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();
     GSA.navigations.navGraphic();
@@ -216,12 +217,10 @@ $(function() {
         GSA.navigations.accordionNavMobile();
     }
 
-    $(window).resize(function() {
-        GSA.homepage.heightOrientation();
-    })
-
 });
-
+$(window).resize(function() {
+    GSA.homepage.heightOrientation();
+})
 
 // vertical alignment plugin
 jQuery.fn.verticalAlign = function () {

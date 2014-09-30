@@ -11,7 +11,7 @@
   padding-bottom: 45px;
   padding-top: 150px;
   min-height: 768px;
-  height: auto;
+  height: inherit;
   max-height: 1024px;
     @include desktops {
       padding-top: 100px;
