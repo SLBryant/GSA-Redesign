@@ -1044,6 +1044,10 @@ address {
         .overview-page .jumbotron h1 {
           font-size: 30px;
           font-size: 1.875rem; } }
+      @media only screen and (max-width: 1200px) {
+        .overview-page .jumbotron h1 {
+          font-size: 25px;
+          font-size: 1.5625rem; } }
     .overview-page .jumbotron p {
       line-height: 1.5;
       font-size: 16px;
@@ -1149,9 +1153,7 @@ address {
             margin-top: 5px; } }
 
 #home-pagination {
-  position: absolute;
-  bottom: 30px;
-  left: 40%; }
+  text-align: center; }
   #home-pagination li {
     width: 15px;
     height: 15px;
@@ -1169,6 +1171,8 @@ address {
     box-shadow: 1px 2px 1px -2px #333333; }
     #home-pagination li.active {
       background-color: #8fc7ea; }
+    #home-pagination li > * {
+      display: none !important; }
 
 #landing-page .landing-page-header {
   color: #fff;

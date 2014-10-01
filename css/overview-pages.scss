@@ -23,9 +23,12 @@
         @include font-size(38px);
         text-transform: uppercase;
         font-weight: 500;
-        @include short-height {
-          @include font-size(30px);
-        }
+          @include short-height {
+            @include font-size(30px);
+          }
+          @include large-desktops {
+            @include font-size(25px);
+          }
       }
       p {
         line-height:1.5;
@@ -133,9 +136,7 @@
 
 
 #home-pagination {
-    position: absolute;
-    bottom: 30px;
-    left: 40%;
+  text-align: center;
     li {
       width: 15px;
       height: 15px;
@@ -148,5 +149,8 @@
       border: 1px solid $lightGray;
       @include box-shadow(1px 2px 1px -2px , #333);
         &.active {background-color: $gsaLightBlue;}
+        > * {
+          display: none!important;
+        }
     }
 }

@@ -58,6 +58,17 @@ GSA.navigations = new function(){
 };
 
 GSA.homepage = new function() {
+    var jumbotron = $('.jumbotron');
+    var jumbotronHeight = jumbotron.outerHeight();
+    var jumbotronWidth = jumbotron.outerWidth();
+    console.log(jumbotronHeight);
+    jumbotron.css({
+        'min-height' : jumbotronHeight,
+        'height' : jumbotronHeight,
+        'min-width' : jumbotronWidth
+    });
+    var itemWrappers = $('#home-pagination li');
+
     this.fullScreenRotator = function() {
         $('#home').backstretch([
             "images/home-bg.jpg",
@@ -66,9 +77,39 @@ GSA.homepage = new function() {
         ], {duration: 6000, fade: 750});
 
         $(window).on("backstretch.before", function (e, instance, index) {
-            $('#home-pagination li').removeClass('active').eq(index).addClass('active');
+            itemWrappers.removeClass('active').eq(index).addClass('active');
+            jumbotron.css({
+                'height' : jumbotronHeight
+            });
+            if(index == 0) {
+                $('#hero-message').html(
+                    '<h1>GSA delivers the best value in real estate, acquisition, and technology services.</h1>'+
+                    '<p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>'+
+                    '<ul class="list-unstyled">'+
+                        '<li><a class="jump-link" href="#">Explore GSA’s innovation in real estate <span class="icon-arrow-right"></span></a></li>'+
+                    '</ul>'
+                );
+            } else if(index == 1) {
+                $('#hero-message').html(
+                    '<h1>In the average lifetime, a person will walk the equivalent of 5 times around the equator.</h1>'+
+                    '<p>By leveraging the purchasing power of the government, GSA offers cost-effective solutions to our partner agencies. The Federal Strategic Sourcing Initiative (FSSI) cuts down on bureaucracy and helps agencies pool their purchases.</p>'+
+                    '<ul class="list-unstyled">'+
+                        '<li><a class="jump-link" href="#">Learn how GSA is transforming acquisition <span class="icon-arrow-right"></span></a></li>'+
+                    '</ul>'
+                );
+            } else if(index == 2) {
+                $('#hero-message').html(
+                    '<h1>Cats sleep 16 to 18 hours per day.</h1>'+
+                    '<p>Meet all federal government IT service needs with a single contract: an ambitious goal. But $16.5 billion and 54 agencies after its inception five years ago, GSA\'s Alliant GWAC provides mission-critical capabilities and great customer service.</p>'+
+                    '<ul class="list-unstyled">'+
+                        '<li><a class="jump-link" href="#">Discover GSA\'s emerging technology offerings <span class="icon-arrow-right"></span></a></li>'+
+                    '</ul>'
+                );
+            }
+
         });
 
+        //
         $('#home-pagination').find('li').click(function (x) {
             x.preventDefault();
             $('#home-pagination li').removeClass('active');
