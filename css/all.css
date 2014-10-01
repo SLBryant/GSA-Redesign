@@ -252,13 +252,16 @@ address {
   right: 15px;
   top: 25px; }
   .primary-nav nav {
-    background: rgba(255, 255, 255, 0.9);
+    background: none;
     -webkit-box-shadow: 0px 5px 7px -5px #333333;
     -moz-box-shadow: 0px 5px 7px -5px #333333;
     box-shadow: 0px 5px 7px -5px #333333;
     border: 0;
     width: 1170px;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
     @media only screen and (max-width: 1200px) {
       .primary-nav nav {
         width: 940px; } }
@@ -286,11 +289,14 @@ address {
         .primary-nav nav .navbar-nav {
           margin: 0; } }
   .primary-nav ul#main-nav {
-    width: 90%; }
+    width: 90%;
+    background: none; }
     @media only screen and (max-width: 768px) {
       .primary-nav ul#main-nav {
         width: 100%; } }
     .primary-nav ul#main-nav > li {
+      background: #fff;
+      background: rgba(255, 255, 255, 0.9);
       text-align: center;
       width: 15.5%;
       position: static; }
@@ -306,8 +312,8 @@ address {
         background: #d1c8b6; }
       .primary-nav ul#main-nav > li > a {
         padding: 0;
-        padding-top: 47px;
-        padding-bottom: 47px;
+        padding-top: 48px;
+        padding-bottom: 48px;
         font-size: 16px;
         font-size: 1rem;
         text-transform: uppercase;

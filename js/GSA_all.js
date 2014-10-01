@@ -2,6 +2,19 @@ if(!GSA){
     var GSA = {}
 }
 
+GSA.imageCaching = new function(){
+    this.cache = function() {
+        $.fn.preload = function() {
+            this.each(function(){
+                $('<img/>')[0].src = this;
+            });
+        }
+
+        $(["images/home-bg.jpg", "images/home_1.jpg", "images/home_2.jpg", "images/real-estate.jpg", "images/technology.jpg", "images/travel-bg.jpg", "images/shop-bg.jpg", "images/transportation-bg.jpg"]).preload();
+    }
+
+};
+
 GSA.navigations = new function(){
     var navigation = $('.primary-nav');
     var searchButton = $('#main-nav-search-button');
@@ -74,7 +87,7 @@ GSA.homepage = new function() {
             "images/home-bg.jpg",
             "images/home_1.jpg",
             "images/home_2.jpg"
-        ], {duration: 6000, fade: 750});
+        ], {duration: 6000, fade: 500});
 
         $(window).on("backstretch.before", function (e, instance, index) {
             itemWrappers.removeClass('active').eq(index).addClass('active');
@@ -204,18 +217,6 @@ GSA.prettyTables = new function(){
     }
 };
 
-GSA.imageCaching = new function(){
-    this.cache = function() {
-        $.fn.preload = function() {
-            this.each(function(){
-                $('<img/>')[0].src = this;
-            });
-        }
-
-        $(["images/home-bg.jpg", "images/home_1.jpg", "images/real-estate.jpg", "images/technology.jpg", "images/travel-bg.jpg", "images/shop-bg.jpg", "images/transportation-bg.jpg"]).preload();
-    }
-
-};
 GSA.tabs = new function(){
     var subSectionHeight = $('#sub-section').height();
     var numOfItems = $('.tab-navigation ul li').length;
