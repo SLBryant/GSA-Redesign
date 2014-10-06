@@ -68,6 +68,8 @@ address {
     margin-left: 0;
     margin-right: 0;
   }
-
 }
+
+.affix { position: fixed; top: 40px; bottom: auto; }
+.affix-bottom { position: absolute; top: 40px; bottom: auto; }
 

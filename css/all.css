@@ -224,6 +224,16 @@ address {
     margin-left: 0;
     margin-right: 0; } }
 
+.affix {
+  position: fixed;
+  top: 40px;
+  bottom: auto; }
+
+.affix-bottom {
+  position: absolute;
+  top: 40px;
+  bottom: auto; }
+
 #skip a {
   position: absolute;
   left: auto;
@@ -838,7 +848,8 @@ address {
 
 #sidebar-nav-wrapper {
   max-width: 300px;
-  top: 150px; }
+  top: 150px;
+  min-height: 100px; }
   @media only screen and (max-width: 1200px) {
     #sidebar-nav-wrapper {
       max-width: 250px; } }
@@ -855,7 +866,8 @@ address {
 .sidebar-accordion-nav {
   background: #d1c8b6;
   padding-left: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  position: relative; }
   .sidebar-accordion-nav > li {
     border-bottom: 1px solid #eaeaea;
     position: relative;

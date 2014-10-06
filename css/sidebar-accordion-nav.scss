@@ -1,6 +1,7 @@
 #sidebar-nav-wrapper {
   max-width: 300px;
   top: 150px;
+  min-height: 100px;
     @include large-desktops {
       max-width: 250px;
     }
@@ -18,6 +19,7 @@
   background: $gsaBeige;
   padding-left: 0;
   margin-bottom: 0;
+  position: relative;
     > li {
       border-bottom: 1px solid #eaeaea;
       position:relative;
