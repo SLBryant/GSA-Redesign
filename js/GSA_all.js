@@ -74,7 +74,6 @@ GSA.homepage = new function() {
     var jumbotron = $('.jumbotron');
     var jumbotronHeight = jumbotron.outerHeight();
     var jumbotronWidth = jumbotron.outerWidth();
-    console.log(jumbotronHeight);
     jumbotron.css({
         'min-height' : jumbotronHeight,
         'height' : jumbotronHeight,
