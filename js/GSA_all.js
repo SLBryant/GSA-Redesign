@@ -159,12 +159,6 @@ GSA.rotatingFeatureBlock = new function(){
         });
     };
 };
-GSA.tabs = new function(){
-    this.subSectionTabs = function() {
-        var heightOfNav = $('.tab-navigation').height();
-        $('.tab-content').css({'max-height': heightOfNav});
-    }
-};
 
 GSA.prettyTables = new function(){
     this.operator = function() {
@@ -219,6 +213,7 @@ GSA.prettyTables = new function(){
 GSA.tabs = new function(){
     var subSectionHeight = $('#sub-section').height();
     var numOfItems = $('.tab-navigation ul li').length;
+    var toggle = $('.toggle-switch');
     this.navAlign = function() {
         setTimeout(function() {
             $('.tab-navigation ul li').height(subSectionHeight / numOfItems);
@@ -230,8 +225,9 @@ GSA.tabs = new function(){
     };
 
     this.faqTabs = function() {
-        $( '.menuheader .toggle-switch' ).on( "click", function() {
-            $(this).toggleClass('icon-arrow-right icon-arrow-down');
+        toggle.on( "click", function() {
+            toggle.not($(this)).find('span').removeClass('icon-arrow-down').addClass('icon-arrow-right');
+            $(this).find('span').toggleClass('icon-arrow-right icon-arrow-down');
         });
     }
 };

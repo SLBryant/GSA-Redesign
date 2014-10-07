@@ -85,6 +85,11 @@
                 <td><a href="tables.php">tables.php</a></td>
                 <td>NA</td>
             </tr>
+            <tr>
+                <td>Contextual Tabs</td>
+                <td><a href="contextual-tabs.php">contextual-tabs.php</a></td>
+                <td>NA</td>
+            </tr>
         </tbody>
     </table>
 </div>

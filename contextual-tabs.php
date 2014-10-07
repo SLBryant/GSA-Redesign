@@ -16,14 +16,11 @@
 
             <div class="container page-content">
                 <div class="row">
-                    <section class="col-sm-9" id="main-column">
+                    <section class="col-sm-12" id="main-column">
                         <p>The agency unveils ambitious plan to reduce the environmental impact of the federal government and work to eliminate its own carbon footprint. <a href="#">Read the plan</a><br> <br></p>
                         <!-- tabbed content -->
                         <?php include('partials/full-width-tabs-block.php');?>
                     </section>
-
-                    <!-- sidebar -->
-                    <?php include('partials/sidebar.php');?>
                 </div>
             </div>
         </div>
