@@ -1528,7 +1528,8 @@ table.dataTable thead td:active {
 .smaller-well {
   position: relative;
   padding: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 50px; }
   .smaller-well figure {
     height: 255px;
     max-height: 255px;

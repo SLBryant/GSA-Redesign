@@ -51,6 +51,11 @@
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/feature1.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/feature1.html</a></td>
             </tr>
             <tr>
+                <td>One Column (full-width)</td>
+                <td><a href="one-column.php">one-column.php</a></td>
+                <td>NA</td>
+            </tr>
+            <tr>
                 <td>Two Columns (no sidebar)</td>
                 <td><a href="two-columns.php">two-columns.php</a></td>
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite2.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/microsite2.html</a></td>
@@ -78,6 +83,7 @@
             <tr>
                 <td>Tables</td>
                 <td><a href="tables.php">tables.php</a></td>
+                <td>NA</td>
             </tr>
         </tbody>
     </table>
