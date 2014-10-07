@@ -53,6 +53,7 @@ address {
   content:"\203A";
   color: $navItemColor;
   font-weight: bold;
+  @include font-size(20px);
 }
 
 .gsa-btn {

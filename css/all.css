@@ -214,7 +214,9 @@ address {
 .breadcrumb > li + li:before {
   content: "\203A";
   color: #333333;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem; }
 
 *:active {
   outline: none;
@@ -451,7 +453,13 @@ address {
     padding-top: 10px; }
 
 #inner-main-navigation {
-  background: #fff; }
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 75px;
+  z-index: 99; }
   #inner-main-navigation .navbar-header {
     width: 6.6%; }
   #inner-main-navigation #main-nav {
