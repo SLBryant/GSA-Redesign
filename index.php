@@ -86,7 +86,12 @@
                 <td>NA</td>
             </tr>
             <tr>
-                <td>Contextual Tabs</td>
+                <td>Contextual Tabs (no nav)</td>
+                <td><a href="contextual-tabs-no-nav.php">contextual-tabs-no-nav.php</a></td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>Contextual Tabs (with nav)</td>
                 <td><a href="contextual-tabs.php">contextual-tabs.php</a></td>
                 <td>NA</td>
             </tr>
