@@ -1,9 +1,9 @@
 <section class="full-width-tabs-block">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs row" role="tablist">
-        <li class="active col-sm-4"><a href="#solutions" role="tab" data-toggle="tab">Sustainable Solutions</a></li>
-        <li class="col-sm-4"><a href="#innovation" role="tab" data-toggle="tab">A Proving Ground for Innovation</a></li>
-        <li class="col-sm-4"><a href="#promise" role="tab" data-toggle="tab">Fulfilling the Promise</a></li>
+    <ul class="contextual-tabs nav nav-tabs row" role="tablist">
+        <li class="active"><a href="#solutions" role="tab" data-toggle="tab">These tabs are dynamically re-sized</a></li>
+        <li><a href="#innovation" role="tab" data-toggle="tab">Both vertically and horizontally</a></li>
+        <li><a href="#promise" role="tab" data-toggle="tab">Based on the content in each tab and how many tabs exist</a></li>
     </ul>
 
     <!-- Tab panes -->
@@ -52,7 +52,7 @@
             </header>
             <!-- start open-close -->
             <div class="menuheader expandable">
-                <span class="toggle-switch icon-arrow-right"></span><a href="#">Business Solutions for Sustainable Acquisition</a>
+                <a href="#" class="toggle-switch"><span class="icon-arrow-right"></span>Business Solutions for Sustainable Acquisition</a>
             </div>
             <div class="categoryitems">
                 Question 1 answer goes here.

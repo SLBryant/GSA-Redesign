@@ -953,38 +953,51 @@ address {
         .sidebar-accordion-nav > li ul li ul {
           background: #fff; }
 
-.full-width-tabs-block .nav {
-  margin: 0; }
-  .full-width-tabs-block .nav li {
+.full-width-tabs-block .contextual-tabs {
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .full-width-tabs-block .contextual-tabs li {
     opacity: .75;
     padding: 0;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align-self: center;
+    -moz-box-align-self: center;
+    -webkit-align-self: center;
+    -ms-align-self: center;
+    align-self: center; }
     @media only screen and (max-width: 768px) {
-      .full-width-tabs-block .nav li {
+      .full-width-tabs-block .contextual-tabs li {
         width: 100%; } }
-    .full-width-tabs-block .nav li a {
+    .full-width-tabs-block .contextual-tabs li a {
       background: #d1c8b6;
       font-weight: bold;
       text-transform: uppercase;
       color: #333333;
       -webkit-border-radius: 10px 10px 0 0;
       -moz-border-radius: 10px 10px 0 0;
-      border-radius: 10px 10px 0 0;
-      padding: 0;
-      min-height: 45px; }
+      border-radius: 10px 10px 0 0; }
       @media only screen and (max-width: 768px) {
-        .full-width-tabs-block .nav li a {
+        .full-width-tabs-block .contextual-tabs li a {
           -webkit-border-radius: 0;
           -moz-border-radius: 0;
           border-radius: 0;
           min-height: 0;
           padding: 10px;
           margin-right: 0; } }
-    .full-width-tabs-block .nav li.active {
+    .full-width-tabs-block .contextual-tabs li.active {
       opacity: 1; }
-      .full-width-tabs-block .nav li.active a {
+      .full-width-tabs-block .contextual-tabs li.active a {
         background: #d1c8b6; }
-    .full-width-tabs-block .nav li:last-child a {
+    .full-width-tabs-block .contextual-tabs li:last-child a {
       margin-right: 0; }
 .full-width-tabs-block header {
   padding: 20px 13px; }
@@ -1239,6 +1252,8 @@ address {
     background: url(../images/telework-bg.jpg) no-repeat 50% 0; }
   #landing-page #transportation {
     background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }
+  #landing-page #social-media-center {
+    background: url(../images/smc.jpg) no-repeat 50% 0; }
 
 /*
  * Table

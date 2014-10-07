@@ -1,10 +1,13 @@
 .full-width-tabs-block {
-    .nav {
-       margin: 0;
+    .contextual-tabs {
+      margin: 0;
+       @include flexbox;
        li {
          opacity: .75;
          padding: 0;
          text-align: center;
+         @include flexGrow(1);
+         @include alignSelf(center);
           @include tablets {
             width: 100%;
           }
@@ -14,8 +17,6 @@
            text-transform: uppercase;
            color: $navItemColor;
            @include border-radius(10px 10px 0 0);
-           padding: 0;
-           min-height: 45px;
             @include tablets {
               @include border-radius(0);
               min-height: 0;

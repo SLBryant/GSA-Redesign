@@ -5,11 +5,11 @@
         <?php include('partials/mobile-primary-navigation.php');?>
         <?php include('partials/breadcrumb.php');?>
         <div id="landing-page">
-            <header class="landing-page-header" id="sustainability">
-                <div class="container">
+            <header class="landing-page-header" id="social-media-center">
+                <div class="container black-underlay">
                     <hgroup>
-                        <h1>Strategically Sustainable</h1>
-                        <p class="col-sm-6">"GSA will eliminate its impact on the natural environment and use its government-wide influence to reduce the environmental impact of the federal government" - GSA Sustainability Plan</p>
+                        <h1>Social Media Directory</h1>
+                        <p class="col-sm-6">Visit our sites, and be social. Your comments help GSA remain vibrant, responsive and connected to the public we serve. </p>
                     </hgroup>
                 </div>
             </header>
