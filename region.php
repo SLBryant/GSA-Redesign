@@ -5,17 +5,14 @@
 <?php include('partials/mobile-primary-navigation.php');?>
 <?php include('partials/breadcrumb.php');?>
     <div id="landing-page">
-        <div id="region-9">
+        <header class="landing-page-header" id="region-9">
             <div class="container">
-                <header class="landing-page-header">
-                    <hgroup>
-                        <h1>Pacific Rim Region 9</h1>
-                        <p class="col-md-6">From Window Rock, Arizona to Seoul, Korea, we serve customers in the four states of Arizona, California, Hawaii, Nevada as well as U.S. territories and other countries in the Pacific.</p>
-                    </hgroup>
-                    <div class="clearfix"></div>
-                </header>
+                <hgroup>
+                    <h1>Pacific Rim Region 9</h1>
+                    <p class="col-sm-6">From Window Rock, Arizona to Seoul, Korea, we serve customers in the four states of Arizona, California, Hawaii, Nevada as well as U.S. territories and other countries in the Pacific.</p>
+                </hgroup>
             </div>
-        </div>
+        </header>
 
         <div class="container">
             <div class="row">

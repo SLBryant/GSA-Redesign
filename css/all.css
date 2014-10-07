@@ -870,7 +870,7 @@ address {
 #sidebar-nav-wrapper {
   max-width: 300px;
   top: 150px;
-  min-height: 100px; }
+  min-height: 30px; }
   @media only screen and (max-width: 1200px) {
     #sidebar-nav-wrapper {
       max-width: 250px; } }
@@ -1034,7 +1034,7 @@ address {
       text-transform: uppercase; }
 
 #region-9 {
-  background: url(../images/transportation-bg.jpg) no-repeat 50% 0; }
+  background: url(../images/region-9.jpg) no-repeat 50% 0; }
 
 .standard-content-block hgroup {
   margin-bottom: 30px; }
@@ -1234,16 +1234,31 @@ address {
   @media only screen and (max-width: 992px) {
     #landing-page {
       margin-top: 85px; } }
+  @media only screen and (max-width: 768px) {
+    #landing-page {
+      margin-top: 0; } }
   #landing-page .landing-page-header {
-    color: #fff;
-    min-height: 200px; }
-    #landing-page .landing-page-header hgroup {
-      padding: 20px 0; }
-      #landing-page .landing-page-header hgroup h1 {
-        text-shadow: 1px 1px 1px #000;
-        text-transform: uppercase; }
-      #landing-page .landing-page-header hgroup p {
-        padding-left: 0; }
+    color: #fff; }
+    #landing-page .landing-page-header .container {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align-items: center;
+      -moz-box-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      min-height: 250px; }
+      #landing-page .landing-page-header .container hgroup {
+        padding: 20px 0; }
+        #landing-page .landing-page-header .container hgroup h1 {
+          text-shadow: 1px 1px 1px #000;
+          text-transform: uppercase; }
+        #landing-page .landing-page-header .container hgroup p {
+          padding-left: 0;
+          text-shadow: 1px 1px 1px #333; }
   #landing-page .page-content {
     padding-top: 30px; }
   #landing-page #sustainability {

@@ -5,18 +5,14 @@
 <?php include('partials/mobile-primary-navigation.php');?>
 <?php include('partials/breadcrumb.php');?>
     <div id="landing-page">
-        <div id="transportation">
+        <header class="landing-page-header" id="transportation">
             <div class="container black-underlay">
-                <header class="landing-page-header">
-                    <hgroup>
-                        <h1>Transportation Programs</h1>
-                        <p class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi libero massa, convallis eu scelerisque a, eleifend nec ipsum. Maecenas eleifend dolor a massa tempor aliquet. Phasellus id rhoncus nisi,
-                            et rutrum nisl. Sed elementum eros laoreet tristique laoreet. Integer magna quam.</p>
-                    </hgroup>
-                    <div class="clearfix"></div>
-                </header>
+                <hgroup>
+                    <h1>Transportation Programs</h1>
+                    <p class="col-sm-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi libero massa, convallis eu scelerisque a, eleifend nec ipsum. Maecenas eleifend dolor a massa tempor aliquet. Phasellus id rhoncus nisi, et rutrum nisl. Sed elementum eros laoreet tristique laoreet. Integer magna quam.</p>
+                </hgroup>
             </div>
-        </div>
+        </header>
 
         <div class="container">
             <div class="row">
