@@ -4,48 +4,97 @@
 <?php include('partials/inner-main-navigation.php'); ?>
 <?php include('partials/mobile-primary-navigation.php');?>
 <?php include('partials/breadcrumb.php');?>
-
     <div id="landing-page">
-
-        <header class="landing-page-header" id="region-9">
+        <div id="region-9">
             <div class="container">
-                <hgroup>
-                    <h1>Pacific-Rim (9) Region</h1>
-                </hgroup>
-            </div>
-        </header>
-
-        <div class="container page-content">
-            <div class="row">
-                <!-- SIDEBAR LEFT -->
-                <?php include('partials/sidebar-accordion-nav.php');?>
-                <!-- MAIN COLUMN -->
-                <section class="col-sm-6 col-sm-offset-3" id="main-column">
-                    <!-- rfb -->
-                    <?php include('partials/rfb.php');?>
-
-                    <div class="standard-content-block">
-                        <hgroup>
-                            <h2>Ruth Cox</h2>
-                            <h3>Regional Administrator</h3>
-                        </hgroup>
-                        <article>
-                            <img class="img-thumbnail img-responsive left-align-image" src="images/ruth-cox.jpg" alt="Ruth Cox" align="left">
-                            <p>One of GSA's largest, the Pacific Rim Region covers a vast and diverse territory that reaches from Window Rock, Arizona to Seoul, Korea. Our team manages a 35 million square foot real estate portfolio and serves customers in Arizona, California, Hawaii, and Nevada, as well as overseas in American Samoa, Commonwealth of the Northern Mariana Islands, Diego Garcia, Guam, mainland Japan and Okinawa, the Republic of Korea, Saipan, and Singapore.</p>
-                            <p>Our nearly1,100 regional employees are committed to GSA's mission to deliver the best value in real estate, acquisition, and technology services to government and the American people. We are dedicated to helping our customers save money on their purchases and through right-sizing their workspace, and increase the efficiency and effectiveness of their operations – in essence we are helping to transform government.</p>
-                            <p>Encompassing four of the sunniest states in the nation with state and/or federal commitments to energy efficiency, clean power and greening the supply chain, the region has been at the forefront in implementing the Federal Government’s sustainability plan. These efforts have positioned us to help our federal customers reach their budget and energy goals. Whether you are in an office building or on a ship, at a border station or on a military base, or are a Native Sovereign Nation, we can assist you in accomplishing your mission. Thank you for your interest in GSA’s Pacific Rim Region. We look forward to the opportunity to work for and with you.</p>
-                        </article>
-                    </div>
-                </section>
-
-                <!-- RIGHT COLUMN -->
-                <?php include('partials/sidebar.php');?>
+                <header class="landing-page-header">
+                    <hgroup>
+                        <h1>Pacific Rim Region 9</h1>
+                        <p class="col-md-6">From Window Rock, Arizona to Seoul, Korea, we serve customers in the four states of Arizona, California, Hawaii, Nevada as well as U.S. territories and other countries in the Pacific.</p>
+                    </hgroup>
+                    <div class="clearfix"></div>
+                </header>
             </div>
         </div>
 
-
+        <div class="container">
+            <div class="row">
+                <div class="row col-sm-6 content-well smaller-well">
+                    <figure class="col-sm-3 col-md-5">
+                        <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
+                    </figure>
+                    <article class="col-sm-9 col-md-7">
+                        <h4>Land Ports of Entry</h4>
+                        <p>Expansion projects are currently underway for:</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Calexico West</a></li>
+                            <li><a href="#">Mariposa</a></li>
+                            <li><a href="#">San Ysidro</a></li>
+                            <li><a href="#">See All</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="row col-sm-6 content-well smaller-well">
+                    <figure class="col-sm-3 col-md-5">
+                        <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
+                    </figure>
+                    <article class="col-sm-9 col-md-7">
+                        <h4>Green "Good Design" Award for L.A. Courthouse</h4>
+                        <p>The new courthouse under construction in downtown LA joins other outstanding examples of green design from 24 countries.</p>
+                        <a href="#">Read the GSA Blog</a>
+                    </article>
+                </div>
+            </div>
+            <div class="row dirty-thirty">
+                <div class="vertical-bucket col-sm-4">
+                    <figure>
+                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                    </figure>
+                    <article>
+                        <h4>Buildings &amp; Facilities</h4>
+                        <p>GSA manages 200 government-owned buildings and commercial leases in:</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Arizona</a></li>
+                            <li><a href="#">California</a></li>
+                            <li><a href="#">Hawaii</a></li>
+                            <li><a href="#">Nevada</a></li>
+                            <li><a href="#">See All</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="vertical-bucket col-sm-4">
+                    <figure>
+                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                    </figure>
+                    <article>
+                        <h4>Customer Service</h4>
+                        <p>Assistance is available for businesses, citizens, and customers</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Key Contacts</a></li>
+                            <li><a href="#">Small Business</a></li>
+                            <li><a href="#">How to Get...</a></li>
+                            <li><a href="#">See All</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="vertical-bucket col-sm-4">
+                    <figure>
+                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                    </figure>
+                    <article>
+                        <h4>About Region 9</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Message from the Regional Administrator</a></li>
+                            <li><a href="#">Region 9 Newsroom</a></li>
+                            <li><a href="#">Jobs in Region 9</a></li>
+                            <li><a href="#">See All</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <!-- buckets -->
+            <?php include_once('partials/sub-section-buckets.php');?>
+        </div>
     </div>
-
-
 
 <?php include ('partials/footer.php');?>

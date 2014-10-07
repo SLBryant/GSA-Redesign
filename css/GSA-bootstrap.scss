@@ -69,7 +69,12 @@ address {
     margin-left: 0;
     margin-right: 0;
   }
+  &.dirty-thirty {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
 }
+
 
 .affix { position: fixed; top: 40px; bottom: auto; }
 .affix-bottom { position: absolute; top: 40px; bottom: auto; }
