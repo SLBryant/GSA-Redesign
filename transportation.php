@@ -29,7 +29,6 @@
                         <p>This program offers rate management services for domestic commodity freight transportation.</p>
                         <p>Book shipments online with over 2000 service providers and save over commercial rates.</p>
                     </article>
-                    <aside><a href="#"><span class="icon-arrow-right"></span></a></aside>
                 </div>
                 <div class="row col-sm-6 content-well smaller-well">
                     <figure class="col-md-5 col-sm-12">
@@ -39,7 +38,6 @@
                         <h4>Centralized Household goods traffic management program (champ)</h4>
                         <p>Relocating federal employees (domestic and international), which include the moving of household goods, privately-owned vehicles, and unaccompanied air baggage.</p>
                     </article>
-                    <aside><a href="#"><span class="icon-arrow-right"></span></a></aside>
                 </div>
             </div>
             <div class="row">
@@ -48,21 +46,18 @@
                         <h4>Transport Integrator (TPI)</h4>
                         <p>GSA's transport management system supports the transportation process, from order management to financial settlement via PayPort integration.</p>
                     </article>
-                    <aside><a href="#"><span class="icon-arrow-right"></span></a></aside>
                 </div>
                 <div class="imageless-bucket col-sm-4">
                     <article>
                         <h4>Transport Integrator (TPI)</h4>
                         <p>GSA's transport management system supports the transportation process, from order management to financial settlement via PayPort integration.</p>
                     </article>
-                    <aside><a href="#"><span class="icon-arrow-right"></span></a></aside>
                 </div>
                 <div class="imageless-bucket col-sm-4">
                     <article>
                         <h4>Transport Integrator (TPI)</h4>
                         <p>GSA's transport management system supports the transportation process, from order management to financial settlement via PayPort integration.</p>
                     </article>
-                    <aside><a href="#"><span class="icon-arrow-right"></span></a></aside>
                 </div>
             </div>
         </div>
