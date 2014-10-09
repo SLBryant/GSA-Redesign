@@ -173,6 +173,7 @@
             a {
               display: block;
               position: relative;
+              white-space: normal;  
                 &:hover, &:focus {
                   background: $offWhite;
                   color: $navItemColor;

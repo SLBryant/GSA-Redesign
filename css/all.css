@@ -409,7 +409,8 @@ address {
               width: 100%; } }
           .primary-nav ul#main-nav > li > .dropdown-menu > li a {
             display: block;
-            position: relative; }
+            position: relative;
+            white-space: normal; }
             .primary-nav ul#main-nav > li > .dropdown-menu > li a:hover, .primary-nav ul#main-nav > li > .dropdown-menu > li a:focus {
               background: #efeadf;
               color: #333333; }
