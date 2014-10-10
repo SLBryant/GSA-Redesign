@@ -14,7 +14,7 @@
                             <h1>GSA delivers the best value in real estate, acquisition, and technology services.</h1>
                             <p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>
                             <ul class="list-unstyled">
-                                <li><a class="jump-link" href="#">Explore GSA’s innovation in real estate <span class="icon-arrow-right"></span></a></li>
+                                <li><a class="jump-link" href="#">Explore GSA’s Innovation in Real Estate <span class="icon-arrow-right"></span></a></li>
                             </ul>
                         </div>
 
