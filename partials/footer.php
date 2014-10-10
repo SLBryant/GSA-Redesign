@@ -69,8 +69,8 @@
 <script src="js/mlpushmenu.js"></script>
 <script src="js/jquery.dataTables.min.js"></script>
 <script src="js/GSA_all.js"></script>
-<script>
-    new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
-</script>
+
+
+
 </body>
 </html>

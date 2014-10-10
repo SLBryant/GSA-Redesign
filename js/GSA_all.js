@@ -67,6 +67,10 @@ GSA.navigations = new function(){
         })
     }
 
+    this.mobileNavPlugin = function() {
+        new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+    }
+
 
 };
 
@@ -235,9 +239,16 @@ GSA.tabs = new function(){
 // Doc Ready -------
 $(function() {
 
+    $('#main-nav li a').hover(function() {
+        var itemText = $(this).attr('data-text');
+        $('.pull-quotes').find('h3').text(itemText);
+    });
+
+
     GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();
+    GSA.navigations.mobileNavPlugin();
     GSA.navigations.navGraphic();
     GSA.navigations.accordionNav();
     GSA.prettyTables.operator();
