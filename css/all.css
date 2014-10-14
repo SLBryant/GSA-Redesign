@@ -365,6 +365,8 @@ address {
               padding-bottom: 23.5px; } }
         .primary-nav ul#main-nav > li > a .sub-arrow {
           display: none; }
+        .primary-nav ul#main-nav > li > a.selected {
+          background: #d1c8b6; }
         .primary-nav ul#main-nav > li > a i {
           color: #fff;
           font-size: 25px;
@@ -1259,8 +1261,20 @@ address {
   z-index: 99; }
   .overview-page-control#left-arrow {
     left: 50px; }
+    .overview-page-control#left-arrow strong {
+      left: 100%; }
   .overview-page-control#right-arrow {
     right: 50px; }
+    .overview-page-control#right-arrow strong {
+      right: 100%; }
+  .overview-page-control strong {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    font-size: 16px;
+    font-size: 1rem;
+    white-space: nowrap; }
 
 #landing-page {
   margin-top: 110px; }

@@ -36,10 +36,10 @@
             </div>
             <!-- Controls -->
             <a id="left-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="prev">
-                <span class="icon-arrow-left"></span>
+                <span class="icon-arrow-left"></span><strong>Last</strong>
             </a>
             <a id="right-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="next">
-                <span class="icon-arrow-right"></span>
+                <strong>Travel</strong><span class="icon-arrow-right"></span>
             </a>
         </section>
 

@@ -247,9 +247,6 @@ $(function() {
         $('.pull-quotes').find('h3').text(itemText);
     });
 
-
-
-
     iteratePages();
     $( document ).ajaxStop(function() {
        callback();
@@ -258,6 +255,7 @@ $(function() {
     function iteratePages() {
         var pages = [
             'home',
+            'travel',
             'real-estate',
             'shop',
             'technology'
@@ -288,14 +286,72 @@ $(function() {
         }
     }
     function callback() {
-        $('#overview-page-wrapper').carousel({
+        var theCarousel = $('#overview-page-wrapper');
+
+        // init carousel
+        theCarousel.carousel({
             interval: false,
             wrap: false
-        })
-        $('#overview-page-wrapper').on('slid', function () {
-            //alert("Slide Event");
-            console.log('slid event');
         });
+
+
+        // get right & left controls
+        var rightControl = theCarousel.find('#right-arrow');
+        var leftControl = theCarousel.find('#left-arrow');
+
+        // hide the left control (first slide)
+        leftControl.hide();
+
+
+        // callback after slide instance
+        $('#overview-page-wrapper').on('slid', function () {
+            $('#main-nav > li').find('a').removeClass('selected');
+            activeID = $('.overview-page.active').attr('id');
+            if(activeID == 'travel'){
+                $('#main-nav > li').eq(0).find('a').addClass('selected');
+                $('#right-arrow').find('strong').text('Real Estate');
+                $('#left-arrow').find('strong').text('Home');
+            }
+            else if(activeID == 'real-estate'){
+                $('#main-nav > li').eq(1).find('a').addClass('selected');
+                $('#right-arrow').find('strong').text('Shopper');
+                $('#left-arrow').find('strong').text('Travel');
+            }
+            else if(activeID == 'shop'){
+                $('#main-nav > li').eq(2).find('a').addClass('selected');
+                $('#right-arrow').find('strong').text('Technology');
+                $('#left-arrow').find('strong').text('Real Estate');
+            }
+            else if(activeID == 'technology'){
+                $('#main-nav > li').eq(4).find('a').addClass('selected') ;
+                $('#right-arrow').find('strong').text('About Us');
+                $('#left-arrow').find('strong').text('Shopper');
+            }
+
+            // get active slide
+            var getActive = theCarousel.find(".item.active");
+
+            // if the last slide,
+            if (!getActive.next().length) {
+                rightControl.fadeOut();
+            } else {
+                rightControl.fadeIn();
+            }
+
+            // if the first slide,
+            if (!getActive.prev().length) {
+                leftControl.fadeOut();
+            } else {
+                leftControl.fadeIn();
+            }
+        });
+
+        // hover to show next page
+        $('.overview-page-control').hover(function() {
+            $(this).find('strong').stop().show(500);
+        },function() {
+            $(this).find('strong').stop().hide(500);
+        })
     }
 
 

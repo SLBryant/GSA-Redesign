@@ -134,6 +134,9 @@
             .sub-arrow {
               display: none;
             }
+            &.selected {
+              background: $gsaBeige;
+            }
             i {
               color: #fff;
               @include font-size(25px);
