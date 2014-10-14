@@ -41,7 +41,7 @@
                 <li><a href="#" data-text="Dating a single mother is like continuing from somebody else's saved game." data-img-src="">Household Goods Request for Offer (RFO) and Standard Tender of Service (STO)</a></li>
             </ul>
         </li>
-        <li><a href="#">Policy</a>
+        <li><a href="#" data-text="If g-d had a name, what would it be and would you call it to his face?" data-img-src="">Policy</a>
             <ul class="dropdown-menu">
                 <li><a href="#" data-text="Touch has a memory" data-img-src="">Federal Fleet Mandates</a></li>
                 <li><a href="#" data-text="The buck stops here." data-img-src="">Federal Travel Regulation (FTR)</a></li>

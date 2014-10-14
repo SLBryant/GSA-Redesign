@@ -19,6 +19,7 @@
     background: $gsaBlue;
     padding: 20px 25px;
     margin-top: -$footerPadding+-25;
+    z-index: 99;
       @include large-desktops {
         padding-left: 15px;
         padding-right: 15px;

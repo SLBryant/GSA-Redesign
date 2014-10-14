@@ -236,6 +236,9 @@ GSA.tabs = new function(){
     }
 };
 
+
+
+
 // Doc Ready -------
 $(function() {
 
@@ -243,6 +246,57 @@ $(function() {
         var itemText = $(this).attr('data-text');
         $('.pull-quotes').find('h3').text(itemText);
     });
+
+
+
+
+    iteratePages();
+    $( document ).ajaxStop(function() {
+       callback();
+    });
+
+    function iteratePages() {
+        var pages = [
+            'home',
+            'real-estate',
+            'shop',
+            'technology'
+        ];
+
+        for (var i = 0; i < pages.length; i++) {
+            ajaxFunction(pages[i], '.php', i);
+        }
+    }
+
+    function ajaxFunction (page, fileExtension,i) {
+        // don't return the page that the user is currently on
+        var path = window.location.pathname;
+        if(path.indexOf(page) < 0 ) {
+            // ajax request
+            $.ajax({
+                type: 'POST',
+                dataType: 'html',
+                url: page + fileExtension,
+                success: function (data) {
+                    var success = $(data).find(".overview-page").html();
+                    $('<div></div>').addClass('overview-page ajax-loaded item').attr('id', page).html(success).appendTo('.carousel-inner');
+                },
+                error: function (xhr) {
+                    console.log(xhr.status)
+                }
+            });
+        }
+    }
+    function callback() {
+        $('#overview-page-wrapper').carousel({
+            interval: false,
+            wrap: false
+        })
+        $('#overview-page-wrapper').on('slid', function () {
+            //alert("Slide Event");
+            console.log('slid event');
+        });
+    }
 
 
     GSA.homepage.heightOrientation();
@@ -254,7 +308,7 @@ $(function() {
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
     GSA.tabs.faqTabs();
-    GSA.homepage.fullScreenRotator();
+   // GSA.homepage.fullScreenRotator();
 
 
     if($(window).width() > 768) {

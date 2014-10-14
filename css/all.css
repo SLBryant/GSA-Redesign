@@ -1248,6 +1248,20 @@ address {
     #home-pagination li > * {
       display: none !important; }
 
+.overview-page-control {
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  font-size: 3.125rem;
+  top: 50%;
+  margin-top: -25px;
+  cursor: pointer;
+  z-index: 99; }
+  .overview-page-control#left-arrow {
+    left: 50px; }
+  .overview-page-control#right-arrow {
+    right: 50px; }
+
 #landing-page {
   margin-top: 110px; }
   @media only screen and (max-width: 1200px) {
@@ -1628,7 +1642,8 @@ table.dataTable thead td:active {
   #footer .social-links-block {
     background: #27328b;
     padding: 20px 25px;
-    margin-top: -60px; }
+    margin-top: -60px;
+    z-index: 99; }
     @media only screen and (max-width: 1200px) {
       #footer .social-links-block {
         padding-left: 15px;

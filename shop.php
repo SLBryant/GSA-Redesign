@@ -9,6 +9,9 @@
     <section id="shop" class="overview-page">
         <div class="container">
             <!-- HERO  -->
+						<div id="responseArea">
+			
+			</div>
             <div class="jumbotron col-md-7">
                 <h1>Shop</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum diam sed fringilla iaculis. Fusce ornare tempus luctus. Interdum et malesuada fames ac ante ipsum primis.</p>

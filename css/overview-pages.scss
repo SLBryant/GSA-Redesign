@@ -4,6 +4,7 @@
 #shop { background-image: url(../images/shop-bg.jpg);}
 #technology { background-image: url(../images/technology.jpg);}
 #real-estate { background-image: url(../images/real-estate.jpg);}
+
 .overview-page {
   @include coverBG();
   @include flexbox;
@@ -153,4 +154,20 @@
           display: none!important;
         }
     }
+}
+
+.overview-page-control {
+  display: block;
+  position: absolute;
+  @include font-size(50px);
+  top: 50%;
+  margin-top: -25px;
+  cursor: pointer;
+  z-index: 99;
+  &#left-arrow {
+    left: 50px;
+  }
+  &#right-arrow {
+    right: 50px;
+  }
 }
