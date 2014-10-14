@@ -86,52 +86,38 @@ GSA.homepage = new function() {
     var itemWrappers = $('#home-pagination li');
 
     this.fullScreenRotator = function() {
-        $('#home').backstretch([
-            "images/home-bg.jpg",
-            "images/home_1.jpg",
-            "images/home_2.jpg"
-        ], {duration: 6000, fade: 500});
+        var items = Array('home-bg', 'home_1','home_2');
+        var item = items[Math.floor(Math.random()*items.length)];
+        $('#home').css('background-image', 'url(images/'+item+'.jpg)');
+        console.log('url(images/'+item+'.jpg)');
 
-        $(window).on("backstretch.before", function (e, instance, index) {
-            itemWrappers.removeClass('active').eq(index).addClass('active');
-            jumbotron.css({
-                'height' : jumbotronHeight
-            });
-            if(index == 0) {
-                $('#hero-message').html(
-                    '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
-                    '<p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>'+
-                    '<ul class="list-unstyled">'+
-                        '<li><a class="jump-link" href="#">Explore GSA’s Innovation in Real Estate <span class="icon-arrow-right"></span></a></li>'+
-                    '</ul>'
-                );
-            } else if(index == 1) {
-                $('#hero-message').html(
-                    '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
-                    '<p>By leveraging the purchasing power of the government, GSA offers cost-effective solutions to our partner agencies. The Federal Strategic Sourcing Initiative (FSSI) cuts down on bureaucracy and helps agencies pool their purchases.</p>'+
-                    '<ul class="list-unstyled">'+
-                        '<li><a class="jump-link" href="#">Learn How GSA is Transforming Acquisition <span class="icon-arrow-right"></span></a></li>'+
-                    '</ul>'
-                );
-            } else if(index == 2) {
-                $('#hero-message').html(
-                    '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
-                    '<p>Meet all federal government IT service needs with a single contract: an ambitious goal. But $16.5 billion and 54 agencies after its inception five years ago, GSA\'s Alliant GWAC provides mission-critical capabilities and great customer service.</p>'+
-                    '<ul class="list-unstyled">'+
-                        '<li><a class="jump-link" href="#">Discover GSA\'s Emerging Technology Offerings <span class="icon-arrow-right"></span></a></li>'+
-                    '</ul>'
-                );
-            }
+        if(item == 0) {
+            $('#hero-message').html(
+                '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
+                '<p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>'+
+                '<ul class="list-unstyled">'+
+                    '<li><a class="jump-link" href="#">Explore GSA’s Innovation in Real Estate <span class="icon-arrow-right"></span></a></li>'+
+                '</ul>'
+            );
+        } else if(item == 1) {
+            $('#hero-message').html(
+                '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
+                '<p>By leveraging the purchasing power of the government, GSA offers cost-effective solutions to our partner agencies. The Federal Strategic Sourcing Initiative (FSSI) cuts down on bureaucracy and helps agencies pool their purchases.</p>'+
+                '<ul class="list-unstyled">'+
+                    '<li><a class="jump-link" href="#">Learn How GSA is Transforming Acquisition <span class="icon-arrow-right"></span></a></li>'+
+                '</ul>'
+            );
+        } else if(item == 2) {
+            $('#hero-message').html(
+                '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>' +
+                '<p>Meet all federal government IT service needs with a single contract: an ambitious goal. But $16.5 billion and 54 agencies after its inception five years ago, GSA\'s Alliant GWAC provides mission-critical capabilities and great customer service.</p>' +
+                '<ul class="list-unstyled">' +
+                '<li><a class="jump-link" href="#">Discover GSA\'s Emerging Technology Offerings <span class="icon-arrow-right"></span></a></li>' +
+                '</ul>'
+            );
+        }
 
-        });
 
-        //
-        $('#home-pagination').find('li').click(function (x) {
-            x.preventDefault();
-            $('#home-pagination li').removeClass('active');
-            $(this).addClass('active');
-            $('#home').data('backstretch').show(this.value);
-        });
     };
     this.heightOrientation = function() {
         $('.overview-page').animate({'min-height' : $(window).height()-15},1);
@@ -366,7 +352,7 @@ $(function() {
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
     GSA.tabs.faqTabs();
-   // GSA.homepage.fullScreenRotator();
+    GSA.homepage.fullScreenRotator();
 
 
     if($(window).width() > 768) {
