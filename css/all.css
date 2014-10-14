@@ -1073,14 +1073,20 @@ address {
 #travel {
   background-image: url(../images/travel-bg.jpg); }
 
-#shop {
+#real-estate {
+  background-image: url(../images/real-estate.jpg); }
+
+#shopper {
   background-image: url(../images/shop-bg.jpg); }
+
+#supplier {
+  background-image: url(../images/suppliers.jpg); }
 
 #technology {
   background-image: url(../images/technology.jpg); }
 
-#real-estate {
-  background-image: url(../images/real-estate.jpg); }
+#about-us {
+  background-image: url(../images/about-us.jpg); }
 
 .overview-page {
   -webkit-background-size: cover;

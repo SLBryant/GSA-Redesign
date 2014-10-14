@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cdb9f7e-4ee3-4812-8453-553dc42768f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about-us.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supplier.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\OGILVY\gsa-redesign\shop.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/GSA_all.js" afterPath="$PROJECT_DIR$/js/GSA_all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/overview-pages.scss" afterPath="$PROJECT_DIR$/css/overview-pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/primary-navigation.scss" afterPath="$PROJECT_DIR$/css/primary-navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/real-estate.php" afterPath="$PROJECT_DIR$/real-estate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology.php" afterPath="$PROJECT_DIR$/technology.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travel.php" afterPath="$PROJECT_DIR$/travel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gsa-redesign.iws" />
@@ -33,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GSA_all.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GSA_all.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/GSA_all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55263156" vertical-offset="5163" max-vertical-offset="6749">
-              <caret line="321" column="68" selection-start-line="321" selection-start-column="68" selection-end-line="321" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4897" max-vertical-offset="6783">
+              <caret line="296" column="23" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,18 +52,30 @@
       <file leaf-file-name="technology.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technology.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.076923" vertical-offset="29" max-vertical-offset="561">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="833">
+              <caret line="39" column="12" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="primary-navigation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/primary-navigation.scss">
+      <file leaf-file-name="real-estate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/real-estate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.73077" vertical-offset="1539" max-vertical-offset="6341">
-              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="595">
+              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+              <folding>
+                <element signature="tag#div#2;tag#div#0;tag#section#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="867">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -76,8 +94,8 @@
       <file leaf-file-name="overview-pages.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/overview-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.076923" vertical-offset="2728" max-vertical-offset="3281">
-              <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3315">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -86,8 +104,40 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="408" max-vertical-offset="918">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="459" max-vertical-offset="1020">
+              <caret line="48" column="16" selection-start-line="42" selection-start-column="12" selection-end-line="48" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="travel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="544">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#section#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supplier.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supplier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="221" max-vertical-offset="748">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-us.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="187" max-vertical-offset="714">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -109,7 +159,6 @@
         <option value="$PROJECT_DIR$/partials/search-in-nav.php" />
         <option value="$PROJECT_DIR$/partials/mobile-primary-navigation.php" />
         <option value="$PROJECT_DIR$/css/mobile-primary-navigation.scss" />
-        <option value="$PROJECT_DIR$/real-estate.php" />
         <option value="$PROJECT_DIR$/partials/main-navigation.php" />
         <option value="$PROJECT_DIR$/telework.php" />
         <option value="$PROJECT_DIR$/partials/sub-section-tabs.php" />
@@ -147,17 +196,24 @@
         <option value="$PROJECT_DIR$/css/all.scss" />
         <option value="$PROJECT_DIR$/partials/footer.php" />
         <option value="$PROJECT_DIR$/css/primary-navigation.scss" />
-        <option value="$PROJECT_DIR$/technology.php" />
         <option value="$PROJECT_DIR$/css/overview-pages.scss" />
+        <option value="$PROJECT_DIR$/suppliers.php" />
+        <option value="$PROJECT_DIR$/shop.php" />
         <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/technology.php" />
         <option value="$PROJECT_DIR$/js/GSA_all.js" />
+        <option value="$PROJECT_DIR$/real-estate.php" />
+        <option value="$PROJECT_DIR$/travel.php" />
+        <option value="$PROJECT_DIR$/supplier.php" />
+        <option value="$PROJECT_DIR$/about-us.php" />
+        <option value="$PROJECT_DIR$/shopper.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="263" />
+    <option name="x" value="102" />
+    <option name="y" value="209" />
     <option name="width" value="1370" />
     <option name="height" value="681" />
   </component>
@@ -202,34 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gsa-redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsa-redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsa-redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsa-redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsa-redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,7 +327,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="263" width="1370" height="681" extended-state="0" />
+    <frame x="102" y="209" width="1370" height="681" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -367,48 +395,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1122">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom_glyphs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="850">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="918">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/search-in-nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="582">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/real-estate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -712,33 +702,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/overview-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.076923" vertical-offset="2728" max-vertical-offset="3281">
-          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="408" max-vertical-offset="918">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.076923" vertical-offset="29" max-vertical-offset="561">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3315">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/GSA_all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55263156" vertical-offset="5163" max-vertical-offset="6749">
-          <caret line="321" column="68" selection-start-line="321" selection-start-column="68" selection-end-line="321" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4897" max-vertical-offset="6783">
+          <caret line="296" column="23" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="833">
+          <caret line="39" column="12" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="459" max-vertical-offset="1020">
+          <caret line="48" column="16" selection-start-line="42" selection-start-column="12" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="544">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#section#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="221" max-vertical-offset="748">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="867">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="187" max-vertical-offset="714">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real-estate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="595">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#section#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

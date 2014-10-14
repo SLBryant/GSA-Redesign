@@ -33,6 +33,12 @@
                         <?php include('partials/sub-section-buckets.php'); ?>
                     </div>
                 </div>
+                <div id="travel" class="overview-page item"></div>
+                <div id="real-estate" class="overview-page item"></div>
+                <div id="shopper" class="overview-page item"></div>
+                <div id="supplier" class="overview-page item"></div>
+                <div id="technology" class="overview-page item"></div>
+                <div id="about-us" class="overview-page item"></div>
             </div>
             <!-- Controls -->
             <a id="left-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="prev">

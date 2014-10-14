@@ -248,22 +248,22 @@ $(function() {
     });
 
     iteratePages();
-    $( document ).ajaxStop(function() {
-       callback();
-    });
 
     function iteratePages() {
         var pages = [
             'home',
             'travel',
             'real-estate',
-            'shop',
-            'technology'
+            'shopper',
+            'supplier',
+            'technology',
+            'about-us'
         ];
 
         for (var i = 0; i < pages.length; i++) {
             ajaxFunction(pages[i], '.php', i);
         }
+        callback();
     }
 
     function ajaxFunction (page, fileExtension,i) {
@@ -276,8 +276,8 @@ $(function() {
                 dataType: 'html',
                 url: page + fileExtension,
                 success: function (data) {
-                    var success = $(data).find(".overview-page").html();
-                    $('<div></div>').addClass('overview-page ajax-loaded item').attr('id', page).html(success).appendTo('.carousel-inner');
+                    var success = $(data).find('#'+page).html();
+                    $('#'+page).html(success);
                 },
                 error: function (xhr) {
                     console.log(xhr.status)
@@ -286,6 +286,9 @@ $(function() {
         }
     }
     function callback() {
+        // init height
+        GSA.homepage.heightOrientation();
+
         var theCarousel = $('#overview-page-wrapper');
 
         // init carousel
@@ -293,18 +296,12 @@ $(function() {
             interval: false,
             wrap: false
         });
-
-
         // get right & left controls
         var rightControl = theCarousel.find('#right-arrow');
         var leftControl = theCarousel.find('#left-arrow');
 
-        // hide the left control (first slide)
-        leftControl.hide();
-
-
         // callback after slide instance
-        $('#overview-page-wrapper').on('slid', function () {
+        theCarousel.on('slid', function () {
             $('#main-nav > li').find('a').removeClass('selected');
             activeID = $('.overview-page.active').attr('id');
             if(activeID == 'travel'){
@@ -317,27 +314,33 @@ $(function() {
                 $('#right-arrow').find('strong').text('Shopper');
                 $('#left-arrow').find('strong').text('Travel');
             }
-            else if(activeID == 'shop'){
+            else if(activeID == 'shopper'){
                 $('#main-nav > li').eq(2).find('a').addClass('selected');
-                $('#right-arrow').find('strong').text('Technology');
+                $('#right-arrow').find('strong').text('Supplier');
                 $('#left-arrow').find('strong').text('Real Estate');
+            }
+            else if(activeID == 'supplier'){
+                $('#main-nav > li').eq(3).find('a').addClass('selected');
+                $('#right-arrow').find('strong').text('Technology');
+                $('#left-arrow').find('strong').text('Shopper');
             }
             else if(activeID == 'technology'){
                 $('#main-nav > li').eq(4).find('a').addClass('selected') ;
                 $('#right-arrow').find('strong').text('About Us');
                 $('#left-arrow').find('strong').text('Shopper');
             }
-
+            else if(activeID == 'about-us'){
+                $('#main-nav > li').eq(5).find('a').addClass('selected') ;
+                $('#left-arrow').find('strong').text('Technology');
+            }
             // get active slide
             var getActive = theCarousel.find(".item.active");
-
             // if the last slide,
             if (!getActive.next().length) {
                 rightControl.fadeOut();
             } else {
                 rightControl.fadeIn();
             }
-
             // if the first slide,
             if (!getActive.prev().length) {
                 leftControl.fadeOut();
@@ -345,8 +348,7 @@ $(function() {
                 leftControl.fadeIn();
             }
         });
-
-        // hover to show next page
+        // hover to show next page title
         $('.overview-page-control').hover(function() {
             $(this).find('strong').stop().show(500);
         },function() {

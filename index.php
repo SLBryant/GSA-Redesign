@@ -27,7 +27,7 @@
             </tr>
             <tr>
                 <td>Shoppers</td>
-                <td><a href="shop.php">shop.php</a></td>
+                <td><a href="shopper.php">shop.php</a></td>
                 <td><a href="http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/tabshopper.html">http://workarea.ogilvyaction.com/gsa/2014_redesign_templates/tabshopper.html</a></td>
             </tr>
             <tr>
