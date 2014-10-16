@@ -91,7 +91,7 @@ GSA.homepage = new function() {
         $('#home').css('background-image', 'url(images/'+item+'.jpg)');
         console.log('url(images/'+item+'.jpg)');
 
-        if(item == 0) {
+        if(item == 'home-bg') {
             $('#hero-message').html(
                 '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
                 '<p>Excellence in building design is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus tincidunt tristique.</p>'+
@@ -99,7 +99,7 @@ GSA.homepage = new function() {
                     '<li><a class="jump-link" href="#">Explore GSA’s Innovation in Real Estate <span class="icon-arrow-right"></span></a></li>'+
                 '</ul>'
             );
-        } else if(item == 1) {
+        } else if(item == 'home_1') {
             $('#hero-message').html(
                 '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>'+
                 '<p>By leveraging the purchasing power of the government, GSA offers cost-effective solutions to our partner agencies. The Federal Strategic Sourcing Initiative (FSSI) cuts down on bureaucracy and helps agencies pool their purchases.</p>'+
@@ -107,7 +107,7 @@ GSA.homepage = new function() {
                     '<li><a class="jump-link" href="#">Learn How GSA is Transforming Acquisition <span class="icon-arrow-right"></span></a></li>'+
                 '</ul>'
             );
-        } else if(item == 2) {
+        } else if(item == 'home_2') {
             $('#hero-message').html(
                 '<h1>GSA Delivers the Best Value in Real Estate, Acquisition, and Technology Services.</h1>' +
                 '<p>Meet all federal government IT service needs with a single contract: an ambitious goal. But $16.5 billion and 54 agencies after its inception five years ago, GSA\'s Alliant GWAC provides mission-critical capabilities and great customer service.</p>' +
@@ -290,34 +290,43 @@ $(function() {
         theCarousel.on('slid', function () {
             $('#main-nav > li').find('a').removeClass('selected');
             activeID = $('.overview-page.active').attr('id');
+            if(activeID == 'home'){
+                History.pushState(null,'Home','home.php');
+            }
             if(activeID == 'travel'){
                 $('#main-nav > li').eq(0).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Real Estate');
                 $('#left-arrow').find('strong').text('Home');
+                History.pushState(null,'Travel','travel.php');
             }
             else if(activeID == 'real-estate'){
                 $('#main-nav > li').eq(1).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Shopper');
                 $('#left-arrow').find('strong').text('Travel');
+                History.pushState(null,'Real Estate','real-estate.php');
             }
             else if(activeID == 'shopper'){
                 $('#main-nav > li').eq(2).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Supplier');
                 $('#left-arrow').find('strong').text('Real Estate');
+                History.pushState(null,'Shopper','shopper.php');
             }
             else if(activeID == 'supplier'){
                 $('#main-nav > li').eq(3).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Technology');
                 $('#left-arrow').find('strong').text('Shopper');
+                History.pushState(null,'Supplier','supplier.php');
             }
             else if(activeID == 'technology'){
                 $('#main-nav > li').eq(4).find('a').addClass('selected') ;
                 $('#right-arrow').find('strong').text('About Us');
                 $('#left-arrow').find('strong').text('Shopper');
+                History.pushState(null,'Technology','technology.php');
             }
             else if(activeID == 'about-us'){
                 $('#main-nav > li').eq(5).find('a').addClass('selected') ;
                 $('#left-arrow').find('strong').text('Technology');
+                History.pushState(null,'About Us','about-us.php');
             }
             // get active slide
             var getActive = theCarousel.find(".item.active");
@@ -333,6 +342,7 @@ $(function() {
             } else {
                 leftControl.fadeIn();
             }
+
         });
         // hover to show next page title
         $('.overview-page-control').hover(function() {
