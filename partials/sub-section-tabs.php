@@ -1,5 +1,5 @@
 <div class="clearfix"></div>
-<section id="sub-section" class="row tabs-section">
+<section class="row tabs-section sub-section">
     <!-- Nav tabs -->
     <nav class="col-sm-3 tab-navigation">
         <ul class="nav" role="tablist">

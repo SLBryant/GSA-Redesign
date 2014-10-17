@@ -55,7 +55,7 @@
 }
 
 // Sub Sections
-#sub-section {
+.sub-section {
   margin: 0;
   @include flexbox;
   @include flexAlignItems(center);
@@ -161,29 +161,41 @@
 .overview-page-control {
   display: block;
   position: absolute;
-  @include font-size(50px);
+  @include font-size(16px);
   top: 50%;
   margin-top: -25px;
   cursor: pointer;
+  background: $gsaBlue;
+  color: #fff;
   z-index: 99;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  @include box-shadow(1px 1px 5px 1px, rgba(0,0,0,0.3));
+    span {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
     &#left-arrow {
-      left: 50px;
+      left: 0;
         strong {
-          left: 100%;
+          float: right;
         }
     }
     &#right-arrow {
-      right: 50px;
+      right: 0;
         strong {
-          right: 100%;
+          float: left;
         }
     }
     strong {
       display: none;
-      position: absolute;
-      top: 50%;
-      margin-top: -16px;
       @include font-size(16px);
       white-space: nowrap;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: normal;
+    }
+    &:hover {
+      color: #fff;
     }
 }

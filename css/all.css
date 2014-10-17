@@ -152,10 +152,10 @@
   font-weight: bold;
   white-space: normal; }
 
-#sub-section .tab-content .form-group {
+.sub-section .tab-content .form-group {
   position: relative;
   width: 100%; }
-  #sub-section .tab-content .form-group input, #sub-section .tab-content .form-group select {
+  .sub-section .tab-content .form-group input, .sub-section .tab-content .form-group select {
     border: 1px solid #c9c9c9;
     padding: 24px 10px;
     -webkit-border-radius: 0;
@@ -164,7 +164,7 @@
     padding-right: 10%;
     font-size: 22px;
     font-size: 1.375rem; }
-  #sub-section .tab-content .form-group button {
+  .sub-section .tab-content .form-group button {
     position: absolute;
     right: 0;
     top: 0;
@@ -172,24 +172,24 @@
     width: 10%;
     font-size: 20px;
     font-size: 1.25rem; }
-    #sub-section .tab-content .form-group button .glyphicon {
+    .sub-section .tab-content .form-group button .glyphicon {
       left: 30%;
       top: 4px;
       color: #fff; }
-  #sub-section .tab-content .form-group p {
+  .sub-section .tab-content .form-group p {
     padding: 10px 5px 0; }
-  #sub-section .tab-content .form-group ::-webkit-input-placeholder {
+  .sub-section .tab-content .form-group ::-webkit-input-placeholder {
     /* WebKit browsers */
     color: #c9c9c9; }
-  #sub-section .tab-content .form-group :-moz-placeholder {
+  .sub-section .tab-content .form-group :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: #c9c9c9;
     opacity: 1; }
-  #sub-section .tab-content .form-group ::-moz-placeholder {
+  .sub-section .tab-content .form-group ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: #c9c9c9;
     opacity: 1; }
-  #sub-section .tab-content .form-group :-ms-input-placeholder {
+  .sub-section .tab-content .form-group :-ms-input-placeholder {
     /* Internet Explorer 10+ */
     color: #c9c9c9; }
 
@@ -1182,7 +1182,7 @@ address {
             font-size: 14px;
             font-size: 0.875rem; } }
 
-#sub-section {
+.sub-section {
   margin: 0;
   display: -webkit-box;
   display: -moz-box;
@@ -1209,16 +1209,16 @@ address {
   box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   min-height: 150px;
   overflow: hidden; }
-  #sub-section.bucket-styles {
+  .sub-section.bucket-styles {
     -webkit-box-shadow: 0 0;
     -moz-box-shadow: 0 0;
     box-shadow: 0 0; }
     @media only screen and (max-width: 768px) {
-      #sub-section.bucket-styles {
+      .sub-section.bucket-styles {
         display: block; } }
-  #sub-section.tabs-section {
+  .sub-section.tabs-section {
     background: #fff; }
-  #sub-section .tab-navigation {
+  .sub-section .tab-navigation {
     padding: 0;
     -webkit-box-align-self: flex-start;
     -moz-box-align-self: flex-start;
@@ -1227,39 +1227,39 @@ address {
     align-self: flex-start;
     background: #d1c8b6;
     font-family: "Montserrat", sans-serif; }
-    #sub-section .tab-navigation li {
+    .sub-section .tab-navigation li {
       background: #d1c8b6;
       border-right: 1px solid rgba(0, 0, 0, 0.2); }
-      #sub-section .tab-navigation li.active {
+      .sub-section .tab-navigation li.active {
         background: #fff;
         border-right: 0; }
-      #sub-section .tab-navigation li a {
+      .sub-section .tab-navigation li a {
         color: #333333; }
-        #sub-section .tab-navigation li a:hover, #sub-section .tab-navigation li a:focus {
+        .sub-section .tab-navigation li a:hover, .sub-section .tab-navigation li a:focus {
           background: #fff; }
-  #sub-section .tab-content {
+  .sub-section .tab-content {
     background: #fff;
     padding-bottom: 10px;
     padding-top: 10px;
     margin: 0;
     overflow-y: auto;
     overflow-x: hidden; }
-    #sub-section .tab-content #perDiemCalculator .form-horizontal .form-group {
+    .sub-section .tab-content #perDiemCalculator .form-horizontal .form-group {
       margin: 5px 0; }
-    #sub-section .tab-content #perDiemCalculator .form-horizontal input, #sub-section .tab-content #perDiemCalculator .form-horizontal select {
+    .sub-section .tab-content #perDiemCalculator .form-horizontal input, .sub-section .tab-content #perDiemCalculator .form-horizontal select {
       padding: 10px;
       font-size: 16px;
       font-size: 1rem; }
-    #sub-section .tab-content #perDiemCalculator .content-column {
+    .sub-section .tab-content #perDiemCalculator .content-column {
       padding: 0 0 0 10px;
       margin: 0; }
-      #sub-section .tab-content #perDiemCalculator .content-column:last-child {
+      .sub-section .tab-content #perDiemCalculator .content-column:last-child {
         position: absolute;
         bottom: 20px;
         right: 0;
         padding-right: 10px; }
         @media only screen and (max-width: 768px) {
-          #sub-section .tab-content #perDiemCalculator .content-column:last-child {
+          .sub-section .tab-content #perDiemCalculator .content-column:last-child {
             position: relative;
             bottom: auto;
             right: auto;
@@ -1291,28 +1291,40 @@ address {
 .overview-page-control {
   display: block;
   position: absolute;
-  font-size: 50px;
-  font-size: 3.125rem;
+  font-size: 16px;
+  font-size: 1rem;
   top: 50%;
   margin-top: -25px;
   cursor: pointer;
-  z-index: 99; }
+  background: #27328b;
+  color: #fff;
+  z-index: 99;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3); }
+  .overview-page-control span {
+    padding-left: 10px;
+    padding-right: 10px; }
   .overview-page-control#left-arrow {
-    left: 50px; }
+    left: 0; }
     .overview-page-control#left-arrow strong {
-      left: 100%; }
+      float: right; }
   .overview-page-control#right-arrow {
-    right: 50px; }
+    right: 0; }
     .overview-page-control#right-arrow strong {
-      right: 100%; }
+      float: left; }
   .overview-page-control strong {
     display: none;
-    position: absolute;
-    top: 50%;
-    margin-top: -16px;
     font-size: 16px;
     font-size: 1rem;
-    white-space: nowrap; }
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: normal; }
+  .overview-page-control:hover {
+    color: #fff; }
 
 #landing-page {
   margin-top: 110px; }

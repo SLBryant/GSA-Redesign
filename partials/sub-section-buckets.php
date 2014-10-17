@@ -1,5 +1,5 @@
 <div class="clearfix"></div>
-<section id="sub-section" class="row bucket-styles">
+<section class="row bucket-styles sub-section">
     <!-- bucket -->
     <div class="bucket col-sm-4 col-xs-12">
         <article>

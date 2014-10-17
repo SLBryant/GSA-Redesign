@@ -29,6 +29,13 @@ GSA.navigations = new function(){
            e.preventDefault();
            form.toggleClass("hidden")
        })
+    };
+
+    this.pullQuotes = function() {
+        firstLevelNav.find('a').hover(function() {
+            var itemText = $(this).attr('data-text');
+            $('.pull-quotes').find('h3').text(itemText);
+        });
     }
 
     this.navGraphic = function() {
@@ -201,17 +208,18 @@ GSA.prettyTables = new function(){
 };
 
 GSA.tabs = new function(){
-    var subSectionHeight = $('#sub-section').height();
-    var numOfItems = $('.tab-navigation ul li').length;
+    var subSectionHeight = $('.overview-page.active .sub-section').height();
+    var item = $('.overview-page.active .tab-navigation ul li');
+    var numOfItems = item.length;
     var toggle = $('.toggle-switch');
     this.navAlign = function() {
         setTimeout(function() {
-            $('.tab-navigation ul li').height(subSectionHeight / numOfItems);
-            $('.tab-navigation ul li a').verticalAlign();
+            item.height(subSectionHeight / numOfItems);
+            item.find('a').verticalAlign();
         },1);
     };
     this.activateFirstTab = function() {
-        $('.tab-navigation ul li').eq(0).addClass('active');
+        item.eq(0).addClass('active');
     };
 
     this.faqTabs = function() {
@@ -222,148 +230,159 @@ GSA.tabs = new function(){
     }
 };
 
+GSA.overviewPage = new function() {
+    this.buildSlider =function() {
+        iteratePages();
 
+        function iteratePages() {
+            var pages = [
+                'home',
+                'travel',
+                'real-estate',
+                'shopper',
+                'supplier',
+                'technology',
+                'about-us'
+            ];
 
-
-// Doc Ready -------
-$(function() {
-
-    $('#main-nav li a').hover(function() {
-        var itemText = $(this).attr('data-text');
-        $('.pull-quotes').find('h3').text(itemText);
-    });
-
-    iteratePages();
-
-    function iteratePages() {
-        var pages = [
-            'home',
-            'travel',
-            'real-estate',
-            'shopper',
-            'supplier',
-            'technology',
-            'about-us'
-        ];
-
-        for (var i = 0; i < pages.length; i++) {
-            ajaxFunction(pages[i], '.php', i);
+            for (var i = 0; i < pages.length; i++) {
+                ajaxFunction(pages[i], '.php', i);
+            }
+            callback();
         }
-        callback();
-    }
 
-    function ajaxFunction (page, fileExtension,i) {
-        // don't return the page that the user is currently on
-        var path = window.location.pathname;
-        if(path.indexOf(page) < 0 ) {
-            // ajax request
-            $.ajax({
-                type: 'POST',
-                dataType: 'html',
-                url: page + fileExtension,
-                success: function (data) {
-                    var success = $(data).find('#'+page).html();
-                    $('#'+page).html(success);
-                },
-                error: function (xhr) {
-                    console.log(xhr.status)
-                }
+        function ajaxFunction (page, fileExtension,i) {
+            // don't return the page that the user is currently on
+            var path = window.location.pathname;
+            if(path.indexOf(page) < 0 ) {
+                // ajax request
+                $.ajax({
+                    type: 'POST',
+                    dataType: 'html',
+                    url: page + fileExtension,
+                    success: function (data) {
+                        var success = $(data).find('#'+page).html();
+                        $('#'+page).html(success);
+                    },
+                    error: function (xhr) {
+                        console.log(xhr.status)
+                    }
+                });
+            }
+        }
+        function callback() {
+            // init height of page
+            GSA.homepage.heightOrientation();
+            // init carousel
+            var theCarousel = $('#overview-page-wrapper');
+            theCarousel.carousel({
+                interval: false,
+                wrap: false
             });
-        }
-    }
-    function callback() {
-        // init height of page
-        GSA.homepage.heightOrientation();
-        // init carousel
-        var theCarousel = $('#overview-page-wrapper');
-        theCarousel.carousel({
-            interval: false,
-            wrap: false
-        });
-        // get right & left controls
-        var rightControl = theCarousel.find('#right-arrow');
-        var leftControl = theCarousel.find('#left-arrow');
 
-        // callback after slide transition has completed
-        theCarousel.on('slid', function () {
-            var topLevelNavItem = $('#main-nav > li');
-            //remove class "selected" from current slide
-            topLevelNavItem.find('a').removeClass('selected');
-            //get the ID of the active slide
-            activeID = $('.overview-page.active').attr('id');
-            if(activeID == 'home'){
-                History.pushState(null,'Home','home.php');
-            }
-            if(activeID == 'travel'){
-               topLevelNavItem.eq(0).find('a').addClass('selected');
-                $('#right-arrow').find('strong').text('Real Estate');
-                $('#left-arrow').find('strong').text('Home');
-                History.pushState(null,'Travel','travel.php');
-            }
-            else if(activeID == 'real-estate'){
-               topLevelNavItem.eq(1).find('a').addClass('selected');
-                $('#right-arrow').find('strong').text('Shopper');
-                $('#left-arrow').find('strong').text('Travel');
-                History.pushState(null,'Real Estate','real-estate.php');
-            }
-            else if(activeID == 'shopper'){
-                topLevelNavItem.eq(2).find('a').addClass('selected');
-                $('#right-arrow').find('strong').text('Supplier');
-                $('#left-arrow').find('strong').text('Real Estate');
-                History.pushState(null,'Shopper','shopper.php');
-            }
-            else if(activeID == 'supplier'){
-                topLevelNavItem.eq(3).find('a').addClass('selected');
-                $('#right-arrow').find('strong').text('Technology');
-                $('#left-arrow').find('strong').text('Shopper');
-                History.pushState(null,'Supplier','supplier.php');
-            }
-            else if(activeID == 'technology'){
-                topLevelNavItem.eq(4).find('a').addClass('selected') ;
-                $('#right-arrow').find('strong').text('About Us');
-                $('#left-arrow').find('strong').text('Shopper');
-                History.pushState(null,'Technology','technology.php');
-            }
-            else if(activeID == 'about-us'){
-                topLevelNavItem.eq(5).find('a').addClass('selected') ;
-                $('#left-arrow').find('strong').text('Technology');
-                History.pushState(null,'About Us','about-us.php');
-            }
-            // get active slide
-            var getActive = theCarousel.find(".item.active");
-            // if the last slide,
-            if (!getActive.next().length) {
-                rightControl.fadeOut();
-            } else {
-                rightControl.fadeIn();
-            }
-            // if the first slide,
-            if (!getActive.prev().length) {
+            // get right & left controls
+            var rightControl = theCarousel.find('#right-arrow');
+            var leftControl = theCarousel.find('#left-arrow');
+
+            //
+            if($('.overview-page.active').attr('id') == 'home') {
                 leftControl.fadeOut();
             } else {
                 leftControl.fadeIn();
             }
 
-        });
-        // hover to show next page title
-        $('.overview-page-control').hover(function() {
-            $(this).find('strong').stop().show(500);
-        },function() {
-            $(this).find('strong').stop().hide(500);
-        })
-    }
+
+            // callback after slide transition has completed
+            theCarousel.on('slid', function () {
+                var topLevelNavItem = $('#main-nav > li');
+                //remove class "selected" from current slide
+                topLevelNavItem.find('a').removeClass('selected');
+                //get the ID of the active slide
+                var activeID = $('.overview-page.active').attr('id');
+                if(activeID == 'home'){
+                    History.pushState(null,'Home','home.php');
+                }
+                if(activeID == 'travel'){
+                    topLevelNavItem.eq(0).find('a').addClass('selected');
+                    $('#right-arrow').find('strong').text('Real Estate');
+                    $('#left-arrow').find('strong').text('Home');
+                    History.pushState(null,'Travel','travel.php');
+                }
+                else if(activeID == 'real-estate'){
+                    topLevelNavItem.eq(1).find('a').addClass('selected');
+                    $('#right-arrow').find('strong').text('Shopper');
+                    $('#left-arrow').find('strong').text('Travel');
+                    History.pushState(null,'Real Estate','real-estate.php');
+                }
+                else if(activeID == 'shopper'){
+                    topLevelNavItem.eq(2).find('a').addClass('selected');
+                    $('#right-arrow').find('strong').text('Supplier');
+                    $('#left-arrow').find('strong').text('Real Estate');
+                    History.pushState(null,'Shopper','shopper.php');
+                }
+                else if(activeID == 'supplier'){
+                    topLevelNavItem.eq(3).find('a').addClass('selected');
+                    $('#right-arrow').find('strong').text('Technology');
+                    $('#left-arrow').find('strong').text('Shopper');
+                    History.pushState(null,'Supplier','supplier.php');
+                }
+                else if(activeID == 'technology'){
+                    topLevelNavItem.eq(4).find('a').addClass('selected') ;
+                    $('#right-arrow').find('strong').text('About Us');
+                    $('#left-arrow').find('strong').text('Supplier');
+                    History.pushState(null,'Technology','technology.php');
+                }
+                else if(activeID == 'about-us'){
+                    topLevelNavItem.eq(5).find('a').addClass('selected') ;
+                    $('#left-arrow').find('strong').text('Technology');
+                    History.pushState(null,'About Us','about-us.php');
+                }
+                // get active slide
+                var getActive = theCarousel.find(".item.active");
+                // if the last slide,
+                if (!getActive.next().length) {
+                    rightControl.fadeOut();
+                } else {
+                    rightControl.fadeIn();
+                }
+                // if the first slide,
+                if (!getActive.prev().length) {
+                    leftControl.fadeOut();
+                } else {
+                    leftControl.fadeIn();
+                }
+
+            });
+
+            // hover to show next page title
+            $('.overview-page-control').hover(function() {
+                $(this).find('strong').stop().show(500);
+            },function() {
+                $(this).find('strong').stop().hide(500);
+            });
+        }
+    };
+};
 
 
+// Doc Ready -------
+$(function() {
+
+
+
+    GSA.overviewPage.buildSlider();
     GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();
     GSA.navigations.mobileNavPlugin();
     GSA.navigations.navGraphic();
     GSA.navigations.accordionNav();
+    GSA.navigations.pullQuotes();
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
     GSA.tabs.faqTabs();
     GSA.homepage.fullScreenRotator();
+
 
 
     if($(window).width() > 768) {
