@@ -24,7 +24,32 @@
     }
 }
 %social-links {
-  padding: 10px 0 20px;
+  ul {
+    text-align: center;
+      li {
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/social-media-sprite.png) no-repeat;
+        padding: 0!important;
+        overflow: hidden;
+        a {
+          display: block;
+          height: 28px;
+        }
+        &.facebook-icon{ background-position: 0 0;  }
+        &.twitter-icon{ background-position: 0 -28px;  }
+        &.youtube-icon{ background-position: 0 -56px;  }
+        &.instagram-icon{ background-position: 0 -84px;  }
+        &.pintrest-icon{ background-position: 0 -112px;  }
+        &.email-icon{ background-position: 0 -140px;  }
+      }
+  }
+
+
+
+
+ /* padding: 10px 0 20px;
   background: $gsaBlue;
     @include tablets {
       padding: 5px;
@@ -63,7 +88,7 @@
       .blog-logo a {
         background-position: 50% -131px;
       }
-  }
+  }*/
 }
 
 %buttons {

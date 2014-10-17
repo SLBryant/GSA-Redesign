@@ -77,38 +77,70 @@
       color: #fff; }
 
 .social-links {
-  padding: 10px 0 20px;
-  background: #27328b; }
-  @media only screen and (max-width: 768px) {
-    .social-links {
-      padding: 5px;
-      margin-bottom: 20px; } }
+  /* padding: 10px 0 20px;
+   background: $gsaBlue;
+     @include tablets {
+       padding: 5px;
+       margin-bottom: 20px;
+     }
+   ul {
+     width: 100%;
+       @include tablets {
+         text-align: center;
+       }
+       li {
+         height: 20px;
+         width: 20%;
+         overflow: hidden;
+           @include tablets {
+             display: inline-block;
+             width: 15%;
+           }
+         a {
+           display: block;
+           background: url(../images/social-media-sprite.png) no-repeat;
+         }
+       }
+       .facebook-logo a {
+         background-position: 50% 0;
+       }
+       .twitter-logo a {
+         background-position: 50% -38px;
+       }
+       .yt-logo a {
+         background-position: 50% -69px;
+       }
+       .rss-logo a {
+         background-position: 50% -101px;
+       }
+       .blog-logo a {
+         background-position: 50% -131px;
+       }
+   }*/ }
   .social-links ul {
-    width: 100%; }
-    @media only screen and (max-width: 768px) {
-      .social-links ul {
-        text-align: center; } }
+    text-align: center; }
     .social-links ul li {
-      height: 20px;
-      width: 20%;
+      display: inline-block;
+      width: 26px;
+      height: 28px;
+      background: url(../images/social-media-sprite.png) no-repeat;
+      padding: 0 !important;
       overflow: hidden; }
-      @media only screen and (max-width: 768px) {
-        .social-links ul li {
-          display: inline-block;
-          width: 15%; } }
       .social-links ul li a {
         display: block;
-        background: url(../images/social-media-sprite.png) no-repeat; }
-    .social-links ul .facebook-logo a {
-      background-position: 50% 0; }
-    .social-links ul .twitter-logo a {
-      background-position: 50% -38px; }
-    .social-links ul .yt-logo a {
-      background-position: 50% -69px; }
-    .social-links ul .rss-logo a {
-      background-position: 50% -101px; }
-    .social-links ul .blog-logo a {
-      background-position: 50% -131px; }
+        height: 28px; }
+      .social-links ul li.facebook-icon {
+        background-position: 0 0; }
+      .social-links ul li.twitter-icon {
+        background-position: 0 -28px; }
+      .social-links ul li.youtube-icon {
+        background-position: 0 -56px; }
+      .social-links ul li.instagram-icon {
+        background-position: 0 -84px; }
+      .social-links ul li.pintrest-icon {
+        background-position: 0 -112px; }
+      .social-links ul li.email-icon {
+        background-position: 0 -140px; }
 
 .gsa-btn {
   background: #8fc7ea;

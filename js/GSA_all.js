@@ -272,12 +272,10 @@ $(function() {
         }
     }
     function callback() {
-        // init height
+        // init height of page
         GSA.homepage.heightOrientation();
-
-        var theCarousel = $('#overview-page-wrapper');
-
         // init carousel
+        var theCarousel = $('#overview-page-wrapper');
         theCarousel.carousel({
             interval: false,
             wrap: false
@@ -286,45 +284,48 @@ $(function() {
         var rightControl = theCarousel.find('#right-arrow');
         var leftControl = theCarousel.find('#left-arrow');
 
-        // callback after slide instance
+        // callback after slide transition has completed
         theCarousel.on('slid', function () {
-            $('#main-nav > li').find('a').removeClass('selected');
+            var topLevelNavItem = $('#main-nav > li');
+            //remove class "selected" from current slide
+            topLevelNavItem.find('a').removeClass('selected');
+            //get the ID of the active slide
             activeID = $('.overview-page.active').attr('id');
             if(activeID == 'home'){
                 History.pushState(null,'Home','home.php');
             }
             if(activeID == 'travel'){
-                $('#main-nav > li').eq(0).find('a').addClass('selected');
+               topLevelNavItem.eq(0).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Real Estate');
                 $('#left-arrow').find('strong').text('Home');
                 History.pushState(null,'Travel','travel.php');
             }
             else if(activeID == 'real-estate'){
-                $('#main-nav > li').eq(1).find('a').addClass('selected');
+               topLevelNavItem.eq(1).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Shopper');
                 $('#left-arrow').find('strong').text('Travel');
                 History.pushState(null,'Real Estate','real-estate.php');
             }
             else if(activeID == 'shopper'){
-                $('#main-nav > li').eq(2).find('a').addClass('selected');
+                topLevelNavItem.eq(2).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Supplier');
                 $('#left-arrow').find('strong').text('Real Estate');
                 History.pushState(null,'Shopper','shopper.php');
             }
             else if(activeID == 'supplier'){
-                $('#main-nav > li').eq(3).find('a').addClass('selected');
+                topLevelNavItem.eq(3).find('a').addClass('selected');
                 $('#right-arrow').find('strong').text('Technology');
                 $('#left-arrow').find('strong').text('Shopper');
                 History.pushState(null,'Supplier','supplier.php');
             }
             else if(activeID == 'technology'){
-                $('#main-nav > li').eq(4).find('a').addClass('selected') ;
+                topLevelNavItem.eq(4).find('a').addClass('selected') ;
                 $('#right-arrow').find('strong').text('About Us');
                 $('#left-arrow').find('strong').text('Shopper');
                 History.pushState(null,'Technology','technology.php');
             }
             else if(activeID == 'about-us'){
-                $('#main-nav > li').eq(5).find('a').addClass('selected') ;
+                topLevelNavItem.eq(5).find('a').addClass('selected') ;
                 $('#left-arrow').find('strong').text('Technology');
                 History.pushState(null,'About Us','about-us.php');
             }

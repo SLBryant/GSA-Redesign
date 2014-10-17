@@ -44,12 +44,13 @@
             <h5 class="text-right"> U.S. General Services Administration</h5>
             <div class="social-links">
                 <h5>Stay Connected <span class="icon-arrow-right"></span></h5>
-                <ul class="nav navbar-nav">
-                    <li class="facebook-logo"><a href="#"></a></li>
-                    <li class="twitter-logo"><a href="#"></a></li>
-                    <li class="yt-logo"><a href="#"></a></li>
-                    <li class="rss-logo"><a href="#"></a></li>
-                    <li class="blog-logo"><a href="#"></a></li>
+                <ul class="list-unstyled">
+                    <li class="facebook-icon"><a href="#" title="Facebook"></a></li>
+                    <li class="twitter-icon"><a href="#" title="Twitter"></a></li>
+                    <li class="youtube-icon"><a href="#" title="Youtube"></a></li>
+                    <li class="instagram-icon"><a href="#" title="Instagram"></a></li>
+                    <li class="pintrest-icon"><a href="#" title="Pintrest"></a></li>
+                    <li class="email-icon"><a href="#" title="Email"></a></li>
                 </ul>
             </div>
         </aside>
