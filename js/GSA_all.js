@@ -365,12 +365,8 @@ GSA.overviewPage = new function() {
     };
 };
 
-
-// Doc Ready -------
-$(function() {
-
-
-
+GSA.init = new function(){
+    
     GSA.overviewPage.buildSlider();
     GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
@@ -384,8 +380,6 @@ $(function() {
     GSA.tabs.faqTabs();
     GSA.homepage.fullScreenRotator();
 
-
-
     if($(window).width() > 768) {
         GSA.tabs.navAlign();
         GSA.tabs.activateFirstTab();
@@ -394,16 +388,22 @@ $(function() {
         GSA.navigations.accordionNavMobile();
     }
 
-});
-$(window).resize(function() {
+    $(window).resize(function() {
     GSA.homepage.heightOrientation();
-})
+    });
 
-// vertical alignment plugin
-jQuery.fn.verticalAlign = function () {
-    return this
-        .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
+    // vertical alignment plugin
+    jQuery.fn.verticalAlign = function () {
+        return this
+            .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
+    };
 };
+
+
+// Doc Ready -------
+$(function() {
+    GSA.init();
+});
 
 
 
