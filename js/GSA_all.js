@@ -366,8 +366,11 @@ GSA.overviewPage = new function() {
     };
 };
 
-GSA.init = new function(){
-    
+
+
+
+// Doc Ready -------
+$(function() {
     GSA.overviewPage.buildSlider();
     GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
@@ -398,12 +401,6 @@ GSA.init = new function(){
         return this
             .css("padding-top", ($(this).parent().height() - $(this).height()) / 2 + 'px').css("padding-bottom", ($(this).parent().height() - $(this).height()) / 2 + 'px')
     };
-};
-
-
-// Doc Ready -------
-$(function() {
-    GSA.init();
 });
 
 
