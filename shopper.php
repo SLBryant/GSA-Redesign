@@ -25,7 +25,7 @@
                     </div>
 
                     <!-- sub section -->
-                    <?php include('partials/sub-section-tabs.php'); ?>
+                    <?php include('partials/sub-section-shopper.php'); ?>
                 </div>
             </div>
             <div id="supplier" class="overview-page item"></div>

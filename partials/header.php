@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Page Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.smartmenus.bootstrap.css">
     <link rel="stylesheet" href="css/all.css">
     <script src="js/modernizr-2.6.2.min.js"></script>
 </head>

@@ -299,6 +299,7 @@ GSA.overviewPage = new function() {
                 topLevelNavItem.find('a').removeClass('selected');
                 //get the ID of the active slide
                 var activeID = $('.overview-page.active').attr('id');
+                GSA.tabs.navAlign();
                 if(activeID == 'home'){
                     History.pushState(null,'Home','home.php');
                 }

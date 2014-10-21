@@ -22,7 +22,7 @@
                     </div>
 
                     <!-- sub section -->
-                    <?php include('partials/sub-section-tabs.php'); ?>
+                    <?php include('partials/sub-section-travel.php'); ?>
                 </div>
             </div>
             <div id="technology" class="overview-page item"></div>

@@ -24,7 +24,7 @@
                         </ul>
                     </div>
                     <!-- sub section -->
-                    <?php include('partials/sub-section-tabs.php'); ?>
+                    <?php include('partials/sub-section-travel.php'); ?>
                 </div>
             </div>
             <div id="real-estate" class="overview-page item"></div>
