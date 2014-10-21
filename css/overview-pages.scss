@@ -13,9 +13,9 @@
   @include flexAlignItems(center);
   padding-bottom: 45px;
   padding-top: 150px;
-  min-height: 768px;
+  min-height: 600px;
   height: inherit;
-  max-height: 1024px;
+  max-height: 800px;
     @include desktops {
       padding-top: 100px;
     }

@@ -1,7 +1,7 @@
 <div class="clearfix"></div>
 <section class="row bucket-styles sub-section">
     <!-- bucket -->
-    <div class="bucket col-sm-4 col-xs-12">
+    <div class="bucket col-sm-12 col-md-4">
         <article>
             <a href="#">
                 <header class="row">
@@ -19,7 +19,7 @@
         </article>
     </div>
     <!-- bucket -->
-    <div class="bucket col-sm-4 col-xs-12">
+    <div class="bucket col-sm-12 col-md-4">
         <article>
             <a href="#">
                 <header class="row">
@@ -37,7 +37,7 @@
         </article>
     </div>
     <!-- bucket 3 -->
-    <div class="bucket col-sm-4 col-xs-12">
+    <div class="bucket col-sm-12 col-md-4">
         <article>
             <a href="#">
                 <header class="row">

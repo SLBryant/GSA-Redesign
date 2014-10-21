@@ -128,7 +128,7 @@ GSA.homepage = new function() {
 
     };
     this.heightOrientation = function() {
-        $('.overview-page').animate({'min-height' : $(window).height()-15},1);
+            $('.overview-page').animate({'height': $(window).height() - 15}, 1);
     }
 };
 

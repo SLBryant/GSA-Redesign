@@ -3,7 +3,7 @@
   padding-top: $footerPadding;
   padding-bottom: 30px;
   border-top: 10px solid $gsaRed;
-  background: #ede9e0 url(../images/zebra-gradient.png) repeat-x 0 0;
+  background: $footerBG url(../images/zebra-gradient.png) repeat-x 0 0;
   ul {
     li {
       padding: 3px 0;

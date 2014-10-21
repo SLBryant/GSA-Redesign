@@ -3,7 +3,7 @@
     <header id="main-navigation" class="primary-nav">
         <nav class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/nav-logo.jpg"></a>
+                <a class="navbar-brand" href="home.php"><img class="img-responsive" src="images/nav-logo.jpg"></a>
             </div>
             <?php include ('partials/main-nav.php');?>
             <?php include('partials/search-in-nav.php');?>
