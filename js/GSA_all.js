@@ -376,6 +376,18 @@ GSA.overviewPage = new function() {
 
 // Doc Ready -------
 $(function() {
+    Modernizr.load([
+        {
+            test : !Modernizr.flexbox && !Modernizr.flexboxlegacy,
+            yep : ['js/flexie.min.js'],
+            complete: function(){
+                //move along
+            }
+        },
+        //things to do after
+        //'something.js'
+    ]);
+
     GSA.overviewPage.buildSlider();
     GSA.overviewPage.footerHeight();
     GSA.homepage.heightOrientation();
