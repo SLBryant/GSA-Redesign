@@ -232,6 +232,11 @@ GSA.tabs = new function(){
 };
 
 GSA.overviewPage = new function() {
+    this.footerHeight = function() {
+        if($('body').find('.overview-page')) {
+            $('body').addClass('overview-page-body');
+        };
+    };
     this.buildSlider =function() {
         iteratePages();
 
@@ -372,6 +377,7 @@ GSA.overviewPage = new function() {
 // Doc Ready -------
 $(function() {
     GSA.overviewPage.buildSlider();
+    GSA.overviewPage.footerHeight();
     GSA.homepage.heightOrientation();
     GSA.rotatingFeatureBlock.slideJS();
     GSA.navigations.searchToggle();

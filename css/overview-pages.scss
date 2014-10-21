@@ -13,15 +13,14 @@
   @include flexAlignItems(center);
   padding-bottom: 45px;
   padding-top: 150px;
-  min-height: 600px;
+  min-height: 768px;
   height: inherit;
-  max-height: 800px;
+  max-height: 900px;
     @include desktops {
       padding-top: 100px;
     }
   .jumbotron {
     background: none;
-    align-self: flex-start;
       h1 {
         @include font-size(38px);
         text-transform: uppercase;

@@ -3,6 +3,9 @@ html {
 }
 body {
   font-family: $gsaBodyFont;
+    &.overview-page-body {
+      background: $footerBG;
+    }
 }
 .page-content {
   padding: 150px 0;
