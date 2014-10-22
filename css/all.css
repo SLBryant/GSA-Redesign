@@ -417,7 +417,7 @@ address {
         max-width: 100% !important;
         overflow: hidden;
         background: #d1c8b6;
-        padding: 0 0 40px;
+        padding: 15px 0 40px;
         margin-left: 0 !important;
         -webkit-box-shadow: 0 0;
         -moz-box-shadow: 0 0;
@@ -426,7 +426,6 @@ address {
         -moz-border-radius: 0;
         border-radius: 0;
         border: 0;
-        border-top: 5px solid rgba(0, 0, 0, 0);
         -webkit-background-clip: padding-box;
         /* for Safari */
         background-clip: padding-box;
@@ -434,7 +433,7 @@ address {
         min-height: 230px; }
         .primary-nav ul#main-nav > li > .dropdown-menu > li {
           text-align: left;
-          width: 33%;
+          width: 33.33%;
           font-size: 14px;
           font-size: 0.875rem;
           line-height: 2.2;
@@ -454,13 +453,13 @@ address {
           .primary-nav ul#main-nav > li > .dropdown-menu > li > ul {
             font-family: arial, sans-serif;
             top: 0 !important;
-            left: 33% !important;
+            left: 33.33% !important;
             margin: 0 !important;
-            padding-top: 0;
+            padding-top: 15px;
             height: 100%;
             border: 0;
-            width: 33% !important;
-            max-width: 33% !important;
+            width: 33.33% !important;
+            max-width: 33.33% !important;
             background: #efeadf;
             -webkit-box-shadow: 0 0;
             -moz-box-shadow: 0 0;
@@ -479,7 +478,7 @@ address {
               color: #333333; }
 
 .pull-quotes {
-  width: 33%;
+  width: 33.33%;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -494,7 +493,7 @@ address {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center;
-  height: 230px;
+  height: 285px;
   /*img {
     max-width: 80%;
     max-height: 170px;
@@ -509,7 +508,8 @@ address {
     font-size: 22px;
     font-size: 1.375rem;
     color: #efeadf;
-    font-weight: normal; }
+    font-weight: normal;
+    margin: 0; }
 
 #inner-main-navigation {
   background: #fff;
@@ -586,7 +586,7 @@ address {
         width: 1170px; } }
 
 #main-nav-search-field {
-  width: 33%;
+  width: 33.33%;
   position: absolute;
   right: 1px;
   bottom: -80px;
@@ -1141,7 +1141,7 @@ address {
   padding-top: 150px;
   min-height: 768px;
   height: inherit;
-  max-height: 900px; }
+  max-height: 940px; }
   @media only screen and (max-width: 992px) {
     .overview-page {
       padding-top: 100px; } }
@@ -1204,6 +1204,7 @@ address {
   -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  min-height: 150px;
   overflow: hidden; }
   .sub-section.bucket-styles {
     -webkit-box-shadow: 0 0;
@@ -1702,7 +1703,7 @@ table.dataTable thead td:active {
   text-transform: none;
   line-height: 1;
   position: absolute;
-  right: 0;
+  right: 10px;
   top: 6px;
   display: inline-block; }
   .sub-arrow:before {

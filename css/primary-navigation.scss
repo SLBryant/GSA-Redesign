@@ -156,18 +156,18 @@
           max-width: 100%!important;
           overflow: hidden;
           background: $gsaBeige;
-          padding: 0 0 40px;
+          padding: 15px 0 40px;
           margin-left: 0!important;
           @include box-shadow(0,0);
           @include border-radius(0);
           border: 0;
-          border-top: 5px solid rgba(0,0,0,0);
+          //border-top: 5px solid rgba(0,0,0,0);
           -webkit-background-clip: padding-box; /* for Safari */
           background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
           min-height: 230px;
           > li {
             text-align: left;
-            width: 33%;
+            width: 33.33%;
             @include font-size(14px);
             line-height: 2.2;
             color: $darkGray;
@@ -189,13 +189,13 @@
             > ul {
               font-family: $gsaBodyFont;
               top: 0!important;
-              left: 33%!important;
+              left: 33.33%!important;
               margin: 0!important;
-              padding-top: 0;
+              padding-top: 15px;
               height: 100%;
               border: 0;
-              width: 33%!important;
-              max-width: 33%!important;
+              width: 33.33%!important;
+              max-width: 33.33%!important;
               background: $offWhite;
               @include box-shadow(0,0);
               @include border-radius(0);
@@ -220,20 +220,20 @@
 }
 
 .pull-quotes {
-  width: 33%;
+  width: 33.33%;
   overflow: hidden;
   position: absolute;
   top: 0;
   right: 0;
-
   @include flexbox;
   @include flexAlignItems(center);
-  height: 230px;
+  height: 285px;
     h3 {
       padding: 0 20px;
       @include font-size(22px);
       color: $offWhite;
       font-weight: normal;
+      margin: 0;
     }
     /*img {
       max-width: 80%;
@@ -323,7 +323,7 @@
 
 // Search
 #main-nav-search-field {
-  width: 33%;
+  width: 33.33%;
   position: absolute;
   right: 1px;
   bottom: -80px;

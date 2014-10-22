@@ -79,6 +79,29 @@ GSA.navigations = new function(){
         new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
     }
 
+    this.hoverTransitions = function() {
+        var secondLevel = $('ul#main-nav > li > .dropdown-menu > li > ul');
+        var firstLevel = $('ul#main-nav > li > .dropdown-menu');
+        var thirdLevel = $('.pull-quotes');
+        var thirdLevelText = $('.pull-quotes > h3');
+
+        hoverState(secondLevel, '#fff', '#efeadf','#fff','#d1c8b6');
+        hoverState(firstLevel, '#efeadf', '#d1c8b6','#d1c8b6','#d1c8b6', '#d1c8b6','#efeadf' );
+
+
+        function hoverState(theLevel, levelThreeHoverBGColor, levelThreeBGColor, levelTwoHoverBorder, levelTwoBorder, fontHoverColor, fontColor) {
+            theLevel.hover(function() {
+                thirdLevel.css('background',levelThreeHoverBGColor);
+                thirdLevelText.css('color',fontHoverColor);
+                secondLevel.css('border-right','1px solid '+levelTwoHoverBorder)
+            },function() {
+                thirdLevel.css('background',levelThreeBGColor)
+                thirdLevelText.css('color',fontColor);
+                secondLevel.css('border-right','1px solid '+levelTwoBorder)
+            })
+        }
+    }
+
 
 };
 
@@ -128,7 +151,9 @@ GSA.homepage = new function() {
 
     };
     this.heightOrientation = function() {
-            $('.overview-page').animate({'height': $(window).height() - 15}, 1);
+        if($(window).height() <= 940) {
+            $('.overview-page').animate({'min-height': $(window).height() - 15}, 1);
+        }
     }
 };
 
@@ -391,16 +416,23 @@ $(function() {
     GSA.overviewPage.buildSlider();
     GSA.overviewPage.footerHeight();
     GSA.homepage.heightOrientation();
-    GSA.rotatingFeatureBlock.slideJS();
+    GSA.homepage.fullScreenRotator();
+
+
+
     GSA.navigations.searchToggle();
     GSA.navigations.mobileNavPlugin();
     GSA.navigations.navGraphic();
     GSA.navigations.accordionNav();
     GSA.navigations.pullQuotes();
+    GSA.navigations.hoverTransitions();
+
+
     GSA.prettyTables.operator();
     GSA.imageCaching.cache();
     GSA.tabs.faqTabs();
-    GSA.homepage.fullScreenRotator();
+    GSA.rotatingFeatureBlock.slideJS();
+
 
     if($(window).width() > 768) {
         GSA.tabs.navAlign();
