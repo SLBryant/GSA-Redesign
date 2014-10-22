@@ -890,10 +890,9 @@ address {
       .rotating-feature-block .row figure img {
         min-height: 100%; }
     .rotating-feature-block .row h4 {
-      text-transform: uppercase;
-      margin-top: 15px; }
+            margin-top: 15px; }
     .rotating-feature-block .row a {
-      text-transform: uppercase; }
+       }
 
 /* SLIDESHOW ISOTOPES */
 .slidesjs-pagination {
