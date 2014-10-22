@@ -31,7 +31,7 @@
             <span class="icon-arrow-left"></span><strong>Technology</strong>
         </a>
         <a id="right-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="next">
-            <strong></strong><span class="icon-arrow-right"></span>
+            <span class="icon-arrow-right"></span><strong></strong>
         </a>
     </section>
 <?php include ('partials/footer.php');?>

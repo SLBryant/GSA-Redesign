@@ -36,7 +36,7 @@
             <span class="icon-arrow-left"></span><strong>Supplier</strong>
         </a>
         <a id="right-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="next">
-            <strong>About Us</strong><span class="icon-arrow-right"></span>
+            <span class="icon-arrow-right"></span><strong>About Us</strong>
         </a>
     </section>
 <?php include ('partials/footer.php');?>

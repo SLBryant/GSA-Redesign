@@ -213,7 +213,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  }
+  font-weight: bold; }
 
 h1 {
   margin-top: 0; }
@@ -890,9 +890,10 @@ address {
       .rotating-feature-block .row figure img {
         min-height: 100%; }
     .rotating-feature-block .row h4 {
-            margin-top: 15px; }
+      text-transform: uppercase;
+      margin-top: 15px; }
     .rotating-feature-block .row a {
-       }
+      text-transform: uppercase; }
 
 /* SLIDESHOW ISOTOPES */
 .slidesjs-pagination {
@@ -1303,19 +1304,25 @@ address {
     padding-right: 10px; }
   .overview-page-control#left-arrow {
     left: 0; }
+    .overview-page-control#left-arrow span {
+      float: left; }
     .overview-page-control#left-arrow strong {
-      float: right; }
+      float: left;
+      padding-left: 0;
+      padding-right: 10px; }
   .overview-page-control#right-arrow {
     right: 0; }
+    .overview-page-control#right-arrow span {
+      float: right; }
     .overview-page-control#right-arrow strong {
-      float: left; }
+      float: right;
+      padding-left: 10px;
+      padding-right: 0; }
   .overview-page-control strong {
     display: none;
     font-size: 16px;
     font-size: 1rem;
     white-space: nowrap;
-    padding-left: 15px;
-    padding-right: 15px;
     font-weight: normal; }
   .overview-page-control:hover {
     color: #fff; }
@@ -1853,10 +1860,11 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
       font-size: 0.75rem; } }
 
 #main-column h1 {
-  }
+  text-transform: uppercase; }
 #main-column .sub-topic {
   margin-top: 30px; }
   #main-column .sub-topic header {
+    text-transform: uppercase;
     background: #efeadf;
     padding: 2px 10px; }
   #main-column .sub-topic article {

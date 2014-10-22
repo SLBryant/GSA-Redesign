@@ -332,6 +332,7 @@ GSA.overviewPage = new function() {
                 var activeID = $('.overview-page.active').attr('id');
                 GSA.tabs.navAlign();
                 if(activeID == 'home'){
+                    $('#right-arrow').find('strong').text('Travel');
                     History.pushState(null,'Home','home.php');
                 }
                 if(activeID == 'travel'){
@@ -388,9 +389,9 @@ GSA.overviewPage = new function() {
 
             // hover to show next page title
             $('.overview-page-control').hover(function() {
-                $(this).find('strong').stop().show(500);
+                $(this).find('strong').stop().show(300);
             },function() {
-                $(this).find('strong').stop().hide(500);
+                $(this).find('strong').stop().hide(300);
             });
         }
     };

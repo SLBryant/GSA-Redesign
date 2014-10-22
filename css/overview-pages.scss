@@ -42,7 +42,6 @@
       li {
         line-height: 1.5;
         .jump-link {
-          text-transform: uppercase;
           @include font-size(16px);
           font-weight: bold;
           @include short-height {
@@ -176,25 +175,34 @@
     }
     &#left-arrow {
       left: 0;
+        span {
+          float: left;
+        }
         strong {
-          float: right;
+          float: left;
+          padding-left: 0;
+          padding-right: 10px;
         }
     }
     &#right-arrow {
       right: 0;
+        span {
+          float: right;
+        }
         strong {
-          float: left;
+          float: right;
+          padding-left: 10px;
+          padding-right: 0;
         }
     }
     strong {
       display: none;
       @include font-size(16px);
       white-space: nowrap;
-      padding-left: 15px;
-      padding-right: 15px;
       font-weight: normal;
     }
     &:hover {
       color: #fff;
     }
 }
+

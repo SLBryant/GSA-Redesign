@@ -37,7 +37,7 @@
             <span class="icon-arrow-left"></span><strong>Real Estate</strong>
         </a>
         <a id="right-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="next">
-            <strong>Supplier</strong><span class="icon-arrow-right"></span>
+            <span class="icon-arrow-right"></span><strong>Supplier</strong>
         </a>
     </section>
 

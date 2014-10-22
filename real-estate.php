@@ -35,7 +35,7 @@
             <span class="icon-arrow-left"></span><strong>Travel</strong>
         </a>
         <a id="right-arrow" class="overview-page-control" href="#overview-page-wrapper" role="button" data-slide="next">
-            <strong>Shopper</strong><span class="icon-arrow-right"></span>
+            <span class="icon-arrow-right"></span><strong>Shopper</strong>
         </a>
     </section>
 
