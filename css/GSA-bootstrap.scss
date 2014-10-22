@@ -34,8 +34,7 @@ a {
   color: $gsaBlue;
   @include transition(all 500ms ease);
     &:hover {
-      color: $darkGray;
-      text-decoration: none;
+
     }
 }
 address {

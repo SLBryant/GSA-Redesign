@@ -225,9 +225,6 @@ a {
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease; }
-  a:hover {
-    color: #58595b;
-    text-decoration: none; }
 
 address {
   margin-bottom: 10px; }
@@ -1127,16 +1124,6 @@ address {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
   padding-bottom: 45px;
   padding-top: 150px;
   min-height: 768px;
@@ -1148,8 +1135,8 @@ address {
   .overview-page .jumbotron {
     background: none; }
     .overview-page .jumbotron h1 {
-      font-size: 38px;
-      font-size: 2.375rem;
+      font-size: 30px;
+      font-size: 1.875rem;
       text-transform: uppercase;
       font-weight: 500; }
       @media only screen and (max-height: 750px) {
