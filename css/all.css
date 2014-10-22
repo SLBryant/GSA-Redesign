@@ -198,8 +198,6 @@ html {
 
 body {
   font-family: arial, sans-serif; }
-  body.overview-page-body {
-    background: #ede9e0; }
 
 .page-content {
   padding: 150px 0; }
