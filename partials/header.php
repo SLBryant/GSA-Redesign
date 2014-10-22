@@ -13,7 +13,7 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 <div class="mp-pusher" id="mp-pusher">
