@@ -4,7 +4,7 @@ html {
 body {
   font-family: $gsaBodyFont;
     &.overview-page-body {
-      //background: $footerBG;
+      background: $footerBG;
     }
 }
 .page-content {
@@ -33,9 +33,6 @@ h1 {
 a {
   color: $gsaBlue;
   @include transition(all 500ms ease);
-    &:hover {
-
-    }
 }
 address {
   margin-bottom: 10px;

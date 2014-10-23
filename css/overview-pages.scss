@@ -78,21 +78,25 @@
     @include alignSelf(flex-start);
     background: $gsaBeige;
     font-family: $gsaFontFamily;
-    li {
-      background: $gsaBeige;
-      border-right: 1px solid rgba(0,0,0,0.2);
-      &.active {
-        background: #fff;
-        border-right: 0;
-      }
-      a {
-        color: $navItemColor;
-        &:hover,&:focus {
-          background: #fff;
+      ul {
+        margin-left: -1px;
+        li {
+          background: $gsaBeige;
+          border-right: 1px solid rgba(0,0,0,0.2);
+          &.active {
+            background: #fff;
+            border-right: 0;
+          }
+          a {
+            color: $navItemColor;
+            &:hover,&:focus {
+              background: #fff;
+            }
+          }
         }
       }
-    }
   }
+
   .tab-content {
     background: #fff;
     padding-bottom: 10px;

@@ -257,11 +257,15 @@ GSA.tabs = new function(){
 };
 
 GSA.overviewPage = new function() {
+
     this.footerHeight = function() {
-        if($('body').find('.overview-page')) {
+        if($('body').find('.overview-page').length > 0) {
             $('body').addClass('overview-page-body');
+        } else {
+            $('body').removeClass('overview-page-body');
         };
     };
+
     this.buildSlider =function() {
         iteratePages();
 

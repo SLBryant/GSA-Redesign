@@ -198,6 +198,8 @@ html {
 
 body {
   font-family: arial, sans-serif; }
+  body.overview-page-body {
+    background: #ede9e0; }
 
 .page-content {
   padding: 150px 0; }
@@ -1209,16 +1211,18 @@ address {
     align-self: flex-start;
     background: #d1c8b6;
     font-family: "Montserrat", sans-serif; }
-    .sub-section .tab-navigation li {
-      background: #d1c8b6;
-      border-right: 1px solid rgba(0, 0, 0, 0.2); }
-      .sub-section .tab-navigation li.active {
-        background: #fff;
-        border-right: 0; }
-      .sub-section .tab-navigation li a {
-        color: #333333; }
-        .sub-section .tab-navigation li a:hover, .sub-section .tab-navigation li a:focus {
-          background: #fff; }
+    .sub-section .tab-navigation ul {
+      margin-left: -1px; }
+      .sub-section .tab-navigation ul li {
+        background: #d1c8b6;
+        border-right: 1px solid rgba(0, 0, 0, 0.2); }
+        .sub-section .tab-navigation ul li.active {
+          background: #fff;
+          border-right: 0; }
+        .sub-section .tab-navigation ul li a {
+          color: #333333; }
+          .sub-section .tab-navigation ul li a:hover, .sub-section .tab-navigation ul li a:focus {
+            background: #fff; }
   .sub-section .tab-content {
     background: #fff;
     padding-bottom: 10px;
