@@ -1585,16 +1585,20 @@ table.dataTable thead td:active {
   -webkit-overflow-scrolling: touch; }
 
 .bucket {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  padding: 0 7.5px; }
   .bucket:first-child {
-    padding-left: 0; }
+    padding: 0 15px 0 0; }
   .bucket:last-child {
-    padding-right: 0; }
+    padding: 0 0 0 15px; }
   .bucket article {
     overflow: hidden;
     background: #fff;
     padding: 5px;
-    position: relative; }
+    position: relative;
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75); }
     .bucket article hgroup {
       position: absolute;
       bottom: 10px;
