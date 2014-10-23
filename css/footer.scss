@@ -9,9 +9,6 @@
       padding: 3px 0;
         a {
           color: $navItemColor;
-            &:hover {
-              color: $gsaLightBlue;
-            }
         }
     }
   }
@@ -43,6 +40,9 @@
         }
         @include desktops {
           @include font-size(12px);
+        }
+        a {
+          color: #fff;
         }
     }
   }

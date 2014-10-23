@@ -26,13 +26,13 @@
 .primary-nav {
   position: absolute;
   left: 15px;
-  right: 15px;
+  right: 0;
   top: 25px;
     nav {
       background: none;
       @include box-shadow(0px 5px 7px -5px, #333);
       border: 0;
-      width: 1170px;
+      width: 1140px;
       font-family: $gsaFontFamily;
       @include border-radius(0);
         @include large-desktops {

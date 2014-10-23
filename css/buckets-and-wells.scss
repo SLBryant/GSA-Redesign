@@ -1,41 +1,47 @@
 .bucket {
   margin: 0 0 20px 0;
-  article {
-    overflow: hidden;
-    background: #fff;
-    padding: 5px;
-    position: relative;
-      hgroup {
-        position: absolute;
-        bottom: 10px;
-        right: 45px;
-        @include desktops {
-          bottom: 0;
-        }
-        @include tablets {
-          right: 20px;
-        }
-        h2 {
-          @include font-size(14px);
-          font-weight: normal;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+    article {
+      overflow: hidden;
+      background: #fff;
+      padding: 5px;
+      position: relative;
+        hgroup {
+          position: absolute;
+          bottom: 10px;
+          right: 45px;
           @include desktops {
-            @include font-size(12px);
+            bottom: 0;
           }
           @include tablets {
-            @include font-size(18px);
+            right: 20px;
+          }
+          h2 {
+            @include font-size(14px);
+            font-weight: normal;
+            @include desktops {
+              @include font-size(12px);
+            }
+            @include tablets {
+              @include font-size(18px);
+            }
           }
         }
+      a {
+        display: block;
       }
-    a {
-      display: block;
     }
-  }
-  .forward-arrow {
-    position: absolute;
-    padding: 5px;
-    bottom: 10px;
-    right: 10px;
-  }
+    .forward-arrow {
+      position: absolute;
+      padding: 5px;
+      bottom: 10px;
+      right: 10px;
+    }
 }
 
 

@@ -294,7 +294,7 @@ address {
 .primary-nav {
   position: absolute;
   left: 15px;
-  right: 15px;
+  right: 0;
   top: 25px; }
   .primary-nav nav {
     background: none;
@@ -302,7 +302,7 @@ address {
     -moz-box-shadow: 0px 5px 7px -5px #333333;
     box-shadow: 0px 5px 7px -5px #333333;
     border: 0;
-    width: 1170px;
+    width: 1140px;
     font-family: "Montserrat", sans-serif;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1586,6 +1586,10 @@ table.dataTable thead td:active {
 
 .bucket {
   margin: 0 0 20px 0; }
+  .bucket:first-child {
+    padding-left: 0; }
+  .bucket:last-child {
+    padding-right: 0; }
   .bucket article {
     overflow: hidden;
     background: #fff;
@@ -1795,8 +1799,6 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
     padding: 3px 0; }
     #footer ul li a {
       color: #333333; }
-      #footer ul li a:hover {
-        color: #8fc7ea; }
   #footer .social-links-block {
     background: #27328b;
     padding: 20px 25px;
@@ -1828,6 +1830,8 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
         #footer .social-links-block h5 {
           font-size: 12px;
           font-size: 0.75rem; } }
+      #footer .social-links-block h5 a {
+        color: #fff; }
 
 .social-links h5 {
   font-size: 17px;

@@ -43,7 +43,7 @@
             </figure>
             <h5 class="text-right"> U.S. General Services Administration</h5>
             <div class="social-links">
-                <h5>Stay Connected <span class="icon-arrow-right"></span></h5>
+                <h5><a href="#">Stay Connected <span class="icon-arrow-right"></span></a></h5>
                 <ul class="list-unstyled">
                     <li class="facebook-icon"><a href="#" title="Facebook"></a></li>
                     <li class="twitter-icon"><a href="#" title="Twitter"></a></li>
