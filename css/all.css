@@ -1031,7 +1031,12 @@ address {
     -webkit-align-self: center;
     -moz-align-self: center;
     -ms-flex-item-align: center;
-    align-self: center; }
+    align-self: center;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
     @media only screen and (max-width: 768px) {
       .full-width-tabs-block .contextual-tabs li {
         width: 100%; } }
@@ -1050,9 +1055,9 @@ address {
           min-height: 0;
           padding: 10px;
           margin-right: 0; } }
-    .full-width-tabs-block .contextual-tabs li.active {
+    .full-width-tabs-block .contextual-tabs li.active, .full-width-tabs-block .contextual-tabs li:hover {
       opacity: 1; }
-      .full-width-tabs-block .contextual-tabs li.active a {
+      .full-width-tabs-block .contextual-tabs li.active a, .full-width-tabs-block .contextual-tabs li:hover a {
         background: #d1c8b6; }
     .full-width-tabs-block .contextual-tabs li:last-child a {
       margin-right: 0; }
@@ -1220,7 +1225,8 @@ address {
       margin-left: -1px; }
       .sub-section .tab-navigation ul li {
         background: #d1c8b6;
-        border-right: 1px solid rgba(0, 0, 0, 0.2); }
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid grey; }
         .sub-section .tab-navigation ul li.active {
           background: #fff;
           border-right: 0; }

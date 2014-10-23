@@ -9,6 +9,7 @@
          @include font-size(18px);
          @include flexGrow(1);
          @include alignSelf(center);
+         @include transition(all 0.5s);
           @include tablets {
             width: 100%;
           }
@@ -25,7 +26,7 @@
               margin-right: 0;
             }
          }
-         &.active {
+         &.active, &:hover {
            opacity: 1;
             a {
               background: $gsaBeige;

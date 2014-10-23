@@ -86,6 +86,7 @@
         li {
           background: $gsaBeige;
           border-right: 1px solid rgba(0,0,0,0.2);
+          border-bottom: 1px solid grey;
           &.active {
             background: #fff;
             border-right: 0;
