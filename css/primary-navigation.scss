@@ -106,13 +106,13 @@
           border-right: 1px solid #c8c8c8;
             @include large-desktops {
               @include font-size(13px);
-              padding-top: 36px;
-              padding-bottom: 36px;
+              padding-top: 37px;
+              padding-bottom: 37px;
             }
             @include desktops {
               @include font-size(13px);
-              padding-top: 25px;
-              padding-bottom: 25px;
+              padding-top: 26px;
+              padding-bottom: 26px;
             }
             @include tablets {
               padding: 6px 5px;
@@ -120,15 +120,15 @@
             }
             &:last-child {
               border-right: 0;
-              padding-top:45px;
-              padding-bottom: 45px;
+              padding-top:44.5px;
+              padding-bottom: 44.5px;
                 @include large-desktops {
-                  padding-top: 33.5px;
-                  padding-bottom: 33.5px;
+                  padding-top: 34.5px;
+                  padding-bottom: 34.5px;
                 }
                 @include desktops {
-                  padding-top: 22.5px;
-                  padding-bottom: 22.5px;
+                  padding-top: 23.5px;
+                  padding-bottom: 23.5px;
                 }
             }
             .sub-arrow {

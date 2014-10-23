@@ -95,5 +95,11 @@
             }
         }
     }
+  // remove default hover state
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
 }
 

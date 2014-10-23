@@ -26,7 +26,7 @@
                         </ul>
                     </div>
                     <!-- sub section -->
-                    <?php include('partials/sub-section-travel.php'); ?>
+                    <?php include('partials/sub-section-technology.php'); ?>
                 </div>
             </div>
             <div id="about-us" class="overview-page item"></div>

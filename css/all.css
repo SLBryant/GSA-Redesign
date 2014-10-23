@@ -202,7 +202,7 @@ body {
     background: #ede9e0; }
 
 .page-content {
-  padding: 150px 0; }
+  padding: 150px 15px; }
   @media only screen and (max-width: 768px) {
     .page-content {
       padding-top: 60px; } }
@@ -370,30 +370,30 @@ address {
           .primary-nav ul#main-nav > li > a {
             font-size: 13px;
             font-size: 0.8125rem;
-            padding-top: 36px;
-            padding-bottom: 36px; } }
+            padding-top: 37px;
+            padding-bottom: 37px; } }
         @media only screen and (max-width: 992px) {
           .primary-nav ul#main-nav > li > a {
             font-size: 13px;
             font-size: 0.8125rem;
-            padding-top: 25px;
-            padding-bottom: 25px; } }
+            padding-top: 26px;
+            padding-bottom: 26px; } }
         @media only screen and (max-width: 768px) {
           .primary-nav ul#main-nav > li > a {
             padding: 6px 5px;
             border-right: 0; } }
         .primary-nav ul#main-nav > li > a:last-child {
           border-right: 0;
-          padding-top: 45px;
-          padding-bottom: 45px; }
+          padding-top: 44.5px;
+          padding-bottom: 44.5px; }
           @media only screen and (max-width: 1200px) {
             .primary-nav ul#main-nav > li > a:last-child {
-              padding-top: 33.5px;
-              padding-bottom: 33.5px; } }
+              padding-top: 34.5px;
+              padding-bottom: 34.5px; } }
           @media only screen and (max-width: 992px) {
             .primary-nav ul#main-nav > li > a:last-child {
-              padding-top: 22.5px;
-              padding-bottom: 22.5px; } }
+              padding-top: 23.5px;
+              padding-bottom: 23.5px; } }
         .primary-nav ul#main-nav > li > a .sub-arrow {
           display: none; }
         .primary-nav ul#main-nav > li > a.selected {
@@ -1007,6 +1007,8 @@ address {
         list-style: none; }
         .sidebar-accordion-nav > li ul li ul {
           background: #fff; }
+  .sidebar-accordion-nav a:hover {
+    text-decoration: none; }
 
 .full-width-tabs-block .contextual-tabs {
   margin: 0;
@@ -1168,6 +1170,8 @@ address {
           .overview-page .jumbotron li .jump-link {
             font-size: 14px;
             font-size: 0.875rem; } }
+        .overview-page .jumbotron li .jump-link:hover {
+          color: #27328b; }
 
 .sub-section {
   margin: 0;

@@ -120,7 +120,6 @@ GSA.homepage = new function() {
         var items = Array('home-bg', 'home_1','home_2');
         var item = items[Math.floor(Math.random()*items.length)];
         $('#home').css('background-image', 'url(images/'+item+'.jpg)');
-        console.log('url(images/'+item+'.jpg)');
 
         if(item == 'home-bg') {
             $('#hero-message').html(
@@ -239,6 +238,7 @@ GSA.tabs = new function(){
     var numOfItems = item.length;
     var toggle = $('.toggle-switch');
     this.navAlign = function() {
+        console.log('height: '+subSectionHeight+ ' items: '+numOfItems);
         setTimeout(function() {
             item.height(subSectionHeight / numOfItems);
             item.find('a').verticalAlign();
@@ -326,15 +326,17 @@ GSA.overviewPage = new function() {
                 leftControl.fadeIn();
             }
 
-
             // callback after slide transition has completed
             theCarousel.on('slid', function () {
                 var topLevelNavItem = $('#main-nav > li');
-                //remove class "selected" from current slide
                 topLevelNavItem.find('a').removeClass('selected');
-                //get the ID of the active slide
                 var activeID = $('.overview-page.active').attr('id');
-                GSA.tabs.navAlign();
+                var subSectionHeight = $('#'+activeID+ ' .sub-section').height();
+                var item = $('#'+activeID+ ' .tab-navigation ul li');
+                var numOfItems = item.length;
+                    item.height(subSectionHeight / numOfItems);
+                    item.find('a').verticalAlign();
+
                 if(activeID == 'home'){
                     $('#right-arrow').find('strong').text('Travel');
                     History.pushState(null,'Home','home.php');

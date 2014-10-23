@@ -45,6 +45,9 @@
           @include short-height {
             @include font-size(14px);
           }
+          &:hover {
+            color: $gsaBlue;
+          }
         }
       }
   }

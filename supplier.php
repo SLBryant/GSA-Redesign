@@ -20,9 +20,6 @@
                             <li><a class="jump-link" href="#">Lorem ipsum dolar sit <span class="icon-arrow-right"></span></a></li>
                         </ul>
                     </div>
-
-                    <!-- sub section -->
-                    <?php include('partials/sub-section-travel.php'); ?>
                 </div>
             </div>
             <div id="technology" class="overview-page item"></div>
