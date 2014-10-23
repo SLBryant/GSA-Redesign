@@ -12,10 +12,12 @@
     }
     .landing-page-header {
       color: #fff;
+      height: 215px;
+      @include coverBG();
       .container {
         @include flexbox;
         @include flexAlignItems(center);
-        min-height: 250px;
+        min-height: 215px;
           hgroup {
             padding: 20px 0;
             h1 {
@@ -24,7 +26,6 @@
             }
             p {
               padding-left: 0;
-              text-shadow: 1px 1px 1px #333;
             }
           }
       }
@@ -33,15 +34,15 @@
       padding-top: 30px;
     }
     #sustainability {
-      background: url(../images/sustainability-bg.jpg) no-repeat 50% 0;
+      background-image: url(../images/sustainability-bg.jpg);
     }
     #telework {
-      background: url(../images/telework-bg.jpg) no-repeat 50% 0;
+      background-image: url(../images/telework-bg.jpg);
     }
     #transportation {
-      background: url(../images/transportation-bg.jpg) no-repeat 50% 0;
+      background-image: url(../images/transportation-bg.jpg);
     }
     #social-media-center {
-      background: url(../images/smc.jpg) no-repeat 50% 0;
+      background-image: url(../images/smc.jpg);
     }
 }

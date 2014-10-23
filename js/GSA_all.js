@@ -85,7 +85,7 @@ GSA.navigations = new function(){
         var thirdLevel = $('.pull-quotes');
         var thirdLevelText = $('.pull-quotes > h3');
 
-        hoverState(secondLevel, '#fff', '#efeadf','#fff','#d1c8b6');
+        hoverState(secondLevel, '#fbf9f4', '#efeadf','#fff','#fbf9f4');
         hoverState(firstLevel, '#efeadf', '#d1c8b6','#d1c8b6','#d1c8b6', '#d1c8b6','#efeadf' );
 
 

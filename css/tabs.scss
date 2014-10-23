@@ -3,9 +3,10 @@
       margin: 0;
        @include flexbox;
        li {
-         opacity: .75;
+         opacity: .55;
          padding: 0;
          text-align: center;
+         @include font-size(18px);
          @include flexGrow(1);
          @include alignSelf(center);
           @include tablets {
@@ -14,7 +15,7 @@
          a {
            background: $gsaBeige;
            font-weight: bold;
-           text-transform: uppercase;
+           //text-transform: uppercase;
            color: $navItemColor;
            @include border-radius(10px 10px 0 0);
             @include tablets {
