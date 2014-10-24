@@ -14,10 +14,10 @@
                     <!-- HERO  -->
                     <div class="jumbotron col-md-7">
                         <h1>Travel</h1>
-                        <p>At the time when every agency is feeling the effect of tightening budgets, GSA is helping our federal partners cut their travel costs through our travel programs.</p>
+                        <p>At a time when every agency is feeling the effect of tightening budgets, GSA is helping our federal partners cut their travel costs through our travel programs.</p>
                         <ul class="list-unstyled">
-                            <li><a class="jump-link" href="#">Per diem information <span class="icon-arrow-right"></span></a></li>
-                            <li><a class="jump-link" href="#">Travel resources <span class="icon-arrow-right"></span></a></li>
+                            <li><a class="jump-link" href="#">Per Diem Information <span class="icon-arrow-right"></span></a></li>
+                            <li><a class="jump-link" href="#">Travel Resources <span class="icon-arrow-right"></span></a></li>
                             <li><a class="jump-link" href="#">Transportation <span class="icon-arrow-right"></span></a></li>
                             <li><a class="jump-link" href="#">Business Opportunities <span class="icon-arrow-right"></span></a></li>
                             <li><a class="jump-link" href="#">Additional Information <span class="icon-arrow-right"></span></a></li>

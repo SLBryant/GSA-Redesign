@@ -20,7 +20,7 @@
                             <li><a class="jump-link" href="#">GSA Advantage <span class="icon-arrow-right"></span></a></li>
                             <li><a class="jump-link" href="#">Federal Agencies & Military <span class="icon-arrow-right"></span></a></li>
                             <li><a class="jump-link" href="#">Auctions <span class="icon-arrow-right"></span></a></li>
-                            <li><a class="jump-link" href="#">State & local agencies, Public Organizations <span class="icon-arrow-right"></span></a></li>
+                            <li><a class="jump-link" href="#">State & Local agencies, Public Organizations <span class="icon-arrow-right"></span></a></li>
                         </ul>
                     </div>
 
