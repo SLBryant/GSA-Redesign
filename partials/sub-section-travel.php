@@ -11,7 +11,44 @@
     </nav>
     <div class="col-sm-9 tab-content">
         <div class="tab-pane active" id="perDiemCalculator">
-            <form class="form-horizontal row"><div class="col-sm-6 content-column"><div class="form-group"><label class="sr-only" for="form-control">City</label> <input class="form-control" type="text" placeholder="City" /></div><div class="form-group"><label class="sr-only" for="form-control">Select a State</label><select class="form-control"><option>State</option><option>State</option><option>State</option><option>State</option><option>State</option></select></div><div class="form-group"><label class="sr-only" for="form-control">Zip</label> <input class="form-control" type="text" placeholder="Zip" /></div></div><div class="col-sm-3 content-column"><div class="form-group"><label class="sr-only" for="form-control">Start Date</label> <input class="form-control" type="text" placeholder="Start Date" /></div><div class="form-group"><label class="sr-only" for="form-control">End Date</label> <input class="form-control" type="text" placeholder="End Date" /></div><p><button class="btn gsa-btn btn-block" type="submit">Calculate</button></p></div><div class="col-sm-3 content-column"><button class="btn gsa-btn btn-block">Today's rate for my location</button></div></form>
+            <form class="form-horizontal row"><div class="col-sm-6 content-column">
+                    <div class="form-group">
+                        <label class="sr-only" for="form-control">City</label>
+                        <input class="form-control" type="text" placeholder="City" />
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="form-control">Select a State</label>
+                        <select class="form-control">
+                            <option>State</option>
+                            <option>State</option>
+                            <option>State</option>
+                            <option>State</option>
+                            <option>State</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="form-control">Zip</label>
+                        <input class="form-control" type="text" placeholder="Zip" />
+                    </div>
+                </div>
+                <div class="col-sm-3 content-column">
+                    <div class="form-group">
+                        <label class="sr-only" for="form-control">Start Date</label>
+                        <input class="form-control" type="text" placeholder="Start Date" />
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="form-control">End Date</label>
+                        <input class="form-control" type="text" placeholder="End Date" />
+                    </div>
+                    <p><button class="btn gsa-btn btn-block" type="submit">Calculate</button></p>
+                </div>
+                <div class="col-sm-3 content-column text-center">
+                    <figure>
+                        <img style="margin: 0 auto;" class="img-responsive" alt="Per Diem Map" src="images/perdiem-map.png">
+                    </figure>
+                    <h4><a href="#">Per Diem Map <span class="icon-arrow-right"></span></a></h4>
+                </div>
+            </form>
         </div>
         <div class="tab-pane" id="mie-breakdown">
             Lorem
