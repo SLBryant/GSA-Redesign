@@ -95,6 +95,11 @@
                 <td><a href="contextual-tabs.php">contextual-tabs.php</a></td>
                 <td>NA</td>
             </tr>
+            <tr>
+                <td>Photo Gallery</td>
+                <td><a href="photo-gallery.php">photo-gallery.php</a></td>
+                <td>NA</td>
+            </tr>
         </tbody>
     </table>
 </div>
