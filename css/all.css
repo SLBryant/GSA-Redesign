@@ -121,7 +121,7 @@
     text-align: center; }
     .social-links ul li {
       display: inline-block;
-      width: 26px;
+      width: 35px;
       height: 28px;
       background: url(../images/social-media-sprite.png) no-repeat;
       padding: 0 !important;
@@ -1219,7 +1219,11 @@ address {
     -ms-flex-item-align: start;
     align-self: flex-start;
     background: #d1c8b6;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.55);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.55);
+    box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.55);
+    z-index: 3; }
     .sub-section .tab-navigation ul {
       margin-left: -1px; }
       .sub-section .tab-navigation ul li {
@@ -1229,10 +1233,17 @@ address {
         .sub-section .tab-navigation ul li.active {
           background: #fff;
           border-right: 0; }
+          .sub-section .tab-navigation ul li.active a {
+            margin-right: -4px;
+            background: #fff; }
+        .sub-section .tab-navigation ul li:last-child {
+          border-bottom: 0; }
         .sub-section .tab-navigation ul li a {
           color: #333333; }
           .sub-section .tab-navigation ul li a:hover, .sub-section .tab-navigation ul li a:focus {
-            background: #fff; }
+            background: #fff;
+            margin-right: -4px;
+            border-right: 0; }
   .sub-section .tab-content {
     background: #fff;
     padding-bottom: 10px;
@@ -1243,9 +1254,11 @@ address {
     .sub-section .tab-content #perDiemCalculator .form-horizontal .form-group {
       margin: 5px 0; }
     .sub-section .tab-content #perDiemCalculator .form-horizontal input, .sub-section .tab-content #perDiemCalculator .form-horizontal select {
-      padding: 10px;
+      padding: 0 10px;
       font-size: 16px;
       font-size: 1rem; }
+    .sub-section .tab-content #perDiemCalculator .form-horizontal select {
+      padding: 0 5px; }
     .sub-section .tab-content #perDiemCalculator .content-column {
       padding: 0 0 0 10px;
       margin: 0; }
@@ -1652,7 +1665,8 @@ table.dataTable thead td:active {
 
 .content-well {
   margin: 20px 0 20px;
-  background: #efeadf; }
+  background: #efeadf;
+  border: 1px solid #d1c8b6; }
   .content-well figure {
     height: 250px;
     max-height: 250px;
@@ -1670,8 +1684,7 @@ table.dataTable thead td:active {
           font-size: 16px;
           font-size: 1rem; } }
     .content-well article a {
-      display: block;
-      text-transform: uppercase; }
+      display: block; }
 
 .smaller-well {
   position: relative;

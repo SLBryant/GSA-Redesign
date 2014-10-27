@@ -50,6 +50,7 @@
 .content-well {
   margin: 20px 0 20px;
   background: $offWhite;
+  border: 1px solid $gsaBeige;
   figure {
     height: 250px;
     max-height: 250px;
@@ -69,7 +70,7 @@
     }
     a {
       display: block;
-      text-transform: uppercase;
+      //text-transform: uppercase;
     }
   }
 }

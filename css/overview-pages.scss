@@ -77,6 +77,8 @@
     @include alignSelf(flex-start);
     background: $gsaBeige;
     font-family: $gsaFontFamily;
+    @include box-shadow(1px 1px 3px 0px, rgba(50, 50, 50, 0.55));
+    z-index: 3;
       ul {
         margin-left: -1px;
         li {
@@ -86,11 +88,20 @@
           &.active {
             background: #fff;
             border-right: 0;
+              a {
+                margin-right: -4px;
+                background: #fff;
+              }
+          }
+          &:last-child {
+            border-bottom: 0;
           }
           a {
             color: $navItemColor;
             &:hover,&:focus {
               background: #fff;
+              margin-right: -4px;
+              border-right: 0;
             }
           }
         }
@@ -111,8 +122,11 @@
           margin: 5px 0;
         }
         input, select {
-          padding: 10px;
+          padding: 0 10px;
           @include font-size(16px);
+        }
+        select {
+          padding: 0 5px;
         }
       }
       .content-column {
