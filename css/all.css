@@ -1867,8 +1867,15 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
       font-size: 50px;
       color: blue; }
 
+#gallery-index .row {
+  margin: 0; }
 #gallery-index li {
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 1px solid #eaeaea;
+  padding: 6px 0; }
+  #gallery-index li h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-family: arial, sans-serif; }
   #gallery-index li figure img {
     margin: 0 auto; }
 #gallery-index .gallery-display-wrapper {

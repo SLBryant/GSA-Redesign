@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cdb9f7e-4ee3-4812-8453-553dc42768f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photo-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/GSA_all.js" afterPath="$PROJECT_DIR$/js/GSA_all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.scss" afterPath="$PROJECT_DIR$/css/all.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/footer.php" afterPath="$PROJECT_DIR$/partials/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/photo-gallery.scss" afterPath="$PROJECT_DIR$/css/photo-gallery.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gsa-redesign.iws" />
@@ -32,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GSA_all.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GSA_all.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/GSA_all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.357142" vertical-offset="7065" max-vertical-offset="9571">
+            <state vertical-scroll-proportion="0.43866944" vertical-offset="7116" max-vertical-offset="9571">
               <caret line="431" column="49" selection-start-line="431" selection-start-column="49" selection-end-line="431" selection-end-column="49" />
               <folding />
             </state>
@@ -55,8 +52,8 @@
       <file leaf-file-name="photo-gallery.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/photo-gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.923077" vertical-offset="677" max-vertical-offset="1173">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="561" max-vertical-offset="1309">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -104,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="waste.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="waste.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/waste.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85921323" vertical-offset="9496" max-vertical-offset="10064">
+            <state vertical-scroll-proportion="-15.961538" vertical-offset="9496" max-vertical-offset="10064">
               <caret line="583" column="13" selection-start-line="583" selection-start-column="13" selection-end-line="583" selection-end-column="13" />
               <folding />
             </state>
@@ -195,9 +192,9 @@
         <option value="$PROJECT_DIR$/partials/footer.php" />
         <option value="$PROJECT_DIR$/js/GSA_all.js" />
         <option value="$PROJECT_DIR$/css/all.scss" />
-        <option value="$PROJECT_DIR$/css/photo-gallery.scss" />
         <option value="$PROJECT_DIR$/photo-gallery.php" />
         <option value="$PROJECT_DIR$/json/waste.json" />
+        <option value="$PROJECT_DIR$/css/photo-gallery.scss" />
       </list>
     </option>
   </component>
@@ -771,22 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/photo-gallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.923077" vertical-offset="677" max-vertical-offset="1173">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/GSA_all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.357142" vertical-offset="7065" max-vertical-offset="9571">
-          <caret line="431" column="49" selection-start-line="431" selection-start-column="49" selection-end-line="431" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo-gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.730769" vertical-offset="588" max-vertical-offset="1581">
@@ -797,8 +778,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/waste.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85921323" vertical-offset="9496" max-vertical-offset="10064">
+        <state vertical-scroll-proportion="-15.961538" vertical-offset="9496" max-vertical-offset="10064">
           <caret line="583" column="13" selection-start-line="583" selection-start-column="13" selection-end-line="583" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/photo-gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="561" max-vertical-offset="1309">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/GSA_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43866944" vertical-offset="7116" max-vertical-offset="9571">
+          <caret line="431" column="49" selection-start-line="431" selection-start-column="49" selection-end-line="431" selection-end-column="49" />
           <folding />
         </state>
       </provider>
