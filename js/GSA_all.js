@@ -238,7 +238,6 @@ GSA.tabs = new function(){
     var numOfItems = item.length;
     var toggle = $('.toggle-switch');
     this.navAlign = function() {
-        console.log('height: '+subSectionHeight+ ' items: '+numOfItems);
         setTimeout(function() {
             item.height(subSectionHeight / numOfItems);
             item.find('a').verticalAlign();
@@ -403,6 +402,94 @@ GSA.overviewPage = new function() {
     };
 };
 
+GSA.photoGallery = new function() {
+    this.buildGalleryIndex = function() {
+
+        galleryView();
+        galleryGenerator('waste.json', '#main-column', 'index-gallery-template');
+
+        function galleryView() {
+            $('body').on('click','#gallery-index > ul > li > a',function(e) {
+                e.preventDefault();
+                var galleryWrapper = 'gallery-display-wrapper';
+                var openGallery = 'open-gallery';
+                $('.'+galleryWrapper).remove();
+                $('#gallery-index li').removeClass(openGallery);
+
+                var item = $(this).parent('li').addClass(openGallery);
+                var contentID = $(this).attr('href');
+
+                $('<div></div>').attr('class', galleryWrapper).appendTo('.'+openGallery);
+                item.find('.'+galleryWrapper).slideDown(1000, function() {
+                    galleryGenerator('gallery.id.'+contentID+'.json', '.'+galleryWrapper, 'gallery-template');
+                });
+            })
+        }
+
+        function galleryGenerator(JSONfile, appendedTo, templateScript) {
+            $.getJSON('json/'+JSONfile, function (data) {
+                var templateData = [];
+                $.each(data, function (i, item) {
+                    templateData.push({
+                        title: item.title,
+                        id: item.id,
+                        //datePublished : item.datePublished   <-- would be helpful if we want to index video galleries - order by date //
+                        //photoCredit : item.photoCredit  <--- would be helpful for frontend display to avoid having to couple photo credit and title //
+                        //galleryIntro : item.galleryIntro <-- for index page
+                        slides: [],
+                        previewThumb: item.slides[0].thumb
+                    });
+                    $.each(item.slides, function (index, object) {
+                        var active = false;
+                        if (object.index == 1) {
+                            activeSlide = 'active';
+                        } else {
+                            activeSlide = false
+                        }
+                        templateData[i].slides.push({
+                            slideIndex: object.index,
+                            slideCaption: object.caption,
+                            slideThumb: object.thumb,
+                            slideDisplay: object.display,
+                            slideFull: object.full,
+                            active: activeSlide
+                        });
+                    });
+                });
+                var galleryTemplate = $('#'+templateScript).html();
+                $(appendedTo).append(Mustache.render(galleryTemplate, templateData));
+            });
+
+            // THUMBNAIL GALLERY PLUGIN CONFIG
+            var photoGallery = $('#photo-gallery');
+
+
+            photoGallery.carousel({
+                interval: false
+            });
+
+            // handles the carousel thumbnails
+            $("body").on("click", "[id^=carousel-selector-]", function () {
+                var id_selector = $(this).attr("id");
+                var id = id_selector.substr(id_selector.length - 1);
+                id = parseInt(id);
+                console.log(id);
+                photoGallery.carousel(id);
+                $('[id^=carousel-selector-]').removeClass('selected');
+                $(this).addClass('selected');
+            });
+
+            // when the carousel slides, auto update
+            $('body').on('slid', '#photo-gallery', function (e) {
+                var id = $('.item.active').data('slide-number');
+                id = parseInt(id);
+                $('[id^=carousel-selector-]').removeClass('selected');
+                $('[id=carousel-selector-' + id + ']').addClass('selected');
+            });
+        }
+    }
+};
+
 
 
 
@@ -441,6 +528,9 @@ $(function() {
     GSA.rotatingFeatureBlock.slideJS();
 
 
+    GSA.photoGallery.buildGalleryIndex();
+
+
     if($(window).width() > 768) {
         GSA.tabs.navAlign();
         GSA.tabs.activateFirstTab();
@@ -452,6 +542,8 @@ $(function() {
     $(window).resize(function() {
     GSA.homepage.heightOrientation();
     });
+
+
 
     // vertical alignment plugin
     jQuery.fn.verticalAlign = function () {

@@ -1,0 +1,587 @@
+[
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    },
+    {
+        "title": "Presidential Aircraft Historic Photos",
+        "id": 171843,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "08/20/1998, President Clinton disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library.",
+                "thumb": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171883"
+            },
+            {
+                "index": 2,
+                "caption": "08/30/1998, President Clinton, Hillary Rodham Clinton and Buddy the dog disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171891"
+            },
+            {
+                "index": 3,
+                "caption": "08/30/1998, President Clinton, Hillary Clinton Chelsea Clinton and Buddy the Dog walking from Air Force One on the tarmac at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171895"
+            },
+            {
+                "index": 4,
+                "caption": "10/09/1993, President Clinton Greets a young child on the tarmac after arriving at New Haven, CT airport. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171879"
+            },
+            {
+                "index": 5,
+                "caption": "10/08/1993, Hillary Rodham Clinton walks down the stairs of her airplane on arriving at Providence, RI. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171871"
+            },
+            {
+                "index": 6,
+                "caption": "4/2/1982 Nancy Reagan talking to the press aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171847"
+            },
+            {
+                "index": 7,
+                "caption": "8/5/1982 Nancy Reagan during a trip via VC-9 to Des Moines, Iowa. The rabbit was a gift from a child given to her during her trip. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171855"
+            },
+            {
+                "index": 8,
+                "caption": "8/5/1982 Nancy Reagan and a stuffed rabbit given to her as a gift during a trip via VC-9 to Des Moines, Iowa. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171859"
+            },
+            {
+                "index": 9,
+                "caption": "8/5/1982 Nancy Reagan shaking hands at her arrival in Dallas Texas aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171851"
+            }
+        ]
+    },
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    },
+    {
+        "title": "Presidential Aircraft Historic Photos",
+        "id": 171843,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "08/20/1998, President Clinton disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library.",
+                "thumb": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171883"
+            },
+            {
+                "index": 2,
+                "caption": "08/30/1998, President Clinton, Hillary Rodham Clinton and Buddy the dog disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171891"
+            },
+            {
+                "index": 3,
+                "caption": "08/30/1998, President Clinton, Hillary Clinton Chelsea Clinton and Buddy the Dog walking from Air Force One on the tarmac at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171895"
+            },
+            {
+                "index": 4,
+                "caption": "10/09/1993, President Clinton Greets a young child on the tarmac after arriving at New Haven, CT airport. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171879"
+            },
+            {
+                "index": 5,
+                "caption": "10/08/1993, Hillary Rodham Clinton walks down the stairs of her airplane on arriving at Providence, RI. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171871"
+            },
+            {
+                "index": 6,
+                "caption": "4/2/1982 Nancy Reagan talking to the press aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171847"
+            },
+            {
+                "index": 7,
+                "caption": "8/5/1982 Nancy Reagan during a trip via VC-9 to Des Moines, Iowa. The rabbit was a gift from a child given to her during her trip. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171855"
+            },
+            {
+                "index": 8,
+                "caption": "8/5/1982 Nancy Reagan and a stuffed rabbit given to her as a gift during a trip via VC-9 to Des Moines, Iowa. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171859"
+            },
+            {
+                "index": 9,
+                "caption": "8/5/1982 Nancy Reagan shaking hands at her arrival in Dallas Texas aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171851"
+            }
+        ]
+    },
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    },
+    {
+        "title": "Presidential Aircraft Historic Photos",
+        "id": 171843,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "08/20/1998, President Clinton disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library.",
+                "thumb": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171883"
+            },
+            {
+                "index": 2,
+                "caption": "08/30/1998, President Clinton, Hillary Rodham Clinton and Buddy the dog disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171891"
+            },
+            {
+                "index": 3,
+                "caption": "08/30/1998, President Clinton, Hillary Clinton Chelsea Clinton and Buddy the Dog walking from Air Force One on the tarmac at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171895"
+            },
+            {
+                "index": 4,
+                "caption": "10/09/1993, President Clinton Greets a young child on the tarmac after arriving at New Haven, CT airport. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171879"
+            },
+            {
+                "index": 5,
+                "caption": "10/08/1993, Hillary Rodham Clinton walks down the stairs of her airplane on arriving at Providence, RI. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171871"
+            },
+            {
+                "index": 6,
+                "caption": "4/2/1982 Nancy Reagan talking to the press aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171847"
+            },
+            {
+                "index": 7,
+                "caption": "8/5/1982 Nancy Reagan during a trip via VC-9 to Des Moines, Iowa. The rabbit was a gift from a child given to her during her trip. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171855"
+            },
+            {
+                "index": 8,
+                "caption": "8/5/1982 Nancy Reagan and a stuffed rabbit given to her as a gift during a trip via VC-9 to Des Moines, Iowa. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171859"
+            },
+            {
+                "index": 9,
+                "caption": "8/5/1982 Nancy Reagan shaking hands at her arrival in Dallas Texas aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171851"
+            }
+        ]
+    },
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    },
+    {
+        "title": "Presidential Aircraft Historic Photos",
+        "id": 171843,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "08/20/1998, President Clinton disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library.",
+                "thumb": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171883"
+            },
+            {
+                "index": 2,
+                "caption": "08/30/1998, President Clinton, Hillary Rodham Clinton and Buddy the dog disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171891"
+            },
+            {
+                "index": 3,
+                "caption": "08/30/1998, President Clinton, Hillary Clinton Chelsea Clinton and Buddy the Dog walking from Air Force One on the tarmac at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171895"
+            },
+            {
+                "index": 4,
+                "caption": "10/09/1993, President Clinton Greets a young child on the tarmac after arriving at New Haven, CT airport. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171879"
+            },
+            {
+                "index": 5,
+                "caption": "10/08/1993, Hillary Rodham Clinton walks down the stairs of her airplane on arriving at Providence, RI. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171871"
+            },
+            {
+                "index": 6,
+                "caption": "4/2/1982 Nancy Reagan talking to the press aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171847"
+            },
+            {
+                "index": 7,
+                "caption": "8/5/1982 Nancy Reagan during a trip via VC-9 to Des Moines, Iowa. The rabbit was a gift from a child given to her during her trip. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171855"
+            },
+            {
+                "index": 8,
+                "caption": "8/5/1982 Nancy Reagan and a stuffed rabbit given to her as a gift during a trip via VC-9 to Des Moines, Iowa. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171859"
+            },
+            {
+                "index": 9,
+                "caption": "8/5/1982 Nancy Reagan shaking hands at her arrival in Dallas Texas aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171851"
+            }
+        ]
+    },
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    },
+    {
+        "title": "Presidential Aircraft Historic Photos",
+        "id": 171843,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "08/20/1998, President Clinton disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library.",
+                "thumb": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171883&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171883"
+            },
+            {
+                "index": 2,
+                "caption": "08/30/1998, President Clinton, Hillary Rodham Clinton and Buddy the dog disembarking Air Force One at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171891&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171891"
+            },
+            {
+                "index": 3,
+                "caption": "08/30/1998, President Clinton, Hillary Clinton Chelsea Clinton and Buddy the Dog walking from Air Force One on the tarmac at Andrews Air Force Base after returning from Martha's Vineyard. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171895&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171895"
+            },
+            {
+                "index": 4,
+                "caption": "10/09/1993, President Clinton Greets a young child on the tarmac after arriving at New Haven, CT airport. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171879&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171879"
+            },
+            {
+                "index": 5,
+                "caption": "10/08/1993, Hillary Rodham Clinton walks down the stairs of her airplane on arriving at Providence, RI. Courtesy, William J. Clinton Library",
+                "thumb": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171871&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171871"
+            },
+            {
+                "index": 6,
+                "caption": "4/2/1982 Nancy Reagan talking to the press aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171847&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171847"
+            },
+            {
+                "index": 7,
+                "caption": "8/5/1982 Nancy Reagan during a trip via VC-9 to Des Moines, Iowa. The rabbit was a gift from a child given to her during her trip. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171855&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171855"
+            },
+            {
+                "index": 8,
+                "caption": "8/5/1982 Nancy Reagan and a stuffed rabbit given to her as a gift during a trip via VC-9 to Des Moines, Iowa. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171859&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171859"
+            },
+            {
+                "index": 9,
+                "caption": "8/5/1982 Nancy Reagan shaking hands at her arrival in Dallas Texas aboard VC-9. Courtesy Ronald Reagan Library",
+                "thumb": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=171851&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=171851"
+            }
+        ]
+    }
+]

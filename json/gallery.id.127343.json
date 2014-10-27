@@ -1,0 +1,50 @@
+[
+    {
+        "title": "eWaste Photo Gallery",
+        "id": 127343,
+        "slides": [
+            {
+                "index": 1,
+                "caption": "Crusher for bulk waste. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127351&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127351"
+            },
+            {
+                "index": 2,
+                "caption": "Destroyed hard drives. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127355&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127355"
+            },
+            {
+                "index": 3,
+                "caption": "Disasembly room. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127359&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127359"
+            },
+            {
+                "index": 4,
+                "caption": "Metal bulk. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127423&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127423"
+            },
+            {
+                "index": 5,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127427&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127427"
+            },
+            {
+                "index": 6,
+                "caption": "Hard drive crusher. Photo by GSA: Stephanie Rivera.",
+                "thumb": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=2",
+                "display": "/portal/getPictures?mcontentId=127347&dimension.dimensionId=1",
+                "full": "/portal/getPictures?mcontentId=127347"
+            }
+        ]
+    }
+]
