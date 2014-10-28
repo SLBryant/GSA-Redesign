@@ -60,6 +60,9 @@ address {
 
 .gsa-btn {
   @extend %buttons;
+  @include desktops {
+    @include font-size(12px);
+  }
 }
 *:active {
   outline: none;

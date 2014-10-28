@@ -7,40 +7,67 @@
 #technology { background-image: url(../images/technology.jpg);}
 #about-us { background-image: url(../images/about-us.jpg);}
 
-$overviewL : 840px;
-$overviewM : 720px;
-$overviewS : 560px;
+// Large
+$overviewLarge : 840px;
+$overviewPaddingLarge : 150px;
+$jumbotronHeightLarge : 350px;
+
+// Medium
+$overviewMedium : 720px;
+$overviewPaddingMedium : 130px;
+$jumbotronHeightMedium : 310px;
+
+// Small
+$overviewSmall : 560px;
+$overviewPaddingSmall : 100px;
+$jumbotronHeightSmall : 230px;
+
+// Jumbotron
+
 
 .overview-page {
   @include coverBG();
   padding-bottom: 45px;
-  padding-top: 150px;
-  height: $overviewL;
-  //height: inherit;
+  padding-top: $overviewPaddingLarge;
+  height: $overviewLarge;
   overflow: hidden;
     @include large-desktops {
-      height: $overviewM;
+      height: $overviewMedium;
+      padding-top: $overviewPaddingMedium;
     }
     @include desktops {
-      height: $overviewS;
+      height: $overviewSmall;
+      padding-top: $overviewPaddingSmall;
+      //@include font-size(10px);
     }
   .jumbotron {
     background: none;
-    height: 350px;
+    height: $jumbotronHeightLarge;
     overflow: hidden;
+    @include font-size(16px);
+      @include large-desktops {
+        @include font-size(16px);
+        height: $jumbotronHeightMedium;
+      }
+      @include desktops {
+        height: $jumbotronHeightSmall;
+        @include font-size(13px);
+      }
       h1 {
         @include font-size(30px);
         text-transform: uppercase;
         font-weight: 500;
+          @include desktops {
+            @include font-size(23px);
+          }
       }
       p {
         line-height:1.5;
-        @include font-size(16px);
       }
       li {
         line-height: 1.5;
         .jump-link {
-          @include font-size(16px);
+         // @include font-size(16px);
           font-weight: bold;
         }
       }
@@ -76,6 +103,9 @@ $overviewS : 560px;
     font-family: $gsaFontFamily;
     @include box-shadow(1px 1px 3px 0px, rgba(50, 50, 50, 0.55));
     z-index: 3;
+      @include desktops {
+        @include font-size(10px);
+      }
       ul {
         margin-left: -1px;
         li {
@@ -121,6 +151,9 @@ $overviewS : 560px;
         input, select {
           padding: 0 10px;
           @include font-size(16px);
+          @include desktops {
+            @include font-size(12px);
+          }
         }
         select {
           padding: 0 5px;
@@ -129,6 +162,11 @@ $overviewS : 560px;
       .content-column {
         padding: 0 0 0 10px;
         margin: 0;
+        h4 {
+          @include desktops {
+            @include font-size(12px);
+          }
+        }
         &:last-child {
           position: absolute;
           bottom: 20px;

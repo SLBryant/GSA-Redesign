@@ -251,6 +251,11 @@ address {
   font-size: 20px;
   font-size: 1.25rem; }
 
+@media only screen and (max-width: 992px) {
+  .gsa-btn {
+    font-size: 12px;
+    font-size: 0.75rem; } }
+
 *:active {
   outline: none;
   border: 0; }
@@ -1142,28 +1147,42 @@ address {
   overflow: hidden; }
   @media only screen and (max-width: 1200px) {
     .overview-page {
-      height: 720px; } }
+      height: 720px;
+      padding-top: 130px; } }
   @media only screen and (max-width: 992px) {
     .overview-page {
-      height: 560px; } }
+      height: 560px;
+      padding-top: 100px; } }
   .overview-page .jumbotron {
     background: none;
     height: 350px;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 16px;
+    font-size: 1rem; }
+    @media only screen and (max-width: 1200px) {
+      .overview-page .jumbotron {
+        font-size: 16px;
+        font-size: 1rem;
+        height: 310px; } }
+    @media only screen and (max-width: 992px) {
+      .overview-page .jumbotron {
+        height: 230px;
+        font-size: 13px;
+        font-size: 0.8125rem; } }
     .overview-page .jumbotron h1 {
       font-size: 30px;
       font-size: 1.875rem;
       text-transform: uppercase;
       font-weight: 500; }
+      @media only screen and (max-width: 992px) {
+        .overview-page .jumbotron h1 {
+          font-size: 23px;
+          font-size: 1.4375rem; } }
     .overview-page .jumbotron p {
-      line-height: 1.5;
-      font-size: 16px;
-      font-size: 1rem; }
+      line-height: 1.5; }
     .overview-page .jumbotron li {
       line-height: 1.5; }
       .overview-page .jumbotron li .jump-link {
-        font-size: 16px;
-        font-size: 1rem;
         font-weight: bold; }
 
 .sub-section {
@@ -1212,6 +1231,10 @@ address {
     -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.55);
     box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.55);
     z-index: 3; }
+    @media only screen and (max-width: 992px) {
+      .sub-section .tab-navigation {
+        font-size: 10px;
+        font-size: 0.625rem; } }
     .sub-section .tab-navigation ul {
       margin-left: -1px; }
       .sub-section .tab-navigation ul li {
@@ -1245,11 +1268,19 @@ address {
       padding: 0 10px;
       font-size: 16px;
       font-size: 1rem; }
+      @media only screen and (max-width: 992px) {
+        .sub-section .tab-content #perDiemCalculator .form-horizontal input, .sub-section .tab-content #perDiemCalculator .form-horizontal select {
+          font-size: 12px;
+          font-size: 0.75rem; } }
     .sub-section .tab-content #perDiemCalculator .form-horizontal select {
       padding: 0 5px; }
     .sub-section .tab-content #perDiemCalculator .content-column {
       padding: 0 0 0 10px;
       margin: 0; }
+      @media only screen and (max-width: 992px) {
+        .sub-section .tab-content #perDiemCalculator .content-column h4 {
+          font-size: 12px;
+          font-size: 0.75rem; } }
       .sub-section .tab-content #perDiemCalculator .content-column:last-child {
         position: absolute;
         bottom: 20px;
