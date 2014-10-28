@@ -1153,6 +1153,9 @@ address {
     .overview-page {
       height: 560px;
       padding-top: 100px; } }
+  @media only screen and (max-width: 768px) {
+    .overview-page {
+      height: inherit; } }
   .overview-page .jumbotron {
     background: none;
     height: 350px;

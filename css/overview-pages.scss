@@ -40,6 +40,9 @@ $jumbotronHeightSmall : 230px;
       padding-top: $overviewPaddingSmall;
       //@include font-size(10px);
     }
+  @include tablets {
+    height: inherit;
+  }
   .jumbotron {
     background: none;
     height: $jumbotronHeightLarge;
