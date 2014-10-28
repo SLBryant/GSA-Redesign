@@ -306,7 +306,7 @@ GSA.overviewPage = new function() {
         }
         function callback() {
             // init height of page
-            GSA.homepage.heightOrientation();
+            //GSA.homepage.heightOrientation();
             // init carousel
             var theCarousel = $('#overview-page-wrapper');
             theCarousel.carousel({
@@ -509,7 +509,7 @@ $(function() {
 
     GSA.overviewPage.buildSlider();
     GSA.overviewPage.footerHeight();
-    GSA.homepage.heightOrientation();
+    //GSA.homepage.heightOrientation();
     GSA.homepage.fullScreenRotator();
 
 
@@ -540,7 +540,7 @@ $(function() {
     }
 
     $(window).resize(function() {
-    GSA.homepage.heightOrientation();
+    //GSA.homepage.heightOrientation();
     });
 
 

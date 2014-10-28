@@ -20,9 +20,13 @@
 @mixin large-desktops {
   @media only screen and (max-width: 1200px) { @content; }
 }
+
+// height
 @mixin short-height {
     @media only screen and (max-height: 750px) { @content; }
 }
+
+
 
 
 //***  Opacity (for IE < 8 compatibility)  ***/
