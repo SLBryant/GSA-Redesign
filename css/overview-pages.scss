@@ -7,58 +7,41 @@
 #technology { background-image: url(../images/technology.jpg);}
 #about-us { background-image: url(../images/about-us.jpg);}
 
-$heroAreaXL : 350px;
-$heightOfBackground : 800px;
+$overviewL : 840px;
+$overviewM : 720px;
+$overviewS : 560px;
 
 .overview-page {
   @include coverBG();
   padding-bottom: 45px;
   padding-top: 150px;
-  height: $heightOfBackground;
+  height: $overviewL;
   //height: inherit;
   overflow: hidden;
     @include large-desktops {
-      //height: 800px
+      height: $overviewM;
     }
     @include desktops {
-
-    }
-    @include tablets {
-
+      height: $overviewS;
     }
   .jumbotron {
     background: none;
-    height: $heroAreaXL;
+    height: 350px;
     overflow: hidden;
-      @include large-desktops {
-        height: $heroAreaXL;
-      }
       h1 {
         @include font-size(30px);
         text-transform: uppercase;
         font-weight: 500;
-          @include short-height {
-            @include font-size(30px);
-          }
-          @include large-desktops {
-            @include font-size(25px);
-          }
       }
       p {
         line-height:1.5;
         @include font-size(16px);
-        @include short-height {
-          @include font-size(14px);
-        }
       }
       li {
         line-height: 1.5;
         .jump-link {
           @include font-size(16px);
           font-weight: bold;
-          @include short-height {
-            @include font-size(14px);
-          }
         }
       }
   }

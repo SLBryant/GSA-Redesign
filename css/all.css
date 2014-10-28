@@ -1138,46 +1138,33 @@ address {
   background-attachment: fixed;
   padding-bottom: 45px;
   padding-top: 150px;
-  height: 800px;
+  height: 840px;
   overflow: hidden; }
+  @media only screen and (max-width: 1200px) {
+    .overview-page {
+      height: 720px; } }
+  @media only screen and (max-width: 992px) {
+    .overview-page {
+      height: 560px; } }
   .overview-page .jumbotron {
     background: none;
     height: 350px;
     overflow: hidden; }
-    @media only screen and (max-width: 1200px) {
-      .overview-page .jumbotron {
-        height: 350px; } }
     .overview-page .jumbotron h1 {
       font-size: 30px;
       font-size: 1.875rem;
       text-transform: uppercase;
       font-weight: 500; }
-      @media only screen and (max-height: 750px) {
-        .overview-page .jumbotron h1 {
-          font-size: 30px;
-          font-size: 1.875rem; } }
-      @media only screen and (max-width: 1200px) {
-        .overview-page .jumbotron h1 {
-          font-size: 25px;
-          font-size: 1.5625rem; } }
     .overview-page .jumbotron p {
       line-height: 1.5;
       font-size: 16px;
       font-size: 1rem; }
-      @media only screen and (max-height: 750px) {
-        .overview-page .jumbotron p {
-          font-size: 14px;
-          font-size: 0.875rem; } }
     .overview-page .jumbotron li {
       line-height: 1.5; }
       .overview-page .jumbotron li .jump-link {
         font-size: 16px;
         font-size: 1rem;
         font-weight: bold; }
-        @media only screen and (max-height: 750px) {
-          .overview-page .jumbotron li .jump-link {
-            font-size: 14px;
-            font-size: 0.875rem; } }
 
 .sub-section {
   margin: 0;
