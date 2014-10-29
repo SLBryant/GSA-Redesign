@@ -1065,7 +1065,8 @@ address {
     .full-width-tabs-block .contextual-tabs li.active, .full-width-tabs-block .contextual-tabs li:hover {
       opacity: 1; }
       .full-width-tabs-block .contextual-tabs li.active a, .full-width-tabs-block .contextual-tabs li:hover a {
-        background: #d1c8b6; }
+        background: #d1c8b6;
+        color: #333; }
     .full-width-tabs-block .contextual-tabs li:last-child a {
       margin-right: 0; }
 .full-width-tabs-block header {
