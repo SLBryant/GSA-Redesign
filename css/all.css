@@ -617,7 +617,7 @@ address {
     #breadcrumbs {
       margin-top: 50px; } }
   #breadcrumbs ol {
-    padding: 5px 0;
+    padding: 0;
     margin: 0; }
     #breadcrumbs ol li {
       text-transform: capitalize;
