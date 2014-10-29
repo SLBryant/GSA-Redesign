@@ -98,10 +98,6 @@
     bottom: 20px;
     right: 20px;
   }
-  a {
-    font-weight: bold;
-    font-family: $gsaFontFamily;
-  }
 }
 
 .vertical-bucket {
@@ -123,11 +119,5 @@
       position: absolute;
       bottom: 30px;
       right: 30px;
-    }
-    &:last-child > article {
-      border-right: 0;
-    }
-    a {
-      font-weight: bold;
     }
 }

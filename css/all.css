@@ -1730,9 +1730,6 @@ table.dataTable thead td:active {
     position: absolute;
     bottom: 20px;
     right: 20px; }
-  .smaller-well a {
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif; }
 
 .vertical-bucket {
   margin: 45px 0;
@@ -1749,10 +1746,6 @@ table.dataTable thead td:active {
     position: absolute;
     bottom: 30px;
     right: 30px; }
-  .vertical-bucket:last-child > article {
-    border-right: 0; }
-  .vertical-bucket a {
-    font-weight: bold; }
 
 /*
  You probably do not need to edit this at all.
