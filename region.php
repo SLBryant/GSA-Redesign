@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="vertical-bucket col-sm-4">
                         <figure>
-                            <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                            <img class="img-responsive" src="http://placehold.it/324x100" alt="Image Placeholder">
                         </figure>
                         <article>
                             <h4>Buildings &amp; Facilities</h4>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="vertical-bucket col-sm-4">
                     <figure>
-                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                        <img class="img-responsive" src="http://placehold.it/324x100" alt="Image Placeholder">
                     </figure>
                     <article>
                         <h4>Customer Service</h4>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="vertical-bucket col-sm-4">
                     <figure>
-                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                        <img class="img-responsive" src="http://placehold.it/324x100" alt="Image Placeholder">
                     </figure>
                     <article>
                         <h4>About Region 9</h4>

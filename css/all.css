@@ -1718,9 +1718,6 @@ table.dataTable thead td:active {
   margin-top: 50px;
   background: none;
   border: none; }
-  .smaller-well .inner-wrap {
-    background: #efeadf;
-    border: 1px solid #d1c8b6; }
   .smaller-well figure {
     height: 255px;
     max-height: 255px;
