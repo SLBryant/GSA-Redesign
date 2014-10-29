@@ -75,6 +75,8 @@
     background: #27328b; }
     .search-input button span {
       color: #fff; }
+    .search-input button:hover {
+      background-color: #27328b; }
 
 .social-links {
   /* padding: 10px 0 20px;

@@ -21,6 +21,9 @@
         span {
           color: #fff;
         }
+      &:hover {
+        background-color: $gsaBlue;
+      }
     }
 }
 %social-links {
