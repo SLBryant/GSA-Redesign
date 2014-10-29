@@ -17,47 +17,53 @@
         <div class="container">
             <div class="row">
                 <div class="row col-sm-6 content-well smaller-well">
-                    <figure class="col-sm-3 col-md-5">
-                        <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
-                    </figure>
-                    <article class="col-sm-9 col-md-7">
-                        <h4>Land Ports of Entry</h4>
-                        <p>Expansion projects are currently underway for:</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Calexico West</a></li>
-                            <li><a href="#">Mariposa</a></li>
-                            <li><a href="#">San Ysidro</a></li>
-                            <li><a href="#">See All</a></li>
-                        </ul>
-                    </article>
+                    <div class="inner-wrap">
+                        <figure class="col-sm-3 col-md-5">
+                            <img class="img-responsive" src="http://placehold.it/270x300" alt="Placeholder">
+                        </figure>
+                        <article class="col-sm-9 col-md-7">
+                            <h4>Land Ports of Entry</h4>
+                            <p>Expansion projects are currently underway for:</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Calexico West</a></li>
+                                <li><a href="#">Mariposa</a></li>
+                                <li><a href="#">San Ysidro</a></li>
+                                <li><a href="#">See All</a></li>
+                            </ul>
+                        </article>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
                 <div class="row col-sm-6 content-well smaller-well">
-                    <figure class="col-sm-3 col-md-5">
-                        <img class="img-responsive" src="http://placehold.it/275x300" alt="Placeholder">
-                    </figure>
-                    <article class="col-sm-9 col-md-7">
-                        <h4>Green "Good Design" Award for L.A. Courthouse</h4>
-                        <p>The new courthouse under construction in downtown LA joins other outstanding examples of green design from 24 countries.</p>
-                        <a href="#">Read the GSA Blog</a>
-                    </article>
+                    <div class="inner-wrap">
+                        <figure class="col-sm-3 col-md-5">
+                            <img class="img-responsive" src="http://placehold.it/270x300" alt="Placeholder">
+                        </figure>
+                        <article class="col-sm-9 col-md-7">
+                            <h4>Green "Good Design" Award for L.A. Courthouse</h4>
+                            <p>The new courthouse under construction in downtown LA joins other outstanding examples of green design from 24 countries.</p>
+                            <a href="#">Read the GSA Blog</a>
+                        </article>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <div class="row dirty-thirty">
+            <div class="row">
                 <div class="vertical-bucket col-sm-4">
-                    <figure>
-                        <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
-                    </figure>
-                    <article>
-                        <h4>Buildings &amp; Facilities</h4>
-                        <p>GSA manages 200 government-owned buildings and commercial leases in:</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Arizona</a></li>
-                            <li><a href="#">California</a></li>
-                            <li><a href="#">Hawaii</a></li>
-                            <li><a href="#">Nevada</a></li>
-                            <li><a href="#">See All</a></li>
-                        </ul>
-                    </article>
+                        <figure>
+                            <img class="img-responsive" src="http://placehold.it/500x60" alt="Image Placeholder">
+                        </figure>
+                        <article>
+                            <h4>Buildings &amp; Facilities</h4>
+                            <p>GSA manages 200 government-owned buildings and commercial leases in:</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Arizona</a></li>
+                                <li><a href="#">California</a></li>
+                                <li><a href="#">Hawaii</a></li>
+                                <li><a href="#">Nevada</a></li>
+                                <li><a href="#">See All</a></li>
+                            </ul>
+                        </article>
                 </div>
                 <div class="vertical-bucket col-sm-4">
                     <figure>

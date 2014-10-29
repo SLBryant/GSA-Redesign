@@ -1,10 +1,11 @@
 #landing-page {
-  margin-top: 110px;
+  margin-top: 103px;
+  margin-bottom: 91px;
     @include large-desktops {
       margin-top: 100px;
     }
     @include desktops {
-      margin-top: 85px;
+      margin-top: 78px;
     }
     @include tablets {
       margin-top: 0;
