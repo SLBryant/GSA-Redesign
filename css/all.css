@@ -896,16 +896,13 @@ address {
       .rotating-feature-block .row figure img {
         min-height: 100%; }
     .rotating-feature-block .row h4 {
-      text-transform: uppercase;
       margin-top: 15px; }
-    .rotating-feature-block .row a {
-      text-transform: uppercase; }
 
 /* SLIDESHOW ISOTOPES */
 .slidesjs-pagination {
   position: absolute;
   bottom: 10px;
-  right: 35.5%;
+  right: 33%;
   z-index: 99;
   padding-left: 5px; }
   .slidesjs-pagination li {
@@ -1965,8 +1962,6 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
       font-size: 12px;
       font-size: 0.75rem; } }
 
-#main-column h1 {
-  text-transform: uppercase; }
 #main-column .sub-topic {
   margin-top: 30px; }
   #main-column .sub-topic header {
