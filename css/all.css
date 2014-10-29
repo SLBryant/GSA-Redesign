@@ -1418,8 +1418,10 @@ address {
 /*
  * Table
  */
+table.cleanTable {
+  width: 100%; }
+
 table.dataTable {
-  margin: 30px 0;
   clear: both;
   width: 100%;
   text-align: center; }
@@ -1451,22 +1453,22 @@ table.dataTable tr.even {
   background-color: white; }
 
 table.dataTable tr.odd td.sorting_1 {
-  background-color: #D3D6FF; }
+  background-color: #d1c8b6; }
 
 table.dataTable tr.odd td.sorting_2 {
-  background-color: #DADCFF; }
+  background-color: #d1c8b6; }
 
 table.dataTable tr.odd td.sorting_3 {
-  background-color: #E0E2FF; }
+  background-color: #d1c8b6; }
 
 table.dataTable tr.even td.sorting_1 {
-  background-color: #EAEBFF; }
+  background-color: #efeadf; }
 
 table.dataTable tr.even td.sorting_2 {
-  background-color: #F2F3FF; }
+  background-color: #efeadf; }
 
 table.dataTable tr.even td.sorting_3 {
-  background-color: #F9F9FF; }
+  background-color: #efeadf; }
 
 /*
  * Table wrapper
@@ -1631,6 +1633,9 @@ table.dataTable thead th:active,
 table.dataTable thead td:active {
   outline: none; }
 
+.sorting_disabled {
+  cursor: inherit !important; }
+
 /*
  * Scrolling
  */
@@ -1701,7 +1706,8 @@ table.dataTable thead td:active {
       .content-well article {
         padding-top: 0; } }
     .content-well article h4 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: normal; }
       @media only screen and (max-width: 1200px) {
         .content-well article h4 {
           font-size: 16px;
