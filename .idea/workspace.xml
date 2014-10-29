@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="all.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/all.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="306" max-vertical-offset="1020">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5483871" vertical-offset="510" max-vertical-offset="1054">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rfb.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rfb.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/rfb.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871" vertical-offset="153" max-vertical-offset="935">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="952">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -192,8 +192,8 @@
         <option value="$PROJECT_DIR$/css/buckets-and-wells.scss" />
         <option value="$PROJECT_DIR$/css/overview-pages.scss" />
         <option value="$PROJECT_DIR$/css/tabs.scss" />
-        <option value="$PROJECT_DIR$/css/all.scss" />
         <option value="$PROJECT_DIR$/css/rfb.scss" />
+        <option value="$PROJECT_DIR$/css/all.scss" />
       </list>
     </option>
   </component>
@@ -765,18 +765,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.scss">
+    <entry file="file://$PROJECT_DIR$/css/rfb.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="306" max-vertical-offset="1020">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="952">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/rfb.scss">
+    <entry file="file://$PROJECT_DIR$/css/all.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871" vertical-offset="153" max-vertical-offset="935">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="510" max-vertical-offset="1054">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding />
         </state>
       </provider>
