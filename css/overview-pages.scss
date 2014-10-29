@@ -7,24 +7,23 @@
 #technology { background-image: url(../images/technology.jpg);}
 #about-us { background-image: url(../images/about-us.jpg);}
 
-// Large
+// Large Devices
 $overviewLarge : 840px;
 $overviewPaddingLarge : 150px;
 $jumbotronHeightLarge : 350px;
 
-// Medium
+// Medium Devices
 $overviewMedium : 720px;
 $overviewPaddingMedium : 130px;
 $jumbotronHeightMedium : 310px;
 
-// Small
+// Small Devices
 $overviewSmall : 560px;
 $overviewPaddingSmall : 100px;
 $jumbotronHeightSmall : 230px;
 
+
 // Jumbotron
-
-
 .overview-page {
   @include coverBG();
   padding-bottom: 45px;
@@ -38,7 +37,6 @@ $jumbotronHeightSmall : 230px;
     @include desktops {
       height: $overviewSmall;
       padding-top: $overviewPaddingSmall;
-      //@include font-size(10px);
     }
   @include tablets {
     height: inherit;
