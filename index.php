@@ -92,6 +92,10 @@
                 <td><a href="photo-gallery.php">Photo Gallery</a></td>
                 <td>NA</td>
             </tr>
+            <tr>
+                <td><a href="regions-map.php">Regions Map</a></td>
+                <td>NA</td>
+            </tr>
         </tbody>
     </table>
 </div>

@@ -65,9 +65,13 @@
 <script src="js/jquery.smartmenus.min.js"></script>
 <script src="js/jquery.slides.min.js"></script>
 <script src="js/ddaccordion.js"></script>
+<!-- for regions map -->
+<script src="js/color.jquery.js"></script>
+<script src="js/raphael.js"></script>
+<script src="js/us-map.js"></script>
+<!-- end for regions map -->
 <script src="js/mustache.js"></script>
 <script src="js/jquery.history.js"></script>
-<!--<script src="js/backstretch.js"></script>-->
 <script src="js/classie.js"></script>
 <script src="js/mlpushmenu.js"></script>
 <script src="js/jquery.dataTables.min.js"></script>
