@@ -1903,13 +1903,6 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
   background: rgba(0, 0, 0, 0.1);
   padding: 15px; }
 
-#regional-map {
-  height: 430px;
-  margin-top: 30px; }
-
-#state-info-wrapper {
-  margin-top: 30px; }
-
 #footer {
   padding-top: 35px;
   padding-bottom: 30px;
