@@ -394,9 +394,9 @@ GSA.overviewPage = new function() {
 
             // hover to show next page title
             $('.overview-page-control').hover(function() {
-                $(this).find('strong').stop().show(300);
+                $(this).find('strong').stop().show(300).animate({opacity : 1},300);
             },function() {
-                $(this).find('strong').stop().hide(300);
+                $(this).find('strong').stop().hide(300).animate({opacity : 0},250);
             });
         }
     };
