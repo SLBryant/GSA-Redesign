@@ -270,5 +270,5 @@
         </div>
     </ul>
 </li>
-<li><a id="main-nav-search-button" href="#"><i class="glyphicon glyphicon-search"></i></a></li>
+<li class="last-child"><a id="main-nav-search-button" href="#"><i class="glyphicon glyphicon-search"></i></a></li>
 </ul>

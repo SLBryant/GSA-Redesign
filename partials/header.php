@@ -13,6 +13,8 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
+    <script src="js/selectivizr_v1.0.3b.js"></script>
+    <script src="js/respond.js"></script>
     <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
