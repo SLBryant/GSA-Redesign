@@ -60,7 +60,7 @@
 
 
 <!-- scripts -->
-<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap_custom.min.js"></script>
 <script src="js/jquery.smartmenus.min.js"></script>
 <script src="js/jquery.slides.min.js"></script>

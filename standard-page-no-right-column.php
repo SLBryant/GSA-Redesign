@@ -8,7 +8,7 @@
         <div class="container page-content">
             <div class="row">
                 <!-- SIDEBAR LEFT -->
-                <?php include('partials/sidebar-accordion-nav.php');?>
+                <?php include('partials/left-nav.php');?>
                 <!-- MAIN COLUMN -->
                 <section class="col-sm-9 col-sm-offset-3" id="main-column">
                     <h1>GSA Schedules</h1>
