@@ -204,7 +204,7 @@ body {
     background: #ede9e0; }
 
 .page-content {
-  padding: 150px 15px; }
+  padding: 130px 15px; }
   @media only screen and (max-width: 768px) {
     .page-content {
       padding-top: 60px; } }
@@ -901,10 +901,9 @@ address {
 /* SLIDESHOW ISOTOPES */
 .slidesjs-pagination {
   position: absolute;
-  bottom: 10px;
-  right: 33%;
-  z-index: 99;
-  padding-left: 5px; }
+  bottom: 5px;
+  left: 5px;
+  z-index: 99; }
   .slidesjs-pagination li {
     float: left;
     display: block;
@@ -928,7 +927,7 @@ address {
 
 #sidebar-nav-wrapper {
   max-width: 300px;
-  top: 150px;
+  top: 130px;
   min-height: 30px; }
   @media only screen and (max-width: 1200px) {
     #sidebar-nav-wrapper {
@@ -949,7 +948,7 @@ address {
   margin-bottom: 0;
   position: relative; }
   .sidebar-accordion-nav > li {
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #efeadf;
     position: relative;
     float: none;
     list-style: none; }
@@ -1050,7 +1049,12 @@ address {
       color: #333333;
       -webkit-border-radius: 10px 10px 0 0;
       -moz-border-radius: 10px 10px 0 0;
-      border-radius: 10px 10px 0 0; }
+      border-radius: 10px 10px 0 0;
+      -o-transition: 0s all;
+      -ms-transition: 0s all;
+      -moz-transition: 0s all;
+      -webkit-transition: 0s all;
+      transition: 0s all; }
       @media only screen and (max-width: 768px) {
         .full-width-tabs-block .contextual-tabs li a {
           -webkit-border-radius: 0;
@@ -1966,6 +1970,8 @@ ul.sm li *, ul.sm li *:before, ul.sm li *:after {
 
 #main-column {
   padding-left: 22px; }
+  #main-column h1 {
+    font-weight: normal; }
   #main-column .sub-topic {
     margin-top: 0; }
     #main-column .sub-topic header {

@@ -1,6 +1,6 @@
 #sidebar-nav-wrapper {
   max-width: 300px;
-  top: 150px;
+  top: 130px;
   min-height: 30px;
     @include large-desktops {
       max-width: 250px;
@@ -21,7 +21,7 @@
   margin-bottom: 0;
   position: relative;
     > li {
-      border-bottom: 1px solid #eaeaea;
+      border-bottom: 1px solid $offWhite;
       position:relative;
       float:none;
       list-style: none;

@@ -19,6 +19,7 @@
            //text-transform: uppercase;
            color: $navItemColor;
            @include border-radius(10px 10px 0 0);
+           @include transition(0s all);
             @include tablets {
               @include border-radius(0);
               min-height: 0;
