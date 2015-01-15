@@ -18,4 +18,4 @@
     <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
-<!-- <div class="mp-pusher" id="mp-pusher"> -->
+<div class="mp-pusher" id="mp-pusher">
