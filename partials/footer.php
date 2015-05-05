@@ -70,6 +70,11 @@
 <script src="js/classie.js"></script>
 <script src="js/mlpushmenu.js"></script>
 <script src="js/jquery.dataTables.min.js"></script>
+<!-- this is gsa scripts -->
+<script src="js/jquery.superscrollorama.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/this-is-gsa.js"></script>
+<!-- end -->
 <script src="js/GSA_all.js"></script>
 
 

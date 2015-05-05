@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand col-xs-1 pull-right" href="index.php"><img class="img-responsive" src="images/inner-nav-logo.jpg"></a>
+        <a class="navbar-brand col-xs-1 pull-right" href="#"><img class="img-responsive" src="images/inner-nav-logo.jpg"></a>
     </div>
 </nav>
 
