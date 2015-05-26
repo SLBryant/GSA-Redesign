@@ -490,7 +490,125 @@ GSA.photoGallery = new function() {
     }
 };
 
+GSA.regionalMap = function() {
+   var s = new Snap('#map-canvas');
 
+    Snap.load('images/usaLow.svg', function (response) {
+        var map = response;
+        s.append(map);
+        var shadow = s.filter(Snap.filter.shadow(0, 1, 2));
+
+        $.getJSON('json/regions.json', function (data) {
+            $.each(data.regions, function (i, item) {
+                // Marker Position Helpers
+                var markerNumberY = item.markerY + 12,
+                    markerDescriptionY = item.markerY - 14,
+                    descriptionX = item.markerX + 40,
+                    otherTerritoriesY = item.markerY + 45;
+
+                //create a group and put all the states in it
+                var regionVar = s.group();
+                $.each(item.states, function (el, state) {
+                    regionVar.append(map.select("#US-"+state));
+                });
+
+                //add additional territories to region if need be
+                if(item.otherTerritory != null) {
+                    var terrs = s.multitext(descriptionX, otherTerritoriesY, item.otherTerritory);
+                    terrs.attr({
+                        'pointer-events' : "none",
+                        opacity: 0
+                    });
+                };
+
+                // give the group some attributes and hover effects
+                regionVar.attr({
+                    fill: item.colorOnMap,
+                    stroke : "white",
+                    class : 'region',
+                    id :  'r'+item.number
+                }).hover(function() {
+                    this.animate({
+                        fill: "rgba(255,0,17)",
+                        opacity: "0.4"
+                    },300);
+                    //other territories on hover
+                    if(item.otherTerritory != null) {
+                        terrs.animate({
+                            opacity: 1
+                        },300);
+                    }
+                },function() {
+                    this.animate({
+                        fill: item.colorOnMap,
+                        opacity: "1"
+                    },300);
+                    //other territories on hover
+                    if(item.otherTerritory != null) {
+                        terrs.animate({
+                            opacity: 0
+                        },300);
+                    }
+                });
+
+                // REGION on click events
+                regionVar.click(function() {
+                    window.location.href = 'http://gsa.gov'+item.link;
+                });
+
+                // Draw Markers .animate({r: 23}, i*200)
+                var circle = s.circle(item.markerX,item.markerY,5);
+                circle.attr({
+                    fill: '#274b65',
+                    'pointer-events' : "none",
+                    filter: shadow
+                }).animate({
+                    r: 23
+                }, (i+1)*200);
+                var number = s.text(item.markerX,markerNumberY,item.number)
+                number.attr({
+                    fill: '#fff',
+                    'font-size': '33px',
+                    'text-anchor': 'middle',
+                    'font-weight': 'bold',
+                    'pointer-events' : "none",
+                    opacity: 0
+                }).animate({
+                    opacity: 1
+                }, (i+1)*200);
+                var description = s.multitext(descriptionX,markerDescriptionY,item.name);
+                description.attr({
+                    fill: '#274b65',
+                    'font-size': '16px',
+                    'font-weight': 'bold',
+                    'pointer-events' : "none",
+                    opacity: 0
+                }).animate({
+                    opacity: 1
+                }, 2000);
+                var markerVar = s.group(circle,number,description);
+
+            });
+        });
+
+        $('#state-selection').change(function() {
+            var selectValue = $('#state-selection').val();
+            var region = selectValue.slice(1);
+            console.log('r: '+region);
+            var selection = Snap.select('#'+region);
+            selection.animate({
+                fill: "rgba(255,0,17)",
+                opacity: "0.4"
+            },300);
+        });
+    });
+    $('#submit-state').click(function() {
+        var selectValue = $('#state-selection').val();
+        window.location.href = 'http://gsa.gov' + selectValue;
+    });
+};
+
+GSA.regionalMap();
 
 
 // Doc Ready -------

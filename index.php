@@ -96,6 +96,10 @@
                 <td><a href="this-is-gsa.php">This is GSA</a></td>
                 <td>NA</td>
             </tr>
+            <tr>
+                <td><a href="regional-map.php">Regional Map</a></td>
+                <td>NA</td>
+            </tr>
         </tbody>
     </table>
 </div>

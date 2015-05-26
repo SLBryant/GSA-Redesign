@@ -58,25 +58,7 @@
 </footer>
  </div> <!-- pusher -->
 
-
-<!-- scripts -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.smartmenus.min.js"></script>
-<script src="js/jquery.smartmenus.bootstrap.min.js"></script>
-<script src="js/jquery.slides.min.js"></script>
-<script src="js/ddaccordion.js"></script>
-<script src="js/mustache.js"></script>
-<script src="js/jquery.history.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/mlpushmenu.js"></script>
-<script src="js/jquery.dataTables.min.js"></script>
-<!-- this is gsa scripts -->
-<script src="js/jquery.superscrollorama.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/this-is-gsa.js"></script>
-<!-- end -->
 <script src="js/GSA_all.js"></script>
-
 
 
 </body>

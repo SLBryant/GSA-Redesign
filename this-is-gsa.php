@@ -1,5 +1,10 @@
 <?php include('partials/header.php');?>
 
+    <!-- this is gsa scripts -->
+    <script src="js/jquery.superscrollorama.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/this-is-gsa.js"></script>
+
         <!-- Navigation -->
         <?php include('partials/inner-main-navigation.php'); ?>
         <?php include('partials/mobile-primary-navigation.php');?>

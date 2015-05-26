@@ -24,3 +24,32 @@
       }
   }
 }
+
+.region {
+  cursor: pointer;
+}
+
+#state-dropdown {
+  margin-bottom: 0;
+  h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  #state-selection {
+    margin-top: -6px;
+    width: 78%;
+  }
+  #submit-state {
+    @include border-radius(3px);
+    border: 0;
+    background: $gsaBlue;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 10px;
+    span {
+      font-weight: bold;
+    }
+  }
+
+}

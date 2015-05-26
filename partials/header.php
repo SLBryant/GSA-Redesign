@@ -15,6 +15,19 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/this-is-gsa/this-is-gsa.css">
 
+    <!-- scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.smartmenus.min.js"></script>
+    <script src="js/jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/ddaccordion.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/jquery.history.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/mlpushmenu.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+
+
     <script src="js/selectivizr_v1.0.3b.js"></script>
     <script src="js/respond.js"></script>
     <script src="js/modernizr.custom.js"></script>

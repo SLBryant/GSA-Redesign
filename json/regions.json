@@ -1,0 +1,164 @@
+{
+ "regions" : [
+    {
+      "number" : 1,
+      "name" : "NEW\nENGLAND\nREGION",
+	  "link" : "/r1",
+      "otherTerritory" : null,
+      "colorOnMap" : "#d4e2ed",
+      "markerX" : 1050,
+      "markerY" : 90,
+	  "states" : [
+			"VT",
+			"RI",
+			"NH",
+			"MA",
+			"ME",
+			"CT"
+	  ]
+    },
+    {
+      "number" : 2,
+      "name" : "NORTHEAST\n& CARRIBEAN\nREGION",
+	  "link" : "/r2",
+      "otherTerritory" : "VIRGIN ISLANDS\nPUERTO RICO",
+      "colorOnMap" : "#28a1d8",
+      "markerX" : 970,
+      "markerY" : 180,
+	  "states" : [
+			"NY",
+			"NJ"
+	  ]
+    },
+	{
+      "number" : 3,
+      "name" : "MID-ATLANTIC\nREGION",
+	  "link" : "/r3",
+      "otherTerritory" : "EUROPE\nAFRICA\nMIDDLE EAST",
+      "colorOnMap" : "#99b9ce",
+      "markerX" : 990,
+      "markerY" : 280,
+	  "states" : [
+			"VA",
+			"PA",
+			"MD",
+			"DE",
+			"WV"
+	  ]
+    },
+    {
+      "number" : 4,
+      "name" : "SOUTHEAST\nSUNBELT\nREGION",
+	  "link" : "/r4",
+      "otherTerritory" : null,
+      "colorOnMap" : "#6c9bb9",
+      "markerX" : 790,
+      "markerY" : 470,
+	  "states" : [
+			"TN",
+			"SC",
+			"NC",
+			"MS",
+			"KY",
+			"GA",
+			"FL",
+			"AL"
+	  ]
+    },
+	{
+      "number" : 5,
+      "name" : "GREAT\nLAKES\nREGION",
+	  "link" : "/r5",
+      "otherTerritory" : null,
+      "colorOnMap" : "#28a1d8",
+      "markerX" : 670,
+      "markerY" : 180,
+	  "states" : [
+			"IL",
+			"IN",
+			"MI",
+			"MN",
+			"OH",
+			"WI"
+	  ]
+    },
+	{
+      "number" : 6,
+      "name" : "THE\nHEARTLAND\nREGION",
+	  "link" : "/r6",
+      "otherTerritory" : null,
+      "colorOnMap" : "#d4e2ed",
+      "markerX" : 565,
+      "markerY" : 310,
+	  "states" : [
+			"NE",
+			"KS",
+			"MO",
+			"IA"
+	  ]
+    },
+	{
+      "number" : 7,
+      "name" : "GREATER\nSOUTHWEST\nREGION",
+	  "link" : "/r7",
+      "otherTerritory" : null,
+      "colorOnMap" : "#b8e5f8",
+      "markerX" : 425,
+      "markerY" : 430,
+	  "states" : [
+			"AR",
+			"NM",
+			"LA",
+			"OK",
+			"TX"
+	  ]
+    },
+	{
+      "number" : 8,
+      "name" : "ROCKY\nMOUNTAIN\nREGION",
+	  "link" : "/r8",
+      "otherTerritory" : null,
+      "colorOnMap" : "#99b9ce",
+      "markerX" : 425,
+      "markerY" : 145,
+	  "states" : [
+			"WY",
+			"UT",
+			"SD",
+			"ND",
+			"MT",
+			"CO"
+	  ]
+    },
+	{
+      "number" : 9,
+      "name" : "PACIFIC\nRIM\nREGION",
+	  "link" : "/r9",
+      "otherTerritory" : "AMERICAN SAMOA\nEAST ASIA\nGUAM",
+      "colorOnMap" : "#28a1d8",
+      "markerX" : 160,
+      "markerY" : 265,
+	  "states" : [
+			"NV",
+			"HI",
+			"CA",
+			"AZ"
+	  ]
+    },
+	{
+      "number" : 10,
+      "name" : "NORTHWEST\nARCTIC\nREGION",
+	  "link" : "/r10",
+      "otherTerritory" : null,
+      "colorOnMap" : "#548caf",
+      "markerX" : 180,
+      "markerY" : 145,
+	  "states" : [
+			"WA",
+			"OR",
+			"AK",
+			"ID"
+	  ]
+    }
+ ]   
+}

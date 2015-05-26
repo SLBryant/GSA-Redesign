@@ -31,7 +31,7 @@
   content: "\e602"; }
 
 .icon-arrow-right:before {
-  content: "\e603"; }
+  content: "\e603" !important; }
 
 .icon-twitter:before {
   content: "\e604"; }
@@ -1113,6 +1113,30 @@ address {
     margin-bottom: 0; }
   .standard-content-block hgroup h3 {
     margin-top: 0; }
+
+.region {
+  cursor: pointer; }
+
+#state-dropdown {
+  margin-bottom: 0; }
+  #state-dropdown h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px; }
+  #state-dropdown #state-selection {
+    margin-top: -6px;
+    width: 78%; }
+  #state-dropdown #submit-state {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    background: #27328b;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 10px; }
+    #state-dropdown #submit-state span {
+      font-weight: bold; }
 
 #home {
   background-image: url(../images/home-bg.jpg); }
