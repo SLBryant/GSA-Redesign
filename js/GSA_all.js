@@ -608,8 +608,6 @@ GSA.regionalMap = function() {
     });
 };
 
-GSA.regionalMap();
-
 
 // Doc Ready -------
 $(function() {
