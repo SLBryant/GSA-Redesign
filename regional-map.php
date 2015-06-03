@@ -2,9 +2,6 @@
 
     <script src="js/snap.svg-min.js"></script>
     <script src="js/snap-plugins.js"></script>
-    <script>
-        GSA.regionalMap();
-    </script>
 
         <!-- Navigation -->
         <?php include('partials/inner-main-navigation.php'); ?>

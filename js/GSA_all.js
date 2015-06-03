@@ -660,6 +660,11 @@ $(function() {
     });
 
 
+    if($('#map-canvas').length > 0) {
+        GSA.regionalMap();
+    };
+
+
 
     // vertical alignment plugin
     jQuery.fn.verticalAlign = function () {
