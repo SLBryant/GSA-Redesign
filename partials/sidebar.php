@@ -1,4 +1,4 @@
-<div class="col-sm-3" id="right-column">
+<div class="col-sm-2" id="right-column">
     <div class="sidebar-bucket">
         <small>Share this page:</small>
         <div id="social-share-placeholder">
