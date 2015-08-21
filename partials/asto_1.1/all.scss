@@ -1,0 +1,32 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,700');
+@import 'glyphs';
+@import 'bootstrap';
+@import 'global-variables';
+@import 'mixins';
+@import 'primary-navigation';
+@import 'sidebar-navigations';
+@import 'footer';
+
+body {
+  padding-top: 75px!important;
+    @include large-desktops {
+      padding-top: 62px!important;
+    }
+  h1 {
+    margin-top: 0;
+  }
+}
+#CID-info-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+    #CID-info {
+      display: none;
+      background: #eaeaea;
+    }
+}
+
+.portal {
+  margin-top: 50px;
+}

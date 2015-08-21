@@ -135,7 +135,7 @@
     </ul>
 </li>
 <!-- top 3 -->
-<li><a href="shop.php">Shopper</a>
+<li><a href="shop.php"> ACQUISITION</a>
     <ul class="dropdown-menu">
         <li><a href="#">Mink</a>
             <ul class="dropdown-menu">
@@ -178,7 +178,7 @@
     </ul>
 </li>
 <!-- top 4 -->
-<li><a href="#">Supplier</a>
+<li><a href="#">Technology</a>
     <ul class="dropdown-menu">
         <li><a href="#">Giraffe</a>
             <ul class="dropdown-menu">
@@ -221,7 +221,7 @@
     </ul>
 </li>
 <!-- top 5 -->
-<li><a href="#">Technology</a>
+<li><a href="#">Policy</a>
     <ul class="dropdown-menu">
         <li><a href="#">Citizen Services &amp; Innovation Technologies</a>
             <ul class="dropdown-menu">
